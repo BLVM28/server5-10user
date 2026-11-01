@@ -1,0 +1,20 @@
+[
+  {
+    "file": "AGENT.md",
+    "source_sha256": "82ca9a8ed091b9cc534b37722e8df594284c2c43520517478bd7e31b4da7e1b4",
+    "published_sha256": "06b3154e92f6ac57028be9ec741e4d7aa95ec418f37600ff58c4c2bbbbc5c849",
+    "reason": "Current Markdown links / model command paths follow the renamed 03_过程与分析 directory; historical archive bytes preserved."
+  },
+  {
+    "file": "README.md",
+    "source_sha256": "c0c7a1ef9d72083ba5b389e0b77bc36f4b6addda8a2c7706f288d18816f0a5ea",
+    "published_sha256": "ad0891e0e1ee5c0873f9d39d1b30954b346f3c865885d56d9a9b5ba9abdfd15b",
+    "reason": "Current Markdown links / model command paths follow the renamed 03_过程与分析 directory; historical archive bytes preserved."
+  },
+  {
+    "file": "02_项目导读/03_调试与E203接入.md",
+    "source_sha256": "47c32a6f1a38ae46c0157e62dcbb62cbb799f2387ad205ba5c1eb07595cda9ea",
+    "published_sha256": "f673730d543466d78f6c58aabe509619942d97bc9c13b21051cf2b229e6be37d",
+    "reason": "Current Markdown links / model command paths follow the renamed 03_过程与分析 directory; historical archive bytes preserved."
+  }
+]

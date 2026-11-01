@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-02",
+  "repository": "https://github.com/BLVM28/server5-10user",
+  "visibility": "public",
+  "collaboration": "Public view/fork/pull requests; direct collaborators to be added later per user choice.",
+  "original_snapshot_commit": "cd2bdc5bc51f7ea951f681fdc15a9ef9f54f4581",
+  "source_files": 22435,
+  "source_bytes": 1947408393,
+  "lfs_paths": [
+    "01_核心参考/keyword-transformer-master/models_data_v2_12_labels/kwt3/best_weights.data-00000-of-00001",
+    "01_核心参考/keyword-transformer-master/models_data_v2_12_labels/kwt3/last_weights.data-00000-of-00001",
+    "03_过程与分析/05_工具/tf24_env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.lib",
+    "03_过程与分析/05_工具/tf24_env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd"
+  ],
+  "documentation_fixes": 3,
+  "credentials": "Existing Git credential manager used; no account password included."
+}

@@ -1,0 +1,16 @@
+# Existing tracked snapshot files remain versioned. Ignore future local output.
+**/__pycache__/
+*.py[cod]
+/.venv_model/
+/03_过程与分析/05_工具/uv_cache/
+/v1/build/**
+!/v1/build/README.md
+/v2/build/**
+!/v2/build/README.md
+**/.env
+**/.env.local
+**/.git-credentials
+**/.netrc
+*.stackdump
+Thumbs.db
+.DS_Store
