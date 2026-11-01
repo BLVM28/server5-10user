@@ -1,0 +1,38 @@
+[
+  {
+    "name": "synth_dot",
+    "command": [
+      "genus",
+      "-no_gui",
+      "-files",
+      "/home/eda/kwt_vm_20261101/flow/synth_dot.tcl"
+    ],
+    "exit": 0,
+    "execution_completed": true,
+    "seconds": 86.73695174599993
+  },
+  {
+    "name": "sta_slow",
+    "command": [
+      "tempus",
+      "-no_gui",
+      "-files",
+      "/home/eda/kwt_vm_20261101/flow/sta_dot.tcl"
+    ],
+    "exit": 0,
+    "execution_completed": true,
+    "seconds": 39.7798235570001
+  },
+  {
+    "name": "sta_fast",
+    "command": [
+      "tempus",
+      "-no_gui",
+      "-files",
+      "/home/eda/kwt_vm_20261101/flow/sta_dot.tcl"
+    ],
+    "exit": 0,
+    "execution_completed": true,
+    "seconds": 27.60518659299987
+  }
+]

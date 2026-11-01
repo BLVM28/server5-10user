@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "vm_root": "/home/eda/kwt_vm_20261101",
+  "qualification": "See flow/REPORT.md; no full-model/CPU/post-route signoff.",
+  "packages": {
+    "v1": {
+      "file": "v1_fix1.zip",
+      "sha256": "db414716be369d046b7337c17f58e4c795a024515e8110424e52365817e91321",
+      "bytes": 10537802,
+      "manifest_files": 321
+    },
+    "v2": {
+      "file": "v2_fix1.zip",
+      "sha256": "8c2578b92187728532cd12cbe0a09e1f23f243fa76fb0513a4c260efceb46e30",
+      "bytes": 10678698,
+      "manifest_files": 335
+    }
+  }
+}

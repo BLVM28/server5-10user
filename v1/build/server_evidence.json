@@ -1,0 +1,50 @@
+{
+  "record_type": "local structured summary of observed VNC output, not a downloaded server JSON",
+  "date": "2026-11-01",
+  "tool": "Synopsys VCS Q-2020.03-SP2-6",
+  "own_rtl_combined_sha256": "f1340186560e8033dbb769f21fa042d1623530ff432cfc7147999a610770be57",
+  "own_wrapper_sha256": "98d49bd06e5a05eba263239fafb53283235901452fc2f25bf9c93b4612d13f28",
+  "hashes_equal_local_delivery": true,
+  "server_home": "/storage2/2026contest/server5/s5_10usr",
+  "runs": [
+    {
+      "directory": "kwt_rtl_probe_20261101_r2",
+      "result": "ALL PASS, 7/7",
+      "mode": "default macro timing model, directed TB; not 150 MHz STA",
+      "evidence": "17_macro_r2_result.png"
+    },
+    {
+      "directory": "kwt_foundry_full_20261101/build/foundry",
+      "result": "FAIL",
+      "reason": "zero-delay RTL causes hold violations and X; not counted as a pass",
+      "evidence": "22_full_probe_result.png"
+    },
+    {
+      "directory": "kwt_foundry_full_20261101/build/foundry_functional",
+      "result": "ALL PASS, 18/18",
+      "mode": "ARM_UD_MODEL, NICE BFM + macro wrappers",
+      "evidence": "28_full_functional_result.png"
+    },
+    {
+      "directory": "kwt_foundry_full_20261101/build/foundry_binding",
+      "result": "ALL PASS, 18/18",
+      "mode": "original E203 config headers, own E203 NICE wrapper, SYNTHESIS true cell names, ARM_UD_MODEL; not CPU simulation",
+      "evidence": "33_binding_result.png"
+    }
+  ],
+  "evidence_root": "../../过程与分析/05_工具/RTL实施取证_20261101",
+  "source_identity_evidence": "34_final_server_audit.png",
+  "public_sources_modified": false,
+  "e203_zip_sha256": "63f9a4203402ae28721f1333f255fcccaa98a70066293f88b80fb67fd25f7c69",
+  "source_vs_installed_e203": {
+    "files": [
+      "subsys/e203_subsys_nice_core.v",
+      "core/config.v",
+      "core/e203_defines.v",
+      "core/e203_cpu.v",
+      "soc/e203_soc_top.v"
+    ],
+    "all_byte_identical": true,
+    "evidence": "35_e203_trees.png"
+  }
+}

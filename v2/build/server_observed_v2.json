@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-01",
+  "provenance": "MANUAL VNC OBSERVATION SUMMARY. Not downloaded raw server logs.",
+  "evidence_directory": "../../过程与分析/05_工具/V2优化_20261101",
+  "server_root": "/storage2/2026contest/server5/s5_10usr/kwt_versions_20261101",
+  "rtl_sha256": {
+    "kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+    "kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+    "kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+    "kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+    "kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+    "kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424"
+  },
+  "rtl_hash_of_sorted_hashes": "dedfc56f854c0e5e97e60ef94661aba85d966610f3944e94115e64a3bf88a3a8",
+  "verified_source_matches": [
+    "VCS functional",
+    "activation",
+    "overlap",
+    "pipeline",
+    "DC synthesis",
+    "benchmark",
+    "local XSim final and fallback"
+  ],
+  "period_ns": 6.666667,
+  "clock_uncertainty_ns": 0.1,
+  "io_max_ns": 1.0,
+  "io_min_ns": 0.1,
+  "input_transition_ns": 0.1,
+  "output_load_pf": 0.002852,
+  "bench": {
+    "tb_sha256": "f0240db31240f64b32666e734ac4f09c10a216304a7908b08075df9cf98d1ccf",
+    "memory_wait_count": 2,
+    "tb_clock_ns": 10,
+    "core_cycles_12": {
+      "v1": 4837644,
+      "v2": 3859980
+    },
+    "nice_cycles_12": {
+      "v1": 4838364,
+      "v2": 3860700
+    },
+    "nice_cycle_reduction_pct": 20.20649955232802,
+    "same_clock_speedup": 1.2532349055870697
+  },
+  "timing_ns": {
+    "v1_original": {
+      "dot_ss": [
+        0.002894,
+        -0.071293
+      ],
+      "dot_ff": [
+        3.9302,
+        0.01386
+      ],
+      "core_ss": [
+        0.000123,
+        -0.046896
+      ],
+      "core_ff": [
+        3.828464,
+        -0.145295
+      ]
+    },
+    "v1_sameflow": {
+      "dot_ss": [
+        0.003661,
+        0.449117
+      ],
+      "dot_ff": [
+        3.930788,
+        0.191499
+      ],
+      "core_ss": [
+        0.000217,
+        0.384746
+      ],
+      "core_ff": [
+        3.731268,
+        0.199938
+      ]
+    },
+    "v2_final": {
+      "dot_ss": [
+        0.006241,
+        0.336904
+      ],
+      "dot_ff": [
+        4.393198,
+        0.200376
+      ],
+      "core_ss": [
+        0.000262,
+        0.399041
+      ],
+      "core_ff": [
+        3.500699,
+        0.192947
+      ]
+    }
+  },
+  "total_cell_area_library_units": {
+    "v1_original_core": 127551.855752,
+    "v1_sameflow_core": 137444.502288,
+    "v2_core": 147845.634293,
+    "v1_original_dot": 3116.030403,
+    "v1_sameflow_dot": 3665.05442,
+    "v2_dot": 4948.557612,
+    "core_sram_macro": 85456.079102
+  },
+  "tests": {
+    "arithmetic": "260/260",
+    "icb": "4/4",
+    "matrix": "29/29",
+    "activation": "29/29",
+    "overlap": "5/5",
+    "multiplier_boundaries": "524288/524288",
+    "multiplier_total_compared": 527566,
+    "fallback_local": "29/29",
+    "e203_binding": "29/29",
+    "sram_timing_model": "1186/1186",
+    "dot_rtl": "32/32",
+    "v2_dot_sdf": "32/32",
+    "v1_sameflow_dot_sdf": "32/32",
+    "v2_core_sdf_layer0": "1/1"
+  },
+  "sdf_annotation_errors": 0,
+  "sdf_annotation_warnings": 0,
+  "v2_reported_constraints_met": false,
+  "v2_max_min_slack_met": true,
+  "cap_violations_ss": [
+    {
+      "pin": "master/U381/ZN",
+      "limit_pf": 0.072321,
+      "actual_pf": 0.073936
+    },
+    {
+      "pin": "U1770/Z",
+      "limit_pf": 0.074552,
+      "actual_pf": 0.074555
+    }
+  ],
+  "core_sta_coverage": {
+    "total": 22482,
+    "met": 18765,
+    "untested": 3717,
+    "setup_hold_each_total": 3670,
+    "setup_hold_each_met": 3512,
+    "setup_hold_each_untested": 158,
+    "recovery_removal_each_met": 2884
+  },
+  "limits": [
+    "pre-layout only; no CTS/SPEF/OCV/signoff",
+    "tiny SS setup margin and two cap violations",
+    "actual shared memory address unresolved",
+    "no E203 CPU full SoC run",
+    "no official speech validation set or full-model timing",
+    "one full-core gate layer, not all corner/state dynamic coverage"
+  ]
+}

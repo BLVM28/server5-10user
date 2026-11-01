@@ -1,0 +1,147 @@
+{
+  "version": "v1",
+  "functional_passed": true,
+  "functional_stages": [
+    {
+      "name": "default",
+      "tests": [
+        {
+          "top": "tb_kwt_arithmetic",
+          "pass_markers": [
+            [
+              "260",
+              "260"
+            ]
+          ],
+          "wall_seconds": 12.937697843000024
+        },
+        {
+          "top": "tb_kwt_icb",
+          "pass_markers": [
+            [
+              "4",
+              "4"
+            ]
+          ],
+          "wall_seconds": 1.377798719999987
+        },
+        {
+          "top": "tb_kwt_system",
+          "pass_markers": [
+            [
+              "29",
+              "29"
+            ]
+          ],
+          "wall_seconds": 16.435708310999985
+        }
+      ]
+    },
+    {
+      "name": "fallback",
+      "tests": [
+        {
+          "top": "tb_kwt_system",
+          "pass_markers": [
+            [
+              "29",
+              "29"
+            ]
+          ],
+          "wall_seconds": 12.94903388299997
+        }
+      ]
+    },
+    {
+      "name": "activation",
+      "tests": [
+        {
+          "top": "tb_kwt_system",
+          "pass_markers": [
+            [
+              "29",
+              "29"
+            ]
+          ],
+          "wall_seconds": 11.76090787999999
+        }
+      ]
+    }
+  ],
+  "rtl_sha256": {
+    "kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+    "kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "kwt_linear_core.sv": "6eb032d689cbb2eba9685dd114797e4831b8c8bb483e0131e3fa6652ed96b20e",
+    "kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+    "kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "kwt_mac8.sv": "b74721a46d29d1d4a9d7b11fe40f26883cf2accd367f6b392192c49eb4c0f853",
+    "kwt_mul16_pipe.sv": "7aa12922a9078d575279bf4b4f5b2f93692225421b449be82d839ba76e918501",
+    "kwt_dot64.sv": "2b0ccad9824826e4d32fea6b95285f88ff9fd84ae3b9d2409782f5e73143e3b4"
+  },
+  "structural_audit": {
+    "passed": true,
+    "original_cells_checked": 1135,
+    "pins_checked": 4708,
+    "identity_buffers_checked": 396,
+    "netlist_sha256": "80a4f639b6fba36df26075f57bf35bd954b5822e2c87c1d688c855ca162f8863",
+    "scope": "Structural identity after bypassing library BUFX2 (Y=A); not a formal sequential equivalence run."
+  },
+  "timing": {
+    "scope": "dot64 GPDK045 pre-layout; ideal clock, no extracted parasitics or variation derates",
+    "corners": [
+      {
+        "corner": "slow",
+        "execution_complete": true,
+        "constraints_met": true,
+        "setup_slack_ns": 1.132,
+        "hold_slack_ns": 0.213,
+        "violation_lines": [],
+        "drv_groups_clean": true,
+        "coverage_report": "/home/eda/kwt_vm_20261101/results/v1/sta_eco_slow/coverage.rpt"
+      },
+      {
+        "corner": "fast",
+        "execution_complete": true,
+        "constraints_met": true,
+        "setup_slack_ns": 4.483,
+        "hold_slack_ns": 0.006,
+        "violation_lines": [],
+        "drv_groups_clean": true,
+        "coverage_report": "/home/eda/kwt_vm_20261101/results/v1/sta_eco_fast/coverage.rpt"
+      }
+    ],
+    "reported_constraints_met": true
+  },
+  "gate": [
+    {
+      "corner": "slow",
+      "passed": true,
+      "pass_markers": [
+        [
+          "32",
+          "32"
+        ]
+      ],
+      "netlist_sha256": "80a4f639b6fba36df26075f57bf35bd954b5822e2c87c1d688c855ca162f8863",
+      "sdf_sha256": "e688a5ab894404ed0cd3cf9e7b1f5895c9ce141a02429487ca7e081db2a5d094",
+      "annotation_complete": true
+    },
+    {
+      "corner": "fast",
+      "passed": true,
+      "pass_markers": [
+        [
+          "32",
+          "32"
+        ]
+      ],
+      "netlist_sha256": "80a4f639b6fba36df26075f57bf35bd954b5822e2c87c1d688c855ca162f8863",
+      "sdf_sha256": "501792fc3b09ba80df9f786bbf3684b0594759a78ead3e606d525cc489b5c374",
+      "annotation_complete": true
+    }
+  ],
+  "completed": true,
+  "qualification": "Behavioral-SRAM full accelerator RTL + GPDK045 dot64 pre-layout STA/SDF. Simulation SDF tightens negative timing limits to zero; raw SDF and original Liberty STA preserved. No CPU/full-model/post-route signoff."
+}

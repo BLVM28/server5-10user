@@ -1,0 +1,8 @@
+# Python 3.8; tested fallback. Upstream pins 2.4.0rc1, unavailable in current PyPI.
+tensorflow==2.4.0
+tensorflow-addons==0.12.1
+numpy==1.19.5
+protobuf==3.20.3
+scipy==1.9.3
+pydot
+graphviz

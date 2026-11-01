@@ -1,0 +1,19 @@
+{
+  "description": "Own EDA test harness and observed results; apply alongside original RTL package",
+  "date": "2026-11-01",
+  "original_zip_sha256": "327edf5c22e8a92b388195178e315a379d8a9998d6c7df4d643ec038d1d7fff9",
+  "sha256": {
+    "server_eda/constraints.tcl": "2c6a4813b8122ba03c5ffbe4d169e7a6d4014db6b7c904390d092c4e6fa843c0",
+    "server_eda/Makefile": "8be35a83c71b1f9b88ad913cbb57fcb4f4c6cdf0840b226c20d64a1d4bf79d1d",
+    "server_eda/README.md": "ed64ff41763f12f947d38ea06cdd016512f0d008961bc1822c83aaff9ca7e823",
+    "server_eda/RESULTS.md": "79e1f417d263d47c72217cc628a475866f8f9510aa8ebab8c114f18429ae9fc1",
+    "server_eda/run_checks.py": "496bcb0b6ebf905e8cfb3fba309bc8df65ede8ff8be4f7cb633b6b209dc92b09",
+    "server_eda/sta.tcl": "4773e6ed170acbdcfe75b5abc8e030ff96f815b725b37b29d2fe635efce3c60d",
+    "server_eda/synth.tcl": "19d7173f91a7ee6c47ead38390c39b729d68812922909bd5920375902b45dbcb",
+    "server_eda/tb_dot64_gate.sv": "b9222ee356752964f8acf9b02edac7cf2d92c466859c00bb791f9e4e5dac0412",
+    "server_eda/tb_sram_150.sv": "abd316821f499d06dac80fbac26c18e0a9194b3d210ce5ece6f71879a1d28721",
+    "README.md": "c2f1a3e4fc517cadb200380ecaa64eb0b3893526ca52eacc95564838296febaf",
+    "validation.md": "f39b6b35f8cadb3620c210e6b875023a9bc7409f57eeffacd1122d6fa0b806eb",
+    "build/server_eda_observed.json": "ca266b3a676563e9f40ed64bfd42cf0af0bbfe8e660f67d88dc0f42757091de1"
+  }
+}

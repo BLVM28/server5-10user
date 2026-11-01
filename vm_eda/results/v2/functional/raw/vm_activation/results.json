@@ -1,0 +1,31 @@
+{
+  "simulator": "xrun",
+  "defines": [],
+  "tests": [
+    {
+      "top": "tb_kwt_system",
+      "pass_markers": [
+        [
+          "29",
+          "29"
+        ]
+      ],
+      "wall_seconds": 13.202599136000003
+    }
+  ],
+  "qualification": "functional simulation, not SoC or STA",
+  "source_sha256": {
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+    "/home/eda/kwt_vm_20261101/work/v2/rtl/kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "/home/eda/kwt_vm_20261101/work/v2/tb/kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+    "/home/eda/kwt_vm_20261101/work/v2/tb/tb_kwt_system.sv": "9b2b437ab1c4d620d3aad621f533846123395460d1ab2e04b243a6ee07731c92"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "tensorflow": "2.4.0",
+  "tensorflow_addons": "0.12.1",
+  "checkpoint_existing_objects_matched": true,
+  "all_dense1_weights_equal_export": true,
+  "capture_method": "same original sublayers, PostNorm replay; logits bit-equal to original model for every sample",
+  "augmentation_disabled": true,
+  "samples": [
+    {
+      "path": "generated:silence",
+      "split": "smoke",
+      "label": "silence"
+    },
+    {
+      "path": "generated:sine440",
+      "split": "smoke",
+      "label": "synthetic_tone"
+    }
+  ],
+  "layers": [
+    {
+      "layer": 0,
+      "error_sum_sq": 0.0012144123965856833,
+      "reference_sum_sq": 17061.597716003947,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.264521598815918,
+      "max_abs_y": 3.1381959915161133,
+      "nrmse": 0.00026679227292317144
+    },
+    {
+      "layer": 1,
+      "error_sum_sq": 0.001216672406863364,
+      "reference_sum_sq": 12358.428749597628,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.4807169437408447,
+      "max_abs_y": 3.55751895904541,
+      "nrmse": 0.0003137655080774709
+    },
+    {
+      "layer": 2,
+      "error_sum_sq": 0.0012059503269167401,
+      "reference_sum_sq": 10947.413267555221,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 4.179416179656982,
+      "max_abs_y": 5.4655303955078125,
+      "nrmse": 0.0003319012998212806
+    },
+    {
+      "layer": 3,
+      "error_sum_sq": 0.0011850515769181059,
+      "reference_sum_sq": 8029.163778948287,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.570270299911499,
+      "max_abs_y": 2.8566648960113525,
+      "nrmse": 0.0003841788638840907
+    },
+    {
+      "layer": 4,
+      "error_sum_sq": 0.001171540184869005,
+      "reference_sum_sq": 6814.197388605484,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.202082633972168,
+      "max_abs_y": 4.247274875640869,
+      "nrmse": 0.0004146400422370052
+    },
+    {
+      "layer": 5,
+      "error_sum_sq": 0.0011386616801240884,
+      "reference_sum_sq": 5200.481378024375,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.511960744857788,
+      "max_abs_y": 2.597424268722534,
+      "nrmse": 0.0004679242790687574
+    },
+    {
+      "layer": 6,
+      "error_sum_sq": 0.0011337310127953713,
+      "reference_sum_sq": 4160.30713618334,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 2.99802565574646,
+      "max_abs_y": 3.3906614780426025,
+      "nrmse": 0.0005220262193837293
+    },
+    {
+      "layer": 7,
+      "error_sum_sq": 0.001151691624420036,
+      "reference_sum_sq": 7888.293924476693,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.0547587871551514,
+      "max_abs_y": 2.862454652786255,
+      "nrmse": 0.00038209958151004737
+    },
+    {
+      "layer": 8,
+      "error_sum_sq": 0.0011603752919324562,
+      "reference_sum_sq": 5934.044945408184,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.0245213508605957,
+      "max_abs_y": 3.2654435634613037,
+      "nrmse": 0.0004422051749603256
+    },
+    {
+      "layer": 9,
+      "error_sum_sq": 0.0012119340638126117,
+      "reference_sum_sq": 8694.43504295699,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.7692675590515137,
+      "max_abs_y": 2.6859755516052246,
+      "nrmse": 0.0003733522840896697
+    },
+    {
+      "layer": 10,
+      "error_sum_sq": 0.0012864890560262904,
+      "reference_sum_sq": 14128.541993266508,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.8304765224456787,
+      "max_abs_y": 2.8208181858062744,
+      "nrmse": 0.00030175493029564954
+    },
+    {
+      "layer": 11,
+      "error_sum_sq": 0.0014477848794700325,
+      "reference_sum_sq": 24905.99319325041,
+      "elements": 50688,
+      "x_saturated": 0,
+      "y_saturated": 0,
+      "w_saturated": 0,
+      "b_saturated": 0,
+      "max_abs_x": 3.5558764934539795,
+      "max_abs_y": 3.3639719486236572,
+      "nrmse": 0.00024110159628180263
+    }
+  ],
+  "max_layer_nrmse": 0.0005220262193837293,
+  "qualification": "SMOKE ONLY, not official speech precision acceptance"
+}

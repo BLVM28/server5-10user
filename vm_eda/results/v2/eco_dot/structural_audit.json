@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "original_cells_checked": 1335,
+  "pins_checked": 5483,
+  "identity_buffers_checked": 526,
+  "netlist_sha256": "2c8b86ed839f65ff0a7806f29085412cf63a921a6d2e324f57124124cda224d0",
+  "scope": "Structural identity after bypassing library BUFX2 (Y=A); not a formal sequential equivalence run."
+}

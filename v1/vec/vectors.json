@@ -1,0 +1,68 @@
+{
+  "seed": 20261101,
+  "quant_cases": 226,
+  "dot_cases": 32,
+  "layers": [
+    {
+      "layer": 0,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 1,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 2,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 3,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 4,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 5,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 6,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 7,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 8,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 9,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 10,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    },
+    {
+      "layer": 11,
+      "source": "specified checkpoint, synthetic X",
+      "output_saturated": 0
+    }
+  ],
+  "qualification": "NOT Speech Commands activation data; NOT official NRMSE verification"
+}

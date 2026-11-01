@@ -1,0 +1,117 @@
+{
+  "format_id": 65536,
+  "source_sha256": {
+    ".index": "5a60a0fa78a1855572084a42669768e2998d37e7d93c833962960fdb0db70fbc",
+    ".data-00000-of-00001": "ae993f6ed995938c1ab584b0857b35ca18f31f88001c7e17c7d7c3868bd33ad3"
+  },
+  "layers": [
+    {
+      "layer": 0,
+      "kernel_key": "layer_with_weights-0/enc_layers/0/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/0/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.4201895594596863,
+      "max_abs_b": 0.3005712926387787
+    },
+    {
+      "layer": 1,
+      "kernel_key": "layer_with_weights-0/enc_layers/1/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/1/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.3442831337451935,
+      "max_abs_b": 0.24315527081489563
+    },
+    {
+      "layer": 2,
+      "kernel_key": "layer_with_weights-0/enc_layers/2/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/2/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.3745529353618622,
+      "max_abs_b": 0.23960502445697784
+    },
+    {
+      "layer": 3,
+      "kernel_key": "layer_with_weights-0/enc_layers/3/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/3/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.41112613677978516,
+      "max_abs_b": 0.22623731195926666
+    },
+    {
+      "layer": 4,
+      "kernel_key": "layer_with_weights-0/enc_layers/4/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/4/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.32905369997024536,
+      "max_abs_b": 0.20131993293762207
+    },
+    {
+      "layer": 5,
+      "kernel_key": "layer_with_weights-0/enc_layers/5/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/5/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.3204328715801239,
+      "max_abs_b": 0.26497066020965576
+    },
+    {
+      "layer": 6,
+      "kernel_key": "layer_with_weights-0/enc_layers/6/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/6/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.32933828234672546,
+      "max_abs_b": 0.2173345386981964
+    },
+    {
+      "layer": 7,
+      "kernel_key": "layer_with_weights-0/enc_layers/7/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/7/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.3689568042755127,
+      "max_abs_b": 0.25635817646980286
+    },
+    {
+      "layer": 8,
+      "kernel_key": "layer_with_weights-0/enc_layers/8/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/8/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.2897762060165405,
+      "max_abs_b": 0.24569499492645264
+    },
+    {
+      "layer": 9,
+      "kernel_key": "layer_with_weights-0/enc_layers/9/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/9/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.3408030867576599,
+      "max_abs_b": 0.1765521913766861
+    },
+    {
+      "layer": 10,
+      "kernel_key": "layer_with_weights-0/enc_layers/10/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/10/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.36291491985321045,
+      "max_abs_b": 0.19064904749393463
+    },
+    {
+      "layer": 11,
+      "kernel_key": "layer_with_weights-0/enc_layers/11/ffn/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE",
+      "bias_key": "layer_with_weights-0/enc_layers/11/ffn/layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE",
+      "weight_saturated": 0,
+      "bias_saturated": 0,
+      "max_abs_w": 0.3552662432193756,
+      "max_abs_b": 0.29567235708236694
+    }
+  ]
+}

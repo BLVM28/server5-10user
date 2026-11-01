@@ -1,0 +1,5 @@
+[console_scripts]
+vncdo = vncdotool.command:vncdo
+vncdo-replay = vncdotool.command:vncdo_replay
+vncdotool = vncdotool.command:vncdo
+vnclog = vncdotool.command:vnclog

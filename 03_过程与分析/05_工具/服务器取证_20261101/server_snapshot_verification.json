@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-01",
+  "metadata_source": "Remote terminal readback; this JSON is a local record, not a downloaded server manifest",
+  "source_root": "/storage1/admin_public_dir",
+  "selected_directories": ["SOC_RTL_2025", "SRAM_Lib_2025", "Document"],
+  "remote_staging": "/storage2/2026contest/server5/s5_10usr/kwt_public_snapshot.8x8y1iq_",
+  "remote_archive": "/storage2/2026contest/server5/s5_10usr/kwt_public_snapshot.8x8y1iq_/public_rtl_sram.tar.gz",
+  "status": "SNAPSHOT_VERIFIED_ON_SERVER_ONLY",
+  "files_verified": 575,
+  "entries": 668,
+  "symlinks": 0,
+  "source_file_bytes": 240038481,
+  "archive_bytes": 133248823,
+  "archive_sha256": "595a462bc4526a78e80d6b25b96899e482e7ed66ba5e00d6f286d3fa66daddf8",
+  "manifest_sha256": "a3c727fb8706e121f5b7d2c19b1bf48a0652bf193f341d9cf21f6bb3c7f649fb",
+  "e203_zip": "SOC_RTL_2025/e203_hbirdv2-master_1013_update_sim.zip",
+  "e203_zip_bytes": 129388172,
+  "e203_zip_sha256": "63f9a4203402ae28721f1333f255fcccaa98a70066293f88b80fb67fd25f7c69",
+  "source_directories_modified": false,
+  "server_export_performed": false,
+  "local_source_archive_present": false,
+  "verification": [
+    "SHA-256 of every selected regular source file compared with the bytes written to the archive",
+    "Archive reopened and every regular file/hardlink independently read and compared with the source manifest",
+    "No duplicate archive members; complete file coverage; no symlinks found",
+    "Remote staging directory spelling checked using its character code list"
+  ],
+  "unselected_directory_sizes": {
+    "SMIC40_2025": 22231649595,
+    "2025_Lab": 64556255
+  },
+  "export_constraint": {
+    "source": "/storage1/admin_public_dir/Document/2025NICT EDA平台_用户登录及使用手册_V11.pdf",
+    "observed_text": "本次竞赛过程中不可主动从服务器下载文件",
+    "user_previously_confirmed_no_organizer_export_authorization": true,
+    "local_computer_full_access_does_not_supply_organizer_export_authorization": true,
+    "new_download_service_or_encoded_file_transfer_used": false
+  },
+  "evidence_images": [
+    "vnc_public_summary.png",
+    "vnc_snapshot_verified.png",
+    "vnc_export_rule_and_hashes.png",
+    "vnc_snapshot_exact_path.png",
+    "vnc_e203_hash_chunks.png"
+  ],
+  "rtl_generated": false,
+  "hdl_or_soc_tests_run": false
+}

@@ -1,0 +1,54 @@
+{
+  "record_type": "Locally authored summary of observed VNC output; not a downloaded server log or tool JSON",
+  "date": "2026-11-01",
+  "server_project": "/storage2/2026contest/server5/s5_10usr/kwt_eda_tmp_20261101/project",
+  "original_zip_sha256": "327edf5c22e8a92b388195178e315a379d8a9998d6c7df4d643ec038d1d7fff9",
+  "original_manifest_files_verified": 236,
+  "rtl_and_wrapper_files_unchanged": 11,
+  "final_make_all_targets_completed": true,
+  "final_timing_slack_met": false,
+  "tools": {
+    "vcs": "Q-2020.03-SP2-6",
+    "dc": "T-2022.03-SP5-5",
+    "pt": "T-2022.03-SP5-1",
+    "python": "3.6.8"
+  },
+  "checks": {
+    "arithmetic": "260/260",
+    "icb": "4/4",
+    "nice_matrix": "29/29",
+    "original_model_silence_matrix": "29/29",
+    "sram_default_timing": "1186/1186",
+    "dot64_rtl": "32/32",
+    "dot64_ss_sdf": "32/32"
+  },
+  "constraints": {
+    "period_ns": 6.666667,
+    "clock_uncertainty_ns": 0.100,
+    "io_max_delay_ns": 1.000,
+    "io_min_delay_ns": 0.100,
+    "input_transition_ns": 0.100,
+    "output_load_pf": 0.002852,
+    "false_path_or_multicycle_exceptions_added": false,
+    "physical_spef_or_cts": false,
+    "timing_signoff": false
+  },
+  "sta": [
+    {"design": "kwt_dot64", "corner": "SS 0.99V 125C", "max_slack_ns": 0.002894, "min_slack_ns": -0.071293},
+    {"design": "kwt_dot64", "corner": "FF 1.21V -40C", "max_slack_ns": 3.930200, "min_slack_ns": 0.013860},
+    {"design": "kwt_nice_core", "corner": "SS 0.99V 125C", "max_slack_ns": 0.000123, "min_slack_ns": -0.046896},
+    {"design": "kwt_nice_core", "corner": "FF 1.21V -40C", "max_slack_ns": 3.828464, "min_slack_ns": -0.145295}
+  ],
+  "full_core_sram_instances": {"RAMSP128X16": 8, "RAMSP1024X16": 7},
+  "full_core_analysis_coverage": {
+    "total_checks": 17659,
+    "untested_reasons_each_corner": {"no_clock": 2195, "constant_disabled": 781, "no_paths": 52},
+    "ss": {"met": 14503, "violated": 128, "untested": 3028},
+    "ff": {"met": 14351, "violated": 280, "untested": 3028}
+  },
+  "sdf_annotation": {"completed": true, "errors": 0, "warnings": 0, "timing_checks_enabled": true, "sdf_iopath_entries": 7503, "sdf_interconnect_entries": 3290, "sdf_timingcheck_blocks": 140},
+  "retained_failure": "Original falling-edge stimulus violated the declared 1 ns input budget, triggered setup violation and X at case 2. Final TB uses posedge+1ns stimulus, unchanged frequency, RTL and expected values.",
+  "unverified": ["E203 CPU full SoC execution", "real shared SRAM address", "official 2026 platform/library identity", "speech validation dataset accuracy", "full-core gate simulation", "post-route PPA/signoff"],
+  "evidence_directory": "../../过程与分析/05_工具/服务器验证_20261101",
+  "evidence_screenshots": ["17_pt_error.png", "22_timing_progress.png", "26_sta_gate_results.png", "28_timing_detail.png", "29_gate_and_coverage.png", "31_final_make_progress.png", "33_final_all_results.png", "34_coverage_reasons.png", "35_coverage_totals.png", "36_untested_samples.png"]
+}

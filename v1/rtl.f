@@ -1,0 +1,10 @@
+rtl/kwt_quantize.sv
+rtl/kwt_mul16_pipe.sv
+rtl/kwt_dot64.sv
+rtl/kwt_mac8.sv
+rtl/kwt_icb_master.sv
+rtl/kwt_sp_ram.sv
+rtl/kwt_x_buffer.sv
+rtl/kwt_w_panel.sv
+rtl/kwt_linear_core.sv
+rtl/kwt_nice_core.sv

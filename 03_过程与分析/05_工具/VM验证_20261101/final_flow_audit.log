@@ -1,0 +1,3 @@
+slow BUFX2 Y=A checked dec616b7b53aa5166eac9660ba83561a4057ee3b7e62f59f3d4bebad495ffe10
+fast BUFX2 Y=A checked e63762d156fd929cde2f58b0a5883020d6f16f0a41d3736577d0af6b94191560
+Python 3.6 flow syntax and buffer identity guards PASS

@@ -1,0 +1,17 @@
+{
+  "protected_file_hashes_unchanged": 591,
+  "verified_archives": 7,
+  "archived_files_removed": 1056,
+  "own_directories_with_readme": 74,
+  "readme_missing": [],
+  "local_markdown_links_checked": 168,
+  "broken_links": [],
+  "exempt_trees": [
+    "01_核心参考",
+    "过程与分析/05_工具/tf24_env",
+    "过程与分析/05_工具/python_runtimes",
+    "过程与分析/05_工具/checkpoint_deps",
+    "过程与分析/05_工具/vnc_client_deps"
+  ],
+  "qualification": "Documentation/organization audit, not a new RTL or EDA simulation."
+}

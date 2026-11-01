@@ -1,0 +1,171 @@
+{
+  "version": "v2",
+  "functional_passed": true,
+  "functional_stages": [
+    {
+      "name": "default",
+      "tests": [
+        {
+          "top": "tb_kwt_arithmetic",
+          "pass_markers": [
+            [
+              "260",
+              "260"
+            ]
+          ],
+          "wall_seconds": 12.88862413000004
+        },
+        {
+          "top": "tb_kwt_icb",
+          "pass_markers": [
+            [
+              "4",
+              "4"
+            ]
+          ],
+          "wall_seconds": 1.3212942710000561
+        },
+        {
+          "top": "tb_kwt_system",
+          "pass_markers": [
+            [
+              "29",
+              "29"
+            ]
+          ],
+          "wall_seconds": 15.772863898000082
+        },
+        {
+          "top": "tb_kwt_overlap",
+          "pass_markers": [
+            [
+              "5",
+              "5"
+            ]
+          ],
+          "wall_seconds": 4.0231220820001
+        },
+        {
+          "top": "tb_kwt_mul_pipeline",
+          "pass_markers": [
+            [
+              "524288",
+              "524288"
+            ],
+            [
+              "524288",
+              "524288"
+            ]
+          ],
+          "wall_seconds": 0.8042389519999915
+        }
+      ]
+    },
+    {
+      "name": "fallback",
+      "tests": [
+        {
+          "top": "tb_kwt_system",
+          "pass_markers": [
+            [
+              "29",
+              "29"
+            ]
+          ],
+          "wall_seconds": 13.698610755000004
+        }
+      ]
+    },
+    {
+      "name": "activation",
+      "tests": [
+        {
+          "top": "tb_kwt_system",
+          "pass_markers": [
+            [
+              "29",
+              "29"
+            ]
+          ],
+          "wall_seconds": 13.202599136000003
+        }
+      ]
+    }
+  ],
+  "rtl_sha256": {
+    "kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+    "kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+    "kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+    "kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+    "kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+    "kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d"
+  },
+  "structural_audit": {
+    "passed": true,
+    "original_cells_checked": 1335,
+    "pins_checked": 5483,
+    "identity_buffers_checked": 526,
+    "netlist_sha256": "2c8b86ed839f65ff0a7806f29085412cf63a921a6d2e324f57124124cda224d0",
+    "scope": "Structural identity after bypassing library BUFX2 (Y=A); not a formal sequential equivalence run."
+  },
+  "timing": {
+    "scope": "dot64 GPDK045 pre-layout; ideal clock, no extracted parasitics or variation derates",
+    "corners": [
+      {
+        "corner": "slow",
+        "execution_complete": true,
+        "constraints_met": true,
+        "setup_slack_ns": 1.26,
+        "hold_slack_ns": 0.076,
+        "violation_lines": [],
+        "drv_groups_clean": true,
+        "coverage_report": "/home/eda/kwt_vm_20261101/results/v2/sta_eco_slow/coverage.rpt"
+      },
+      {
+        "corner": "fast",
+        "execution_complete": true,
+        "constraints_met": true,
+        "setup_slack_ns": 4.467,
+        "hold_slack_ns": 0.007,
+        "violation_lines": [],
+        "drv_groups_clean": true,
+        "coverage_report": "/home/eda/kwt_vm_20261101/results/v2/sta_eco_fast/coverage.rpt"
+      }
+    ],
+    "reported_constraints_met": true
+  },
+  "gate": [
+    {
+      "corner": "slow",
+      "passed": true,
+      "pass_markers": [
+        [
+          "32",
+          "32"
+        ]
+      ],
+      "netlist_sha256": "2c8b86ed839f65ff0a7806f29085412cf63a921a6d2e324f57124124cda224d0",
+      "sdf_sha256": "4ea00d32a6e241b15a40b4b8364272765733554f9e83e839d3b3fc5e95bd0aae",
+      "annotation_complete": true
+    },
+    {
+      "corner": "fast",
+      "passed": true,
+      "pass_markers": [
+        [
+          "32",
+          "32"
+        ]
+      ],
+      "netlist_sha256": "2c8b86ed839f65ff0a7806f29085412cf63a921a6d2e324f57124124cda224d0",
+      "sdf_sha256": "c37b1dece1792e4e04eafc567e306d99e2f66600fec968ad0ec2f0153b4401ff",
+      "annotation_complete": true
+    }
+  ],
+  "completed": true,
+  "qualification": "Behavioral-SRAM full accelerator RTL + GPDK045 dot64 pre-layout STA/SDF. Simulation SDF tightens negative timing limits to zero; raw SDF and original Liberty STA preserved. No CPU/full-model/post-route signoff."
+}

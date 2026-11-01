@@ -1,0 +1,12 @@
+[
+  {
+    "corner": "slow",
+    "exit": 0,
+    "execution_completed": true
+  },
+  {
+    "corner": "fast",
+    "exit": 0,
+    "execution_completed": true
+  }
+]

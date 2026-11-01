@@ -1,0 +1,11 @@
+{
+  "provenance": "VNC observation, not downloaded server metadata",
+  "evidence": "过程与分析/05_工具/V2优化_20261101/34_server_packages_final.png",
+  "server_root": "/storage2/2026contest/server5/s5_10usr/kwt_versions_20261101",
+  "v1": {"files": 394, "bytes": 11453218, "sha256": "995260172e00f950eecda90c979e1008239e09d88f3278fb1049dcf94b4054ea"},
+  "v2": {"files": 676, "bytes": 26774276, "sha256": "efbaccda02a59f2deb633a4de74d5e5dbd4d7c9ed990525c9fc1c49056f4d023"},
+  "local_v2_uploaded_files_verified": 279,
+  "tested_rtl_unchanged": true,
+  "archive_crc_and_manifests_verified_on_server": true,
+  "original_v1_archive_hash_unchanged": true
+}

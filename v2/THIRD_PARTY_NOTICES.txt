@@ -1,0 +1,20 @@
+Model provenance
+----------------
+vec/weights contains numerical parameters derived without training from the
+local ARM-software/keyword-transformer reference at commit 237e4097,
+models_data_v2_12_labels/kwt1/best_weights. Exact file hashes are in
+vec/weights/format.json. The upstream repository's Apache-2.0 license text is
+retained verbatim as vec/weights/UPSTREAM_LICENSE.txt. This project does not
+claim authorship of those trained parameters or the reference model.
+
+Tool provenance
+---------------
+Initial checkpoint extraction used tensorflow-checkpoint-reader 0.2.2
+(https://github.com/shawwn/tensorflow-checkpoint-reader), with local Python
+compatibility adapters in export_weights.py. The dependency package is not
+redistributed here. Target weights were subsequently cross-checked through
+TensorFlow 2.4.0 against the original loaded model.
+
+Public E203 and SRAM source files are not included. Server validation reads
+them from the authorized public directory; see integration/README.md for
+required file names and the simulator/synthesis cell distinction.

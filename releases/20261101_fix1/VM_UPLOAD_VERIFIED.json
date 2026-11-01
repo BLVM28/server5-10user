@@ -1,0 +1,14 @@
+{
+  "v1": {
+    "passed": true,
+    "archive_sha256": "db414716be369d046b7337c17f58e4c795a024515e8110424e52365817e91321",
+    "manifest_files_checked": 321,
+    "installed_flow_and_rtl_match": true
+  },
+  "v2": {
+    "passed": true,
+    "archive_sha256": "8c2578b92187728532cd12cbe0a09e1f23f243fa76fb0513a4c260efceb46e30",
+    "manifest_files_checked": 335,
+    "installed_flow_and_rtl_match": true
+  }
+}

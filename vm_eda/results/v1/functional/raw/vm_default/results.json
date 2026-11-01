@@ -1,0 +1,53 @@
+{
+  "simulator": "xrun",
+  "defines": [],
+  "tests": [
+    {
+      "top": "tb_kwt_arithmetic",
+      "pass_markers": [
+        [
+          "260",
+          "260"
+        ]
+      ],
+      "wall_seconds": 12.937697843000024
+    },
+    {
+      "top": "tb_kwt_icb",
+      "pass_markers": [
+        [
+          "4",
+          "4"
+        ]
+      ],
+      "wall_seconds": 1.377798719999987
+    },
+    {
+      "top": "tb_kwt_system",
+      "pass_markers": [
+        [
+          "29",
+          "29"
+        ]
+      ],
+      "wall_seconds": 16.435708310999985
+    }
+  ],
+  "qualification": "functional simulation, not SoC or STA",
+  "source_sha256": {
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_mul16_pipe.sv": "7aa12922a9078d575279bf4b4f5b2f93692225421b449be82d839ba76e918501",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_dot64.sv": "2b0ccad9824826e4d32fea6b95285f88ff9fd84ae3b9d2409782f5e73143e3b4",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_mac8.sv": "b74721a46d29d1d4a9d7b11fe40f26883cf2accd367f6b392192c49eb4c0f853",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_linear_core.sv": "6eb032d689cbb2eba9685dd114797e4831b8c8bb483e0131e3fa6652ed96b20e",
+    "/home/eda/kwt_vm_20261101/work/v1/rtl/kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "/home/eda/kwt_vm_20261101/work/v1/tb/kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+    "/home/eda/kwt_vm_20261101/work/v1/tb/tb_kwt_arithmetic.sv": "d9b0ce7bc32b81ee07a841f6352bd55004c6a42b9a69abef2b059e1f85618df3",
+    "/home/eda/kwt_vm_20261101/work/v1/tb/tb_kwt_icb.sv": "bf78018da54896eecc93cdf15ca92fa2718814c20572176988d54f7cfb33f14e",
+    "/home/eda/kwt_vm_20261101/work/v1/tb/tb_kwt_system.sv": "9b2b437ab1c4d620d3aad621f533846123395460d1ab2e04b243a6ee07731c92"
+  }
+}

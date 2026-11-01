@@ -1,0 +1,8 @@
+make: Entering directory `/home/eda/kwt_vm_20261101/flow'
+set -euo pipefail
+source ./env.sh
+python3 ./summarize.py v1
+python3 ./summarize.py v2
+v1 ALL REQUIRED VM CHECKS PASS (limited scope stated in summary)
+v2 ALL REQUIRED VM CHECKS PASS (limited scope stated in summary)
+make: Leaving directory `/home/eda/kwt_vm_20261101/flow'
