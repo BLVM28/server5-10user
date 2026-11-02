@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-02",
+  "source_sync_files": 1446,
+  "manifest_sha256": "1ed4a237df18013fa363ac32c451d54177f5768fe211375b274f960bb6788753",
+  "source_sync_pass": true,
+  "v1_make_check": "PASS",
+  "v2_make_check": "PASS",
+  "v1_package_files": {
+    "rtl": 12,
+    "tb": 6,
+    "makefile": 2,
+    "flow": 34,
+    "vectors": 163
+  },
+  "v2_package_files": {
+    "rtl": 12,
+    "tb": 9,
+    "makefile": 2,
+    "flow": 44,
+    "vectors": 970
+  },
+  "v2_core_cycles_base_range": [
+    339658,
+    340343
+  ],
+  "v2_sdf_short_probe": {
+    "ss": "PASS, errors=warnings=0",
+    "ff": "PASS, errors=warnings=0"
+  },
+  "extended_gate": "Not completed; optional and excluded from daily check",
+  "evidence": "Server shared/final_daily_verification.json and reports/final_daily_check.log; screenshots delivery_verified.png, final_check_done.png retained locally",
+  "conservative_accelerator_mhz": 125,
+  "whole_soc_acceptance": "Pending actual shared-memory implementation/address, firmware, top constraints"
+}
