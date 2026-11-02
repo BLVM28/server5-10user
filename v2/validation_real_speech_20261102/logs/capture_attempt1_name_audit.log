@@ -1,0 +1,45 @@
+RNE independent oracle ALL PASS, 534290/534290
+C:\Users\lenovo\Desktop\server5-10user\03_过程与分析\05_工具\tf24_env\Lib\site-packages\tensorflow\python\autograph\impl\api.py:390: UserWarning: Default value of `approximate` is changed from `True` to `False`
+  return py_builtins.overload_of(f)(*args)
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C54CA00> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2C649310>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C4352E0> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2C435910>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C431400> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2D73A9A0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2D740DF0> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2D7405E0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C1ED220> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2C65D520>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C556640> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2C556220>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C652CD0> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2C652DF0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C409520> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2C409190>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2C3FC370> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2C3FCD90>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2D84D1F0> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2D848EB0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2D85A730> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2D85A640>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000020E2D86AC70> and <tensorflow_addons.layers.gelu.GELU object at 0x0000020E2D86AB80>).
+Traceback (most recent call last):
+  File "v2/py/qualify_real_speech.py", line 315, in <module>
+    main()
+  File "v2/py/qualify_real_speech.py", line 152, in main
+    assert matches, 'Loaded learned tensor not independently matched: %s (%s)' % (name, candidates)
+AssertionError: Loaded learned tensor not independently matched: dense_5/kernel ([])

@@ -1,0 +1,122 @@
+{
+  "tool": "Vivado Simulator 2023.2",
+  "defines": [],
+  "tests": [
+    {
+      "top": "tb_kwt_arithmetic",
+      "pass_markers": [
+        [
+          "260",
+          "260"
+        ]
+      ]
+    },
+    {
+      "top": "tb_kwt_icb",
+      "pass_markers": [
+        [
+          "4",
+          "4"
+        ]
+      ]
+    },
+    {
+      "top": "tb_kwt_overlap",
+      "pass_markers": [
+        [
+          "5",
+          "5"
+        ]
+      ]
+    }
+  ],
+  "source_sha256": {
+    "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+    "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+    "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+    "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+    "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+    "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+    "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+    "tb\\tb_kwt_arithmetic.sv": "de2449d34d890ff07ce814ae07d639414d3808e51d36a9e9d7c8d6e982ed332f",
+    "tb\\tb_kwt_icb.sv": "bf78018da54896eecc93cdf15ca92fa2718814c20572176988d54f7cfb33f14e",
+    "tb\\tb_kwt_overlap.sv": "5fea35407484acf7af55c9e264baa2131ce1f84ceb6a4e6c8e44ac97270c4fee"
+  },
+  "vector_directory": "C:\\Users\\lenovo\\Desktop\\server5-10user\\v2\\vec",
+  "vector_sha256": {
+    "dot_acc.hex": "a85b6fd6449601f48e87bd652b9e5dba82ca32a074b8f251ff54ec6dec58ec76",
+    "dot_b.hex": "0edee22c007241870f7d77aeab7ba55790aa496be206a2b921449a3ab5571b47",
+    "dot_sat.hex": "c840ab7f1857740e0b61c5718cffb58d953239dadf4ca963ec661975e733458b",
+    "dot_w.hex": "d63d3772f3fd8ff4383e9360d5bcea1ca8e8a163f64238b71c69a00ca293247a",
+    "dot_x.hex": "8418d40eb7c07db25855a103f3ae67c58ff746f9da3087f2e738fefe732f664e",
+    "dot_y.hex": "974a007f2db9a06c7b9cbee1c2b27fb1aa560dfb0ca3b49102f01b56d8ed63a8",
+    "layer00_acc.hex": "af5db192b57f1644d76f39c5185ea3ef5e84c78d0f34406c12a9fa8ba95fed96",
+    "layer00_b.hex": "d1122381f7ba11c4978807997c6d82dac9cca1a102a5524a67606322595f1400",
+    "layer00_w.hex": "fce6000ab692fb84c044513ba3a4b7683850e5af50595eaa4ed70038d7fc12d1",
+    "layer00_x.hex": "8d62ace379398c478c4ce8d3cf0a79162958be86810db3abbcd0d8489eb21520",
+    "layer00_y.hex": "b35eb35b49290bd2c1699dc856f01d8d55bb5358182a8732359a9cfce3d304d9",
+    "layer01_acc.hex": "c08bd3680bfa3cd7291962f8ec1063e66eb33a5ab206e876985499777395ca38",
+    "layer01_b.hex": "32237cea4cd2c8a2340612cc1a33ee5e0e755e296b6c58318e2463480e2ce9c2",
+    "layer01_w.hex": "c536c1520dc3def4f3578c78bb0b1db60192a48f544efa3a1144f0400816fbb4",
+    "layer01_x.hex": "cfee2e531cf5d4c29086cf9cd14729ac54d6845291efda5cd19b3135ff29b8e5",
+    "layer01_y.hex": "95350be81634e917e325d1e46e197d9930b0daa3f96cec51ac9714549809fe5c",
+    "layer02_acc.hex": "21fda45b9cb550ce19fe5cb834f2638211033db33a8f75bad51efc474703e8f6",
+    "layer02_b.hex": "089bb30edf7fdcfecd55f95b3f348f1bc8490346e8750888d68c9c59f05111db",
+    "layer02_w.hex": "656a342679e5a5185f0ce61878dee0493d2e55ac700d021bb6e189aae9f5e57a",
+    "layer02_x.hex": "fbea2405146f3af56f65c0026534da5d6335798f824162bdd79ca1185c53dc98",
+    "layer02_y.hex": "22138fdd246844404e9f52076fcf1397ac2b42005ff58cb65c8604ecfba219e6",
+    "layer03_acc.hex": "93aed5732e59a8c6494d2d924811470d8c7c716422ce3c957bfe663a054f4431",
+    "layer03_b.hex": "1ef12f8ca17595687053496d1d371d390376352b5d06c744bea1df460d6affe4",
+    "layer03_w.hex": "7095d70bf044eb5aba495146a9e2fd23b727e31394cedb23b395933ec076d546",
+    "layer03_x.hex": "bcbcf1eb58347948c25ef55bb5b4a7bb7d7ea279f463a626735deca7eec6cc6c",
+    "layer03_y.hex": "1207362b9f97b097807a609fef3d6a15c466e3764e097c789c38f5c3f3b65c09",
+    "layer04_acc.hex": "4a0b0ea02270aad99a7d6e64ae7d43c6d6b92ae8936bec10816ce1efb0522b0a",
+    "layer04_b.hex": "55c61141df10cf429517ca71eb0f0f9861eeae59aedbc3202a74f8a885e7709f",
+    "layer04_w.hex": "6f4c0cc4bc4f2369c475971f86f52900749cf60b5c2c7f5ab23492970147fd4c",
+    "layer04_x.hex": "45fdeb766c85e208645be1295442df128248ee72a1e8b750acb44b71bb0ae442",
+    "layer04_y.hex": "f13387cb43f3542003b8dcc7df1ac20a716096f3dff704b7cd098f2d85ee442d",
+    "layer05_acc.hex": "fe5cec2958163a5f588d4df524c1ae7dfb9fa119e18a825353f6b4148be6a319",
+    "layer05_b.hex": "085c994e2efb3329a6ce9542ac55f2dae199fd6e6231b73d2b651cbe5d6fac41",
+    "layer05_w.hex": "8178005bc7b042faf9e16768a542bdd8f72177a01a0de3e7976b8171954c95c7",
+    "layer05_x.hex": "f8e535c4d71180ecc64e3b5886e6a95704f04f8c96980d4e725f9d500ae8a506",
+    "layer05_y.hex": "533f3c9e6f26b5ca73655d7d35569d421695b9e3a3d30d4e49c8777879b12b38",
+    "layer06_acc.hex": "2fa17f9ca63c6aba4e946ee4276ced149c8699101d46299d16fd12d0650c15aa",
+    "layer06_b.hex": "18a7c5f77d2600e3ebc2db2372becd186516fd021928ada2334f9626d367990b",
+    "layer06_w.hex": "e62868aa8bfa745e419d31879ca44f3898952f0608205553a8ca32bd765042ad",
+    "layer06_x.hex": "471b8cad21383731361620ff2bd4ba5d9914a5f999e22e11935b6e3b48ea312b",
+    "layer06_y.hex": "cecc7d9e14a8f801fd571647ce76de5954e14772ee02c672cfeb4b45ad8b62f1",
+    "layer07_acc.hex": "c2791bcaadb26b736fa53a39ffef8b74ee41ecf51851a00907b266a2c25a2a5c",
+    "layer07_b.hex": "b9841315b410c530ffdf7084bc19c14ed44be2239541848c08bb0002af48477f",
+    "layer07_w.hex": "b489188d5a95b46ff42c7e4e8b8ab2770252a9cbcd1b87b971d09df1333440b7",
+    "layer07_x.hex": "1b5f0252ea965641cba142d37bd465107f74d7e931d210cf81513c0ad0b0a404",
+    "layer07_y.hex": "e80a270e8e0168336156e53f3a880793f8e6ee85b1112e20784b5d20e26a650e",
+    "layer08_acc.hex": "d1aa35caecc787ccda4020b660eb4ca4a93d4cdb11e29e9273c6fcebe007e4db",
+    "layer08_b.hex": "480e5f9290b8f6deb205680523392679c6d81fed107552eeb06dfcfbfc703d12",
+    "layer08_w.hex": "6b09ab7c48abadab055deb1f5c1d49844f40e46357607dcbe6e423a1fbdd0357",
+    "layer08_x.hex": "0126280db8c36ebad6fe977db06b00106fdc860df370db6aa3285ce57920477c",
+    "layer08_y.hex": "1eab98af8e7b5873ffc8a60e346589b7a240aa4da15e8a93d31883b7d0f6d293",
+    "layer09_acc.hex": "5632ff297c338f2f55bcb19688125c614001db5438a82ca2fda5ade78405e302",
+    "layer09_b.hex": "42a44ce360b7831cfc4b20abb6c6b478ff572333d84f80f9e449fae5e4e53c21",
+    "layer09_w.hex": "e2dbb450ae1bcf60c17cb2b2d6082dcb11166d96d460b0f98257237a2ef4c29e",
+    "layer09_x.hex": "c6983527ddc5f516a7b0c53ca162dcc015b25b55b9f4a6816a18507e81ccafa7",
+    "layer09_y.hex": "ea0773e6d9885b85fa10164629e20af7d250709ee015d69282de2bbc0d237567",
+    "layer10_acc.hex": "28ace93f17c21b51c045dfb4a2d2239634c6ace270ae8ac5e38c2ed683c06987",
+    "layer10_b.hex": "a05dd939258d462b9c23bd665a02405baaa7d5d1e06d372a1ef05d6e030cd169",
+    "layer10_w.hex": "a322f9483031569696b9339976063372121a671113075774ad50c0df0cc8660d",
+    "layer10_x.hex": "95c19e6eb4c7c02a7dfa5d8c5f330fb41fb70494d43db86aa35e0bc224774d19",
+    "layer10_y.hex": "680b37b6950021d2325d4649166392a83a9688e2fb52f8bc3636ad94514682e1",
+    "layer11_acc.hex": "4d4a992265b8c92d88e210f0e5b119b6f77e4fbe0e4dae9ec52aeb1a0fba6a16",
+    "layer11_b.hex": "d0f5ed35810216aaca5b110ee506a795aa30cf6bc58e5f000da10e1f6e482813",
+    "layer11_w.hex": "e3575952f08d8ca46addbd25194c52abb4594ff6a43006681fb74b15b285bd11",
+    "layer11_x.hex": "a3c9f45221fd7e9feb195c3ebdc0376efaa91a685087b9b7f0fb88cefd6ee3a5",
+    "layer11_y.hex": "ba82d3b169d49f7f012a52b8ffacf85c60bfbe866e7ceab790a24b782a59888b",
+    "matrix_sat.hex": "8600297558a0981dcfb3deed6c2f24b0dbf3b0b01bf5c023c96a40ab096436e9",
+    "quant_acc.hex": "4b8e26671e6cc2f3ea519823eeefe507458a7f59d5881f74e34cb3fbd73e7930",
+    "quant_sat.hex": "506adb6a4106678b4162eeb160289c6767ac53b6ce8879f551df4f8d50140e21",
+    "quant_y.hex": "f7bc756ba63dae20907e7db554453998a42823b0ec511f23b90e47fe5f3dd80c"
+  }
+}

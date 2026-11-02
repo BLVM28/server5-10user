@@ -1,0 +1,26 @@
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_quantize.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_quantize
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_mul16_pipe.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_mul16_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_dot64.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_dot64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_mac8.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_mac8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_icb_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_icb_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_sp_ram.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_sp_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_x_buffer.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_x_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_w_panel.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_w_panel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_linear_core.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_linear_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/rtl/kwt_nice_core.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_nice_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/tb/kwt_sram_sim.sv" into library work
+INFO: [VRFC 10-311] analyzing module kwt_sram_sim
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lenovo/Desktop/server5-10user/v2/build/real_speech_20261102_class_05/tb_kwt_system.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_kwt_system

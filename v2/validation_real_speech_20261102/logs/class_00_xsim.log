@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Nov  2 09:16:37 2026
+# Process ID: 41616
+# Current directory: C:/Users/lenovo/Desktop/server5-10user/v2/build/real_speech_20261102_class_00
+# Command line: xsim.exe -mode tcl -source {xsim.dir/tb_kwt_system_sim/xsim_script.tcl}
+# Log file: C:/Users/lenovo/Desktop/server5-10user/v2/build/real_speech_20261102_class_00/xsim.log
+# Journal file: C:/Users/lenovo/Desktop/server5-10user/v2/build/real_speech_20261102_class_00\xsim.jou
+# Running On: LAPTOP-1HFQ8NHI, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 29797 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_kwt_system_sim/xsim_script.tcl
+# xsim {tb_kwt_system_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+matrix layer 0 PASS core_cycles=340094 writes=12672
+matrix layer 1 PASS core_cycles=340271 writes=12672
+matrix layer 2 PASS core_cycles=340092 writes=12672
+matrix layer 3 PASS core_cycles=340090 writes=12672
+matrix layer 4 PASS core_cycles=339671 writes=12672
+matrix layer 5 PASS core_cycles=340117 writes=12672
+matrix layer 6 PASS core_cycles=339658 writes=12672
+matrix layer 7 PASS core_cycles=340157 writes=12672
+matrix layer 8 PASS core_cycles=340275 writes=12672
+matrix layer 9 PASS core_cycles=340240 writes=12672
+matrix layer 10 PASS core_cycles=340332 writes=12672
+matrix layer 11 PASS core_cycles=340343 writes=12672
+matrix layer 0 PASS core_cycles=340094 writes=12672
+matrix layer 11 PASS core_cycles=340094 writes=12672
+ALL PASS, 29/29 NICE/matrix scenarios PACK=1 WAW=7
+$finish called at time : 49393130 ns : File "C:/Users/lenovo/Desktop/server5-10user/v2/build/real_speech_20261102_class_00/tb_kwt_system.sv" Line 173
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:54 . Memory (MB): peak = 215.363 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 14688 KB (Peak: 14688 KB), Simulation CPU Usage: 111562 ms
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 09:18:34 2026...

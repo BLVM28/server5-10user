@@ -1,0 +1,63 @@
+{
+  "status": "in_progress",
+  "date": "2026-11-02",
+  "v2_fixed_netlist": "fix1 from v2_eco5",
+  "constraints": {
+    "ss": "0.99V 125C",
+    "ff": "1.21V -40C",
+    "uncertainty_ns": 0.1,
+    "io_max_ns": 1.0,
+    "io_min_ns": 0.1,
+    "input_transition_ns": 0.1,
+    "output_load_pf": 0.002852
+  },
+  "v2_core_sta": [
+    {
+      "period_ns": 6.666667,
+      "ss_setup_ns": 0.000262,
+      "ss_hold_ns": 0.399041,
+      "ff_setup_ns": 3.633024,
+      "ff_hold_ns": 0.123025
+    },
+    {
+      "period_ns": 7.142857,
+      "ss_setup_ns": 0.476452,
+      "ss_hold_ns": 0.399041,
+      "ff_setup_ns": 4.109214,
+      "ff_hold_ns": 0.123025
+    },
+    {
+      "period_ns": 8.0,
+      "ss_setup_ns": 1.333595,
+      "ss_hold_ns": 0.399041,
+      "ff_setup_ns": 4.966357,
+      "ff_hold_ns": 0.123025
+    }
+  ],
+  "observed_screenshots": [
+    "v2_sweep.png",
+    "extended_progress.png"
+  ],
+  "functional": {
+    "server_regression_suites": 18,
+    "real_speech_system_suites": 13,
+    "real_speech_scenarios": 377,
+    "negative_scenarios": 58
+  },
+  "history_files": {
+    "v1": 2091,
+    "v2": 3357
+  },
+  "gate": "First parallel attempt rejected due static SDF log handling; no false PASS. Static annotation fix in progress.",
+  "v2_rebuild": {
+    "synthesis_pass": true,
+    "timing_all_four_cases_pass": true,
+    "code_lines_identical_to_fix1": true,
+    "synthesis_seconds": 420.29
+  },
+  "xsim_negative": {
+    "passed": true,
+    "scenarios": 58,
+    "generated_tb_only_changes_default_vector_path": true
+  }
+}

@@ -1,3 +1,17 @@
+# 服务器 EDA 流程入口（2026-11-02）
+
+现在从版本根目录执行 `make`，或在本目录执行转发 Makefile。操作手册：[SERVER_GUIDE.md](../SERVER_GUIDE.md)；本轮结论：[SERVER_RESULTS.md](../SERVER_RESULTS.md)。
+
+- `easy.py`：编译/功能回归、哈希绑定、综合、双角 STA、逐层并行 SDF、波形与结果汇总。
+- `manual_synth.tcl`：读当前 RTL 和真实 SRAM 库进行综合。`reset_repair*` 与 `cap_eco5.tcl` 仅用于映射后的最小延迟/驱动修复。
+- `manual_sta.tcl` + `constraints.tcl`：独立重建原始约束，输出 setup/hold、约束违例、覆盖与 SDF。不能把优化时的 margin 当作最终约束。
+- `tb_core_all_gate.sv`：12 层完整矩阵的外部接口检查；每个进程可用 `+LAYER=N` 独立运行一层，汇总必须覆盖 0–11。
+- `wave_dump.sv`：可选、限窗口的顶层接口 VCD，正常回归不产生大波形。
+
+旧脚本仅保留参考；下面是 **2026-11-01 历史记录**，其路径和命令不能代替当前入口。既有正式 ZIP 不改。
+
+---
+
 > 2026-11-01 整理更新：本目录原有技术说明保留。最新完成度以工作区根 README 和 fix1 报告为准；本轮只整理本地资料，不自动同步新文档到 VM/服务器。 RESULTS.md 等是原阶段历史；fix1 最新无报告违例的实现与范围见 vm_eda/REPORT.md。
 > [工作区首页](../../README.md) · [调试导读](../../02_项目导读/03_调试与E203接入.md)
 

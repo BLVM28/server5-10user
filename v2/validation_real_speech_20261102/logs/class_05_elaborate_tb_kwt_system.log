@@ -1,0 +1,29 @@
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe work.tb_kwt_system -s tb_kwt_system_sim -debug typical -timescale 1ns/1ps 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4328] File: C:/Users/lenovo/Desktop/server5-10user/v2/build/real_speech_20261102_class_05/tb_kwt_system.sv Line: 153 : Sensitivity on input argument "phase" of task "abort_stage" may never get triggered.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.kwt_sram_sim
+Compiling module work.kwt_sp_ram
+Compiling module work.kwt_x_buffer_default
+Compiling module work.kwt_sram_sim(AW=7)
+Compiling module work.kwt_sp_ram(AW=7)
+Compiling module work.kwt_w_panel_default
+Compiling module work.kwt_mul16_pipe
+Compiling module work.kwt_quantize
+Compiling module work.kwt_dot64
+Compiling module work.kwt_mac8_default
+Compiling module work.kwt_linear_core(MEM_BASE=32'b010...
+Compiling module work.kwt_icb_master
+Compiling module work.kwt_nice_core(MEM_BASE=32'b01000...
+Compiling module work.tb_kwt_system
+Built simulation snapshot tb_kwt_system_sim

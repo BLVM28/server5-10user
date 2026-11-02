@@ -1,0 +1,10 @@
+{
+  "protected_files_unchanged": 30,
+  "vectors_sha256_checked": 793,
+  "full_matrices": 182,
+  "distinct_primary_sample_layer_tasks": 147,
+  "distinct_rtl_real_wavs": 14,
+  "audio_sha256_checks": 550,
+  "numeric_source_sha256_checks": 19,
+  "passed": true
+}

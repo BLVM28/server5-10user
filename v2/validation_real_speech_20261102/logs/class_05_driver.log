@@ -1,0 +1,4 @@
+compile: exit 0, 4.03s
+elaborate_tb_kwt_system: exit 0, 9.81s
+tb_kwt_system: exit 0, 117.94s
+ALL PASS, 29/29 NICE/matrix scenarios PACK=1 WAW=7

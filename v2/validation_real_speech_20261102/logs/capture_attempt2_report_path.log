@@ -1,0 +1,88 @@
+RNE independent oracle ALL PASS, 534290/534290
+C:\Users\lenovo\Desktop\server5-10user\03_过程与分析\05_工具\tf24_env\Lib\site-packages\tensorflow\python\autograph\impl\api.py:390: UserWarning: Default value of `approximate` is changed from `True` to `False`
+  return py_builtins.overload_of(f)(*args)
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000026129CBBD30> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612A074C70>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000026129E6B820> and <tensorflow_addons.layers.gelu.GELU object at 0x0000026129E6B3D0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000026129E72520> and <tensorflow_addons.layers.gelu.GELU object at 0x0000026129E72A30>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000026129FAAFD0> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612A152A90>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x000002612B3F3D00> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612B3F34C0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x0000026129FA7310> and <tensorflow_addons.layers.gelu.GELU object at 0x0000026129FA7490>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x000002612B3FA430> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612B3FA490>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x000002612A164040> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612A164EB0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x000002612B3F5070> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612B3F5D60>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x000002612B37E2E0> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612B37E1F0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x000002612B38A820> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612B38A730>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. Either the Trackable object references in the Python program have changed in an incompatible way, or the checkpoint was generated in an incompatible program.
+
+Two checkpoint references resolved to different objects (<tensorflow.python.keras.layers.core.Dense object at 0x000002612B39AD60> and <tensorflow_addons.layers.gelu.GELU object at 0x000002612B39AC70>).
+Checkpoint tensor equality ALL PASS, 162/162
+captured 1/600 truth=_silence_ predicted=_silence_ elapsed=2.5s
+captured 2/600 truth=_unknown_ predicted=_unknown_ elapsed=4.9s
+captured 3/600 truth=yes predicted=yes elapsed=7.3s
+captured 4/600 truth=no predicted=no elapsed=9.7s
+captured 5/600 truth=up predicted=up elapsed=12.0s
+captured 6/600 truth=down predicted=down elapsed=14.2s
+captured 7/600 truth=left predicted=left elapsed=16.7s
+captured 8/600 truth=right predicted=right elapsed=19.0s
+captured 9/600 truth=on predicted=on elapsed=21.3s
+captured 10/600 truth=off predicted=off elapsed=23.7s
+captured 11/600 truth=stop predicted=stop elapsed=25.9s
+captured 12/600 truth=go predicted=go elapsed=28.3s
+captured 25/600 truth=_silence_ predicted=_silence_ elapsed=32.4s
+captured 50/600 truth=_unknown_ predicted=_unknown_ elapsed=39.5s
+captured 75/600 truth=yes predicted=yes elapsed=46.5s
+captured 100/600 truth=no predicted=no elapsed=53.8s
+captured 125/600 truth=up predicted=up elapsed=60.6s
+captured 150/600 truth=down predicted=down elapsed=67.8s
+captured 175/600 truth=left predicted=left elapsed=74.8s
+captured 200/600 truth=right predicted=right elapsed=81.8s
+captured 225/600 truth=on predicted=on elapsed=88.7s
+captured 250/600 truth=off predicted=up elapsed=95.7s
+captured 275/600 truth=stop predicted=stop elapsed=102.8s
+captured 300/600 truth=go predicted=go elapsed=109.7s
+captured 325/600 truth=_silence_ predicted=_silence_ elapsed=116.8s
+captured 350/600 truth=_unknown_ predicted=_unknown_ elapsed=123.9s
+captured 375/600 truth=yes predicted=yes elapsed=131.0s
+captured 400/600 truth=no predicted=no elapsed=138.5s
+captured 425/600 truth=up predicted=up elapsed=145.7s
+captured 450/600 truth=down predicted=down elapsed=153.0s
+captured 475/600 truth=left predicted=left elapsed=160.0s
+captured 500/600 truth=right predicted=right elapsed=167.0s
+captured 525/600 truth=on predicted=on elapsed=174.0s
+captured 550/600 truth=off predicted=off elapsed=181.0s
+captured 575/600 truth=stop predicted=stop elapsed=188.1s
+captured 600/600 truth=go predicted=go elapsed=195.0s
+C:\Users\lenovo\Desktop\server5-10user\03_过程与分析\05_工具\tf24_env\Lib\site-packages\tensorflow_addons\activations\gelu.py:80: UserWarning: Default value of `approximate` is changed from `True` to `False`
+  warnings.warn(
+Traceback (most recent call last):
+  File "v2/py/qualify_real_speech.py", line 329, in <module>
+    main()
+  File "v2/py/qualify_real_speech.py", line 317, in main
+    rtl_suites=suites, source_sha256={str(f.relative_to(ROOT.parent)).replace('\\', '/'): sha(f) for f in source_files},
+  File "v2/py/qualify_real_speech.py", line 317, in <dictcomp>
+    rtl_suites=suites, source_sha256={str(f.relative_to(ROOT.parent)).replace('\\', '/'): sha(f) for f in source_files},
+  File "C:\Users\lenovo\Desktop\server5-10user\03_过程与分析\05_工具\python_runtimes\cpython-3.8.20-windows-x86_64-none\lib\pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'v2\\py\\qualify_real_speech.py' does not start with 'C:\\Users\\lenovo\\Desktop\\server5-10user'

@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,hashlib
+h=Path('/storage2/2026contest/server5/s5_10usr');assert Path.cwd().resolve()==h
+items=[['easy.py', '4eaafc6ef9f6bfbc4bca9668c58f1d3c67189d071bb7c97227fa57588aa3ef93', '5a39fe8af51f6effcc5611aaedc8a0149a17906b5d82846aa480bc5bf97a3c73', [[123, 123, ['      # VCS 2020 statically compiles SDF: install and audit it before compilation.\n', "      shutil.copy2(str(sta_dir/'mapped.sdf'),str(d/'mapped.sdf'))\n"]], [127, 127, ["      annotation=d/'sdf_annotation.log'\n", "      ann=annotation.read_text(errors='replace');assert 'SDF annotation completed:' in ann\n", "      for key in ['errors','warnings']:\n", "        m=re.search(r'Total '+key+r':\\s*(\\d+)',ann);assert m and int(m.group(1))==0,'Compile SDF '+key\n", "      compiled_sha256=sha(d/'simv')\n"]], [129, 130, ["      run([d/'simv','+sdfverbose','+ANNOTATION_ONLY'],probe,'run','ANNOTATION_PROBE PASS')\n", "      shutil.copy2(str(annotation),str(probe/'sdf_annotation.log'))\n"]], [139, 140, ["        text=run(['nice','-n','10',d/'simv','+sdfverbose','+VEC_DIR='+str(vec.resolve()),'+LAYER='+str(layer)],w,'run','ALL PASS, 1/1')\n"]], [141, 141, ["        assert re.search(r'Doing SDF annotation[^\\r\\n]*Done',text),'Runtime did not apply compiled SDF'\n", "        assert sha(d/'simv')==compiled_sha256,'Compiled simulation image changed'\n", "        shutil.copy2(str(annotation),str(w/'sdf_annotation.log'))\n"]], [153, 154, ["              'tb_sha256':sha(ROOT/'server_eda/tb_core_all_gate.sv'),'simv_sha256':compiled_sha256,\n", "              'annotation_phase':'VCS compile; identical audit log copied to each independent runtime directory',\n"]]]], ['tb_core_all_gate.sv', '75d5f9aaeba3fbd06e594692fbdb3cf61b651deaff34a235426e2742ee94935c', 'd7c5bdb94576b4b589de23ec018ba19162d0a5a51b35bd8c37aa974691522930', [[38, 39, ['  string dir;reg [31:0] frozen_result;reg frozen_error;\n']], [147, 149, []], [150, 151, ['    $sdf_annotate("mapped.sdf",dut,,"sdf_annotation.log","MINIMUM");\n']], [152, 153, ['    $sdf_annotate("mapped.sdf",dut,,"sdf_annotation.log","MAXIMUM");\n']]]]]
+for name,old,new,edits in items:
+ for v in ['v1','v2']:
+  p=h/v/'server_eda'/name;s=p.read_text();assert hashlib.sha256(s.encode()).hexdigest()==old,(v,name)
+  lines=s.splitlines(True)
+  for i,j,replacement in reversed(edits):lines[i:j]=replacement
+  data=''.join(lines).encode();assert hashlib.sha256(data).hexdigest()==new
+  p.write_bytes(data)
+print('STATIC_SDF_PATCH_PASS')

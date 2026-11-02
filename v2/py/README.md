@@ -6,6 +6,11 @@
 | export_weights.py | 指定 best_weights → 12 套 Dense1 W/b NPZ + format.json | 检查 checkpoint SHA 和 shape；不训练、不改原权重 |
 | make_vectors.py | 现有参数 + 测试数据 → ../vec/*.hex | 会写固定向量目录；平时仿真不需要运行 |
 | capture_activations.py | 原模型 + smoke/真实 WAV manifest → report.json、首样本 12 层 RTL HEX | 统计全部样本但只导出首样本；split 合法性需独立确认 |
+| download_speech_commands.py | Google 原始 V2 压缩包 → SHA/MD5、原划分表、9981 条验证 WAV | 训练/测试音频不解出；原始包保留在 Git 忽略的数据目录 |
+| run_model_python.py | 脚本参数 → 相邻 Python3.8 + TF2.4 进程 | 修复目录迁移后的运行入口，不改旧 venv 文件 |
+| qualify_real_speech.py | 自选验证 WAV/静音 → 600 例数值统计、原模型预测、多套 RTL HEX | 核对实际划分、上游处理图、162 个权重；不是官方最终 600 例 |
+| run_real_speech_rtl.py | 批量导出的 13 套 HEX → 现有 NICE/ICB TB 和汇总证据 | 只验证 v2；完整累加、写回、背压、复位、错误检查；不是 CPU SoC |
+| summarize_real_speech.py | 数值/RTL 结果及 SHA 清单 → 中文报告与证据再核验 | 在两类测试全部完成后运行；不根据工具退出码猜测通过 |
 | run_xsim.py | RTL/TB/HEX → Windows Vivado XSim build 日志 | 退出码及 ALL PASS 双重检查；默认 Vivado 2023.2 |
 | run_linux.py | 相同材料 → VCS 或 Xcelium 日志 | --sim vcs/xrun；完整核功能，不是 CPU 或 STA |
 | run_foundry_server.py / run_binding_server.py | 服务器真实宏/公共头 + 本方核 → 特定验证 | 有固定工作目录断言，属于早期专用入口；不用来自动改正式平台 |

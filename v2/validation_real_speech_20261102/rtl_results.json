@@ -1,0 +1,1207 @@
+{
+  "tool": "Vivado XSim 2023.2",
+  "scope": "v2 NICE/ICB behavioral-memory BFM; not E203 CPU or STA",
+  "suites": [
+    {
+      "suite": "class_00",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 139.23399999999674,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_00\\tb_kwt_system.sv": "e11d0a15c98c32fd3d6a9c9c8f2cf2a80bcbd9447d303ccf051e8a4a6a638a73"
+      }
+    },
+    {
+      "suite": "class_01",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 139.26600000000326,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_01\\tb_kwt_system.sv": "89a0bb3ba3af2351b8362f009a7630dc27d7617b655e48c02acb897a34f59338"
+      }
+    },
+    {
+      "suite": "class_02",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 137.32800000000861,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_02\\tb_kwt_system.sv": "270f54d8afae264532f2cfd4cf4b3eca237d005552c875488b1bf15b6e86a7bf"
+      }
+    },
+    {
+      "suite": "class_03",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 135.95300000000861,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_03\\tb_kwt_system.sv": "2d96009d1703fd231bb3d96ce937c4e0199311a111f1bb7c913075076ffec301"
+      }
+    },
+    {
+      "suite": "class_04",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 134.4220000000205,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_04\\tb_kwt_system.sv": "f0e1dc89aa470158f90a04fa202fcc3ee5171f7aa03621a7e70f15c2ca3b3635"
+      }
+    },
+    {
+      "suite": "class_05",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 135.70300000000861,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_05\\tb_kwt_system.sv": "7109059b99d3086c3a6e62cc16a19bac960aae11022e31d74d56fac27856e846"
+      }
+    },
+    {
+      "suite": "class_06",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 135.79699999999139,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_06\\tb_kwt_system.sv": "9dbe550a471332888278c58aba12e55f6cbd39774d65e8e51288e1daf0a88b58"
+      }
+    },
+    {
+      "suite": "class_07",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 138.17199999999139,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_07\\tb_kwt_system.sv": "6beea66c975d1da850ddbd0e36c212566faa16cec61e1a9b1a9c179a0b0bcdb3"
+      }
+    },
+    {
+      "suite": "class_08",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 135.5779999999795,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_08\\tb_kwt_system.sv": "f4ae31f2f7698dc02fa2851e3381bd4d45fa179ec7b41aa21339925acc00ed8a"
+      }
+    },
+    {
+      "suite": "class_09",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 132.46899999998277,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_09\\tb_kwt_system.sv": "716b53fb7bfd4233822deec52a9003ec7e66bc114e6534687529df016a1e8fd4"
+      }
+    },
+    {
+      "suite": "class_10",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 133.65600000001723,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_10\\tb_kwt_system.sv": "6224cd4d92ff247938d0209791b3d42c0550b38e5ca42e5e878f85c6fe01a752"
+      }
+    },
+    {
+      "suite": "class_11",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 132.96899999998277,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_class_11\\tb_kwt_system.sv": "1ea47a7e850c68f885baf648341844a39c6883944a527df87e89dd411e53abed"
+      }
+    },
+    {
+      "suite": "worst",
+      "tests": 29,
+      "full_matrices": 14,
+      "matrix_results": [
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "1",
+          "340271",
+          "12672"
+        ],
+        [
+          "2",
+          "340092",
+          "12672"
+        ],
+        [
+          "3",
+          "340090",
+          "12672"
+        ],
+        [
+          "4",
+          "339671",
+          "12672"
+        ],
+        [
+          "5",
+          "340117",
+          "12672"
+        ],
+        [
+          "6",
+          "339658",
+          "12672"
+        ],
+        [
+          "7",
+          "340157",
+          "12672"
+        ],
+        [
+          "8",
+          "340275",
+          "12672"
+        ],
+        [
+          "9",
+          "340240",
+          "12672"
+        ],
+        [
+          "10",
+          "340332",
+          "12672"
+        ],
+        [
+          "11",
+          "340343",
+          "12672"
+        ],
+        [
+          "0",
+          "340094",
+          "12672"
+        ],
+        [
+          "11",
+          "340094",
+          "12672"
+        ]
+      ],
+      "elapsed_seconds": 116.42200000002049,
+      "source_sha256": {
+        "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+        "rtl\\kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+        "rtl\\kwt_dot64.sv": "fb94a030864a383e0d97adb659576e1c74aeaad6041c0755d9c8ab6a078d1c3d",
+        "rtl\\kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+        "rtl\\kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+        "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+        "rtl\\kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424",
+        "rtl\\kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+        "rtl\\kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+        "rtl\\kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+        "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+        "build\\real_speech_20261102_worst\\tb_kwt_system.sv": "acaf9c85fc08ca1150238eb44dacc8d3ce3d349a47ba7a9adddb48e44c11c117"
+      }
+    }
+  ],
+  "tests_passed": 377,
+  "full_matrix_executions": 182,
+  "output_int16_elements_checked": 4612608,
+  "accumulator_int40_elements_checked": 4612608,
+  "elapsed_seconds": 658.0320000000065
+}

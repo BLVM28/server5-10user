@@ -14,3 +14,19 @@
 *.stackdump
 Thumbs.db
 .DS_Store
+
+# Server/private implementation and generated packages stay out of the public repository.
+/v[12]/implementation/**
+!/v[12]/implementation/README.md
+/v[12]/packages/*.zip
+/v[12]/packages/*.json
+/v[12]/history/*.zip
+/v[12]/releases/*.zip
+/shared/libraries/
+/shared/library_selection.json
+/v[12]/.manual.lock
+# The canonical published vectors are v2/vec/real_speech; retain original capture locally.
+/v2/validation_real_speech_20261102/rtl/
+# Transfer scratch archives/screenshots are local evidence, not source dependencies.
+/03_过程与分析/05_工具/服务器整理_20261102/*.zip
+/03_过程与分析/05_工具/服务器整理_20261102/*.png
