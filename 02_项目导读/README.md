@@ -19,3 +19,4 @@
 7. [v3 八列与提频](../v3/README.md) 配套 [模块导读](../v3/rtl/README.md)、[正式服务器入口](../v3/SERVER_GUIDE.md) 和 [五个分类包](../v3/packages/README.md)。先比较 v2/v3 在统一 150 MHz 的周期，再比较各自通过的时钟点。
 8. [v3.1 同频吞吐优化](../v3.1/README.md) 配套 [预取时序](../v3.1/ARCHITECTURE.md)、[逐层对照与工艺结果](../v3.1/RESULTS.md) 及 [服务器手册](../v3.1/SERVER_GUIDE.md)。重点看单口 SRAM 怎样容纳两块权重，以及遇到慢总线怎样补读。
 9. [v4 三行八列与无损写回](../v4/README.md) 给出两种 E203 描述符、各类语音的实测吞吐、原始金值及软件解码。先读 [数据格式](../v4/integration/README.md)，再看 [结果](../v4/RESULTS.md) 和 [手动测试](../v4/SERVER_GUIDE.md)。
+10. [v4.1 新格式](../v4.1/README.md) 将三个字节传输布局与同一个 NICE 指令绑定。[软件接口](../v4.1/integration/README.md) 说明给芯片的数据，[准确度与吞吐](../v4.1/RESULTS.md) 区分数值、周期及完整 E203 的验证边界。

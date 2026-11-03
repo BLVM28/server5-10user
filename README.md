@@ -16,6 +16,7 @@
 | 5 | [v3 版本首页](v3/README.md) · [正式目录操作](v3/SERVER_GUIDE.md) · [分类包](v3/packages/README.md) | 为什么仍用八列、两处 RTL 改动、200 MHz 的面积/周期代价，以及怎样自行测试 |
 | 6 | [v3.1 版本首页](v3.1/README.md) · [服务器手册](v3.1/SERVER_GUIDE.md) · [结果](v3.1/RESULTS.md) | 利用已有权重 SRAM 做预取，12 个矩阵同频吞吐较 v3 提升 20.35%，另测新的乘法流水和整核时序 |
 | 7 | [v4 首页](v4/README.md) · [两种输出格式](v4/integration/README.md) · [服务器测试](v4/SERVER_GUIDE.md) | 三行八列与无损写回，比较同一 150 MHz 下的原始和紧凑模式、数据相关吞吐、准确度和面积 |
+| 8 | [v4.1 首页](v4.1/README.md) · [性能与误差](v4.1/RESULTS.md) · [服务器操作](v4.1/SERVER_GUIDE.md) | 150 MHz、1,500 tasks/s 目标。原有两种格式继续可用，新增按块共用指数的第三种格式 |
 | 查证 | [事实基线](03_过程与分析/02_交给AI/事实基线.md)、[RTL 契约](03_过程与分析/02_交给AI/RTL生成任务书.md) | 证据来源和不能随意修改的约定；旧章节按日期看，最新追加优先 |
 
 ## 目录地图
@@ -28,6 +29,7 @@
 | `v3/` | 200 MHz 提频版本 | 沿用八列/15 宏，改分段累加；200 MHz 整核 STA 通过，面积较 v2 +1.06%。[架构](v3/ARCHITECTURE.md) · [实测](v3/RESULTS.md) · [正式目录验收](v3/SERVER_RESULTS.md) |
 | `v3.1/` | 权重预取版本 | 仍为八路和 15 宏，当前页计算与下一页加载重叠。详细职责、时序实测和五类包见[版本首页](v3.1/README.md)。 |
 | `v4/` | 1000 tasks/s 吞吐版本 | 24 路算术、分页 DMA、兼容原始 int16 的无损紧凑输出。[架构](v4/ARCHITECTURE.md) · [对照测试](v4/RESULTS.md) · [分类包](v4/packages/README.md) |
+| `v4.1/` | 1500 tasks/s 吞吐版本 | 固定 12,827 笔事务、三种格式、重新实测 600 条语音。[架构](v4.1/ARCHITECTURE.md) · [数值与工艺报告](v4.1/RESULTS.md) · [分类包](v4.1/packages/README.md) |
 | `v1/` | 对照基线 | 较保守的初版实现；用于同条件比较，不作为新增功能的默认修改处 |
 | `vm_eda/` | 最新工具流程和结果 | 私有 VM 的 Genus/Tempus/Xcelium 脚本；SMIC40 修复脚本；保留可读的结果摘要 |
 | `releases/` | 正式冻结交付 | 原 v1/v2 与 fix1 ZIP、哈希；原 ZIP 字节不改；整理后的 README 是工作区导航，不倒灌进旧包 |

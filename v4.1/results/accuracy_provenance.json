@@ -1,0 +1,9 @@
+{
+  "samples": 600,
+  "comparisons": 7200,
+  "real_wavs_checked": 550,
+  "manifest_v2_sha256": "9c38991b2473c473f20881ef91ac6a20b61e8b2f3ad202386338325b01411dfd",
+  "prior_v4_numeric_report_sha256": "d98631eca071bd15e8b585ef0111813a7da374637c874779c999cef975c50c93",
+  "case_report_sha256": "a39d7aa162bfb65fe714094e38dceb9be88f937b5a17c98b969b01a85fc9c037",
+  "qualifier_sha256": "8359f57951214f3dbf58ae3787e66e590b05e0fda058e20d411561e45bc9683c"
+}

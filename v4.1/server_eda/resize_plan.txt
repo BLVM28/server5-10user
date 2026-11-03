@@ -1,0 +1,3 @@
+# Actual SS U135 load 0.068307 pF compared with the INV2SR limit 0.067151.
+# Exact instance, old/new Boolean-equivalent references, output pin, measured capacitance in pF.
+core/dma/U135 INV2SR_12TH40 INV3SR_12TH40 ZN 0.068307

@@ -1,0 +1,13 @@
+{
+  "rtl_suites": 50,
+  "map_sha256": "be5d3632f30685ad612099c5896ca56d1d27f4448430c03f7733233240437d36",
+  "gate_corners": [
+    "ss",
+    "ff"
+  ],
+  "gate_layer": 0,
+  "gate_tb_sha256": "5a5d6db760ccb87fa3b29a552cb3ecdcff54aa09ea7d9aaac4f6cf8692f20799",
+  "fast_cycles": 1127815,
+  "accuracy_cases": 7200,
+  "class_tasks": 144
+}

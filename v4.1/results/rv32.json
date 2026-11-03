@@ -1,0 +1,8 @@
+{
+  "compiler": "xPack riscv-none-elf-gcc 15.2.0",
+  "flags": "-march=rv32imac -mabi=ilp32 -ffreestanding -std=c11 -O2 -Wall -Wextra -Werror",
+  "object": "elf32-littleriscv",
+  "custom_word": "8001657b",
+  "object_sha256": "546a2f2fa6994f8d7bea0fbeb0426fb79ce696ff8a94f87e6cf9c490e4de9cca",
+  "source_sha256": "438b38ea58b61d7508e826363950bdc8e2bf730126442db64f658973b5a5b359"
+}
