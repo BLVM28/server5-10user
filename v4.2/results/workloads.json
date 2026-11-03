@@ -1,0 +1,506 @@
+{
+  "base": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1887943,
+      "reads": 139488,
+      "writes": 134530
+    },
+    "tb_kwt_precision": {
+      "cycles": 1409906,
+      "layers": [
+        124072,
+        121246,
+        117281,
+        116236,
+        118688,
+        115362,
+        115547,
+        115194,
+        113133,
+        113021,
+        116104,
+        124022
+      ],
+      "reads": 84390,
+      "writes": 127775
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_00": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1497894,
+      "reads": 139488,
+      "writes": 75226
+    },
+    "tb_kwt_precision": {
+      "cycles": 865736,
+      "layers": [
+        70207,
+        67971,
+        70734,
+        70957,
+        71229,
+        68420,
+        67780,
+        66980,
+        67381,
+        71284,
+        80663,
+        92130
+      ],
+      "reads": 70941,
+      "writes": 56491
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_01": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1728567,
+      "reads": 139488,
+      "writes": 110494
+    },
+    "tb_kwt_precision": {
+      "cycles": 952828,
+      "layers": [
+        76702,
+        75764,
+        77654,
+        77818,
+        78445,
+        76105,
+        74806,
+        73664,
+        74387,
+        78514,
+        88384,
+        100585
+      ],
+      "reads": 79333,
+      "writes": 62181
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_02": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1625324,
+      "reads": 139488,
+      "writes": 94704
+    },
+    "tb_kwt_precision": {
+      "cycles": 929321,
+      "layers": [
+        75870,
+        73612,
+        76052,
+        76304,
+        76633,
+        73869,
+        72805,
+        71914,
+        72289,
+        76628,
+        85902,
+        97443
+      ],
+      "reads": 78095,
+      "writes": 59522
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_03": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1719352,
+      "reads": 139488,
+      "writes": 109183
+    },
+    "tb_kwt_precision": {
+      "cycles": 939043,
+      "layers": [
+        78425,
+        74347,
+        77303,
+        77160,
+        77696,
+        74525,
+        73438,
+        71927,
+        72295,
+        77059,
+        86773,
+        98095
+      ],
+      "reads": 78825,
+      "writes": 60485
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_04": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1737247,
+      "reads": 139488,
+      "writes": 111938
+    },
+    "tb_kwt_precision": {
+      "cycles": 975114,
+      "layers": [
+        78234,
+        76159,
+        78575,
+        79316,
+        80177,
+        76857,
+        77270,
+        76171,
+        77459,
+        80716,
+        90578,
+        103602
+      ],
+      "reads": 80060,
+      "writes": 64992
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_05": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1725315,
+      "reads": 139488,
+      "writes": 110182
+    },
+    "tb_kwt_precision": {
+      "cycles": 945859,
+      "layers": [
+        77103,
+        74963,
+        77338,
+        77831,
+        78318,
+        74935,
+        74288,
+        73565,
+        73273,
+        77894,
+        87194,
+        99157
+      ],
+      "reads": 79144,
+      "writes": 61219
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_06": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1723018,
+      "reads": 139488,
+      "writes": 109610
+    },
+    "tb_kwt_precision": {
+      "cycles": 944358,
+      "layers": [
+        76363,
+        74310,
+        76960,
+        77169,
+        77628,
+        74389,
+        73682,
+        73165,
+        74165,
+        78101,
+        88276,
+        100150
+      ],
+      "reads": 79055,
+      "writes": 61075
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_07": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1727083,
+      "reads": 139488,
+      "writes": 110309
+    },
+    "tb_kwt_precision": {
+      "cycles": 951617,
+      "layers": [
+        77941,
+        75790,
+        77784,
+        78080,
+        78777,
+        75539,
+        74815,
+        73103,
+        73932,
+        78601,
+        87431,
+        99824
+      ],
+      "reads": 79388,
+      "writes": 61978
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_08": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1723321,
+      "reads": 139488,
+      "writes": 109540
+    },
+    "tb_kwt_precision": {
+      "cycles": 936449,
+      "layers": [
+        76600,
+        73297,
+        76052,
+        77170,
+        77296,
+        74197,
+        73549,
+        72305,
+        73372,
+        77338,
+        86925,
+        98348
+      ],
+      "reads": 78758,
+      "writes": 60119
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_09": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1721480,
+      "reads": 139488,
+      "writes": 109361
+    },
+    "tb_kwt_precision": {
+      "cycles": 945768,
+      "layers": [
+        76709,
+        73722,
+        76804,
+        77593,
+        77895,
+        74777,
+        74011,
+        73109,
+        74170,
+        78589,
+        88418,
+        99971
+      ],
+      "reads": 79120,
+      "writes": 61183
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_10": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1729217,
+      "reads": 139488,
+      "writes": 110514
+    },
+    "tb_kwt_precision": {
+      "cycles": 948071,
+      "layers": [
+        78207,
+        74834,
+        77382,
+        77649,
+        78145,
+        75000,
+        73879,
+        73566,
+        74418,
+        78774,
+        87188,
+        99029
+      ],
+      "reads": 79257,
+      "writes": 61559
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "class_11": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1718660,
+      "reads": 139488,
+      "writes": 108925
+    },
+    "tb_kwt_precision": {
+      "cycles": 935408,
+      "layers": [
+        76317,
+        73676,
+        76169,
+        76558,
+        77269,
+        73996,
+        73633,
+        72355,
+        73010,
+        77329,
+        86889,
+        98207
+      ],
+      "reads": 78667,
+      "writes": 60148
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  },
+  "worst": {
+    "tb_kwt_block8": {
+      "cycles": 1072137,
+      "reads": 72900,
+      "writes": 81024
+    },
+    "tb_kwt_compact": {
+      "cycles": 1550911,
+      "reads": 139488,
+      "writes": 83402
+    },
+    "tb_kwt_precision": {
+      "cycles": 887349,
+      "layers": [
+        70207,
+        67971,
+        70734,
+        70957,
+        71229,
+        68420,
+        67780,
+        73825,
+        74706,
+        71346,
+        80882,
+        99292
+      ],
+      "reads": 72892,
+      "writes": 57962
+    },
+    "tb_kwt_system": {
+      "cycles": 2000859,
+      "reads": 139488,
+      "writes": 152064
+    }
+  }
+}

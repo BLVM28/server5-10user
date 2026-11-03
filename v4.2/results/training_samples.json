@@ -1,0 +1,134 @@
+[
+  {
+    "path": "yes/1b88bf70_nohash_0.wav",
+    "sha256": "cc6c82cd831cded57ce53ac85c4ba14aff1bd014d3fab59b2761d5f21a05a0d2"
+  },
+  {
+    "path": "yes/05b2db80_nohash_1.wav",
+    "sha256": "d489cc726d91b80ee9575e91c04c171d819d58715703a4ee8af244e7b4f5fa3f"
+  },
+  {
+    "path": "yes/b66f4f93_nohash_5.wav",
+    "sha256": "6a57f3ca15011eb0dd98a75689ff2f35779a09946bdea74148403f30533edca1"
+  },
+  {
+    "path": "no/b66f4f93_nohash_5.wav",
+    "sha256": "9c575a0fcf35fb085e866cd650aa63ca0f62798fae3e1c06588317b4ee010e65"
+  },
+  {
+    "path": "no/66cbe2b3_nohash_2.wav",
+    "sha256": "ed96d731f1edffe153f14d4f08f8a075abe43e418f21b64ea8b589da32120f43"
+  },
+  {
+    "path": "no/3852fca2_nohash_0.wav",
+    "sha256": "4f54c29bbeb28b7906474faab1b7c699e18992948d5b4bec393d10dd0b03ffe5"
+  },
+  {
+    "path": "left/1b88bf70_nohash_0.wav",
+    "sha256": "ebc5bc8d30ca4de3f8f5b3a2c2637dbf498a0c99e2064e2aa3af1ee16df096f3"
+  },
+  {
+    "path": "left/b66f4f93_nohash_5.wav",
+    "sha256": "f69b5f3390b1e035418b6f42aa500cf81f507f6eb4bd39d7f536f03b08045d81"
+  },
+  {
+    "path": "left/1a6eca98_nohash_0.wav",
+    "sha256": "81939293fbf61b7129e87b85b019c560a7510d94389a483fb5f06a53caeb47da"
+  },
+  {
+    "path": "bird/1b88bf70_nohash_0.wav",
+    "sha256": "097228999d33f5623df38e15785ee8ce213d92da93c55d71d1beb8ac29904e92"
+  },
+  {
+    "path": "bird/0b40aa8e_nohash_1.wav",
+    "sha256": "b13e2998cee65800b48d6de7d782fcbcf2a9ac2a5c35bfa18a3fdf385a15dc79"
+  },
+  {
+    "path": "bird/1a6eca98_nohash_0.wav",
+    "sha256": "a17149ce77a3ec55dc302a09058366880287244301ae8cacdc3d4ca78fb40c91"
+  },
+  {
+    "path": "go/b12bef84_nohash_1.wav",
+    "sha256": "1fe97f92307f773b263530a0b0878b6e225abff17d387cb5719853a0fc1f804d"
+  },
+  {
+    "path": "go/b66f4f93_nohash_5.wav",
+    "sha256": "78915be400111327b1cd9ad1562ffe901931c759db2ca0b11331d42675cb0a20"
+  },
+  {
+    "path": "go/1a6eca98_nohash_0.wav",
+    "sha256": "9c8d52f389f2af047bface2bf8b36d0022bb865b73428cf068cbe0d97a163c6c"
+  },
+  {
+    "path": "down/1b88bf70_nohash_0.wav",
+    "sha256": "d11e0bd03b243392569ac71618b5beedd74c073a94a6f5faf06a9aa20f85440e"
+  },
+  {
+    "path": "down/b12bef84_nohash_1.wav",
+    "sha256": "881bc4ae1b923daab5aa8df009d0571a863bfefb4198449e35b16195376c69b4"
+  },
+  {
+    "path": "down/05b2db80_nohash_1.wav",
+    "sha256": "b0a9edcf2c5eaee822ab060d0e1a531ac03e785f80ee705aa238a19ae4693a61"
+  },
+  {
+    "path": "off/1b88bf70_nohash_0.wav",
+    "sha256": "6e5d6bcf3a1fb17379c9789228d5de7260e96ec7e7cb24abdddb3b6752c9b1ea"
+  },
+  {
+    "path": "off/b12bef84_nohash_1.wav",
+    "sha256": "62b4711b0f353afae5f6857fb2848773c3732165acf394d5c492ccea44f4b130"
+  },
+  {
+    "path": "off/05b2db80_nohash_1.wav",
+    "sha256": "3b833494f3801df216fc35e30ae01dfb5a6331b6e237e73b782e314179a3b9bb"
+  },
+  {
+    "path": "right/1b88bf70_nohash_0.wav",
+    "sha256": "40b0064f70fe9c655890310aabbd2f630773a9b6db79c9aabad70d472369c0a2"
+  },
+  {
+    "path": "right/b12bef84_nohash_1.wav",
+    "sha256": "51bc326a53bbb3d2b241c0cdaeb0795ef4524d196cbb479859f6626cb14d51e5"
+  },
+  {
+    "path": "right/05b2db80_nohash_1.wav",
+    "sha256": "78dcf2ef8179ed28194660ac8417be30e2dfc95ac1d7f3d260b80612861447b7"
+  },
+  {
+    "path": "stop/1b88bf70_nohash_0.wav",
+    "sha256": "60534d412aa331651605a54e2b783485849fd705caaff9bfc3a345257617b1aa"
+  },
+  {
+    "path": "stop/b66f4f93_nohash_5.wav",
+    "sha256": "26f611e1eccd3e13657e82d055c8891ca4f649acf57dff9c2980ead858f93636"
+  },
+  {
+    "path": "stop/3852fca2_nohash_0.wav",
+    "sha256": "b366e3f78dfe3cfa80c67ebbbd3161fda8f9328e3f7af866502e4bbfb1c00a5f"
+  },
+  {
+    "path": "up/1b88bf70_nohash_0.wav",
+    "sha256": "2f25ecdf867ce970b5d49f97df100c6bcf39548b37083506fa3e7d7884126412"
+  },
+  {
+    "path": "up/b66f4f93_nohash_5.wav",
+    "sha256": "e61679dccb3c0228595247b81fe55f566fcd31a6414d7bfb5cfb31f1d100bb34"
+  },
+  {
+    "path": "up/66cbe2b3_nohash_2.wav",
+    "sha256": "a76b96c36856c32884a47e0bef7eaeab1e3ab8fe3d79219de07e8d11c6c031bd"
+  },
+  {
+    "path": "on/1b88bf70_nohash_0.wav",
+    "sha256": "631bc337f5cf82cf0821385dc6619a57ab1652eaae9fa1618e9024e01a660e94"
+  },
+  {
+    "path": "on/b66f4f93_nohash_5.wav",
+    "sha256": "2f8fdbdfdfacdd8b18629c2c0568d2bd6df26a58b87a57876083382bd9134d37"
+  },
+  {
+    "path": "on/3852fca2_nohash_0.wav",
+    "sha256": "7210cbbed246ee50c32b2001ecbcb0f916dcd4d961d2a1a07aba040c0c475891"
+  }
+]

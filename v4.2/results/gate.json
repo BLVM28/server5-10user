@@ -1,0 +1,20 @@
+[
+  {
+    "corner": "ss",
+    "layer": 0,
+    "log_sha256": "babf39bf03b480427d1dceca1149e282ebf525e7caf22ec697994e150441ebdc",
+    "netlist_sha256": "10208b5e54917f06675522b84682bcf3da9fe4fd447da27dd80592288e7d6069",
+    "sdf_sha256": "f4229a82e7d930821a7f346beb94a9bcc037257d323fc2927625ab16181545f3",
+    "transactions": 10274,
+    "writes": 4471
+  },
+  {
+    "corner": "ff",
+    "layer": 0,
+    "log_sha256": "08145f5024d003eaa86663eede7c15bff0f07460925252933a147f0a3b4136d3",
+    "netlist_sha256": "10208b5e54917f06675522b84682bcf3da9fe4fd447da27dd80592288e7d6069",
+    "sdf_sha256": "5126c1e3d289d5fa412de037ce21b8cdd1c72201b8c1a5a572346083cb95daf2",
+    "transactions": 10274,
+    "writes": 4471
+  }
+]

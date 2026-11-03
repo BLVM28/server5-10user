@@ -1,0 +1,26 @@
+{
+  "tb_kwt_block8_immediate": [
+    12,
+    "f3934eb604937bc1a3ca835ded3e174377dc5ba11f96e0d40e4dda146df03cf0"
+  ],
+  "tb_kwt_fast_return": [
+    1,
+    "af40604dd5fa10c8f76f2f1ee1b73880143907993420bbad40477fc3c4d87faa"
+  ],
+  "tb_kwt_modes": [
+    8,
+    "d7bffe9caf03ee0d1d843e5b41bc3b7968eae1f2ff7d17cfb575f5b98054c78f"
+  ],
+  "tb_kwt_precision_immediate": [
+    12,
+    "3e77cfc25efebb323104b96a360e5318c486f4e2291d8d6ee0f0cae72859dfb8"
+  ],
+  "tb_kwt_rice_codec": [
+    1542,
+    "8085948fb2dd79915c4fe5808fe85e4ae99e10ba3e84ab3f1afb9e6ea750f149"
+  ],
+  "tb_kwt_stream_dot": [
+    64,
+    "b8cd8badeaf8a4eff715233bd9ad5a764d3eac1e0b75b2dbae126fa60c5a20f4"
+  ]
+}

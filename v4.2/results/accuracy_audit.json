@@ -1,0 +1,11 @@
+{
+  "training_wavs": 33,
+  "validation_wavs": 550,
+  "silence_copies": 50,
+  "validation_sha256": "a6d28b91ab148c975e5fc8664c105223426fd06da69a6b7072cb6af4bc9e7053",
+  "v41_validation_reference": "9c38991b2473c473f20881ef91ac6a20b61e8b2f3ad202386338325b01411dfd",
+  "training_sha256": "d85dbee8dd060e532e9656159d9447900f8b266139fa22adff1e28735a6b7270",
+  "qualifier_sha256": "733d84b7e4ddf0025c8c7625ffa413eecd4809abd4559caaaa30882bb0ba1262",
+  "train_capture_sha256": "cf5d8f521e31dd907515e35274a26ee86bcc903bac26a96412692d62cff76060",
+  "cases_sha256": "e96a88d4f796695141233c7b774e374b2da22ac161db57d22dc1b67420b11bbd"
+}
