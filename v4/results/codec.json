@@ -1,0 +1,1903 @@
+{
+  "scope": "software encode plus two independent decoders, 14 sets x 12 layers x 2 byte orders",
+  "software_frames": 336,
+  "actual_dut_frames": 12,
+  "captured_sha256": [
+    "652821050374f84f1f342217387c2d63b50a9f474c7ce4634fe1b45cacc88d7d",
+    "00598773c06a4c6a6825d40c1d3c7fcdab1013a6cf7b675059d6678727723367",
+    "324a719f1fac4465fd5e33ba1a12149b58c6084d8a944217d12d37e42330b8da",
+    "ac1e57ccca1f73c3a87e316601559126f69c9e02c288e05573eb864ca013e186",
+    "10ad974d75e21d6dd2aaf1c3bb449303d0b294a376508dada896bb5e0d72ce40",
+    "75fb5fb53fa874dae7d84fd465f7fdd94135d93d33c688ca5b838625abd559d2",
+    "b77fc49a6d5d8728d0447ea00017379156e5d93df223acf9710b324f5e4379e0",
+    "e90f8f2e8386cd435ef1206bbca9f25d844d2d418f50b4794cdf3f0932340dc1",
+    "42830f76e1d73018843fba3207b089a761073958bc35f3f4ea498a755dc83a4c",
+    "6bfa45a236ed5ea56125e2a4cb3e47b4c174c8cbe981c8051c3bfd66fcc91965",
+    "0216153c3722510cf57dcaf571d0136e267f586e88880ac2307da1c1944b1700",
+    "bf076b15a925f48f5b908461052cb0647f83d6d769e9bf6e863666a6e054da74"
+  ],
+  "c_result": "C DECODE PASS 348 frames",
+  "matrices": {
+    "base": [
+      {
+        "layer": 0,
+        "y_sha256": "b35eb35b49290bd2c1699dc856f01d8d55bb5358182a8732359a9cfce3d304d9",
+        "modes": [
+          0,
+          4,
+          1482,
+          1682
+        ],
+        "physical_writes": 11406
+      },
+      {
+        "layer": 1,
+        "y_sha256": "95350be81634e917e325d1e46e197d9930b0daa3f96cec51ac9714549809fe5c",
+        "modes": [
+          0,
+          6,
+          1221,
+          1941
+        ],
+        "physical_writes": 11663
+      },
+      {
+        "layer": 2,
+        "y_sha256": "22138fdd246844404e9f52076fcf1397ac2b42005ff58cb65c8604ecfba219e6",
+        "modes": [
+          0,
+          64,
+          1470,
+          1634
+        ],
+        "physical_writes": 11298
+      },
+      {
+        "layer": 3,
+        "y_sha256": "1207362b9f97b097807a609fef3d6a15c466e3764e097c789c38f5c3f3b65c09",
+        "modes": [
+          0,
+          47,
+          1462,
+          1659
+        ],
+        "physical_writes": 11340
+      },
+      {
+        "layer": 4,
+        "y_sha256": "f13387cb43f3542003b8dcc7df1ac20a716096f3dff704b7cd098f2d85ee442d",
+        "modes": [
+          0,
+          96,
+          1825,
+          1247
+        ],
+        "physical_writes": 10879
+      },
+      {
+        "layer": 5,
+        "y_sha256": "533f3c9e6f26b5ca73655d7d35569d421695b9e3a3d30d4e49c8777879b12b38",
+        "modes": [
+          0,
+          196,
+          1878,
+          1094
+        ],
+        "physical_writes": 10626
+      },
+      {
+        "layer": 6,
+        "y_sha256": "cecc7d9e14a8f801fd571647ce76de5954e14772ee02c672cfeb4b45ad8b62f1",
+        "modes": [
+          0,
+          502,
+          1806,
+          860
+        ],
+        "physical_writes": 10086
+      },
+      {
+        "layer": 7,
+        "y_sha256": "e80a270e8e0168336156e53f3a880793f8e6ee85b1112e20784b5d20e26a650e",
+        "modes": [
+          0,
+          395,
+          1639,
+          1134
+        ],
+        "physical_writes": 10467
+      },
+      {
+        "layer": 8,
+        "y_sha256": "1eab98af8e7b5873ffc8a60e346589b7a240aa4da15e8a93d31883b7d0f6d293",
+        "modes": [
+          0,
+          257,
+          1666,
+          1245
+        ],
+        "physical_writes": 10716
+      },
+      {
+        "layer": 9,
+        "y_sha256": "ea0773e6d9885b85fa10164629e20af7d250709ee015d69282de2bbc0d237567",
+        "modes": [
+          0,
+          47,
+          1337,
+          1784
+        ],
+        "physical_writes": 11465
+      },
+      {
+        "layer": 10,
+        "y_sha256": "680b37b6950021d2325d4649166392a83a9688e2fb52f8bc3636ad94514682e1",
+        "modes": [
+          0,
+          0,
+          853,
+          2315
+        ],
+        "physical_writes": 12043
+      },
+      {
+        "layer": 11,
+        "y_sha256": "ba82d3b169d49f7f012a52b8ffacf85c60bfbe866e7ceab790a24b782a59888b",
+        "modes": [
+          0,
+          1,
+          353,
+          2814
+        ],
+        "physical_writes": 12541
+      }
+    ],
+    "class_00": [
+      {
+        "layer": 0,
+        "y_sha256": "7fc078d2668747642f7d23bc2e69311c85e959d43ee4050d181a5e2bb45f011c",
+        "modes": [
+          590,
+          2512,
+          23,
+          43
+        ],
+        "physical_writes": 6079
+      },
+      {
+        "layer": 1,
+        "y_sha256": "3ae428fdeb2d1cd132e48bbfaeb74b32ea566823f498373a440740ced6eb62e1",
+        "modes": [
+          390,
+          2654,
+          80,
+          44
+        ],
+        "physical_writes": 6338
+      },
+      {
+        "layer": 2,
+        "y_sha256": "f6ddf895d6ab3b037846b0a4f3b348ce56e1ebf161a12e630d13fe8ded8ea17b",
+        "modes": [
+          601,
+          2434,
+          100,
+          33
+        ],
+        "physical_writes": 6125
+      },
+      {
+        "layer": 3,
+        "y_sha256": "33ffa6c35115a95d1ee6459b2cb028069708ab7f2f9e748700552d5c722289c5",
+        "modes": [
+          539,
+          2461,
+          134,
+          34
+        ],
+        "physical_writes": 6223
+      },
+      {
+        "layer": 4,
+        "y_sha256": "ba421ee8ae6b223cf386d29d96f21038ecc1bdf602d09884f1980ef2095ddd9e",
+        "modes": [
+          844,
+          2143,
+          151,
+          30
+        ],
+        "physical_writes": 5927
+      },
+      {
+        "layer": 5,
+        "y_sha256": "481c669a6b31811c7dd6a87ad8786112378ab2e3f900572369050c8751d204b3",
+        "modes": [
+          735,
+          2228,
+          177,
+          28
+        ],
+        "physical_writes": 6058
+      },
+      {
+        "layer": 6,
+        "y_sha256": "0296743cf6f164e0a356f3d7534397bc6d42bb98eb182318d3ddaebf2434f7a4",
+        "modes": [
+          1295,
+          1656,
+          191,
+          26
+        ],
+        "physical_writes": 5508
+      },
+      {
+        "layer": 7,
+        "y_sha256": "8fd26da9a5c17e286ad5871523090d3b2c07af1bd505e5758e7d794e6f88d700",
+        "modes": [
+          998,
+          1944,
+          205,
+          21
+        ],
+        "physical_writes": 5809
+      },
+      {
+        "layer": 8,
+        "y_sha256": "8871173cdfa9eec3d77a97cf9c56629b9ff2580b72a48a885aea621b915f15e7",
+        "modes": [
+          579,
+          2303,
+          264,
+          22
+        ],
+        "physical_writes": 6289
+      },
+      {
+        "layer": 9,
+        "y_sha256": "236454875d93c1f43387bd72efc91e9e537bca7f49c6110ea1efad2b6f08763d",
+        "modes": [
+          207,
+          2556,
+          363,
+          42
+        ],
+        "physical_writes": 6800
+      },
+      {
+        "layer": 10,
+        "y_sha256": "71993074a537060e6a25f95d590163403be038e6bfad8c877978b4f81c38b326",
+        "modes": [
+          53,
+          2712,
+          357,
+          46
+        ],
+        "physical_writes": 6956
+      },
+      {
+        "layer": 11,
+        "y_sha256": "e4595db17b5a0bfc7050f41504a87e78b006369614d00c81e2ee04504be131b1",
+        "modes": [
+          0,
+          2672,
+          438,
+          58
+        ],
+        "physical_writes": 7114
+      }
+    ],
+    "class_01": [
+      {
+        "layer": 0,
+        "y_sha256": "e1f5d4032f8042880d819f56d518511395bc4a935aa9bd421aacfeaba716e4b4",
+        "modes": [
+          0,
+          217,
+          2897,
+          54
+        ],
+        "physical_writes": 9565
+      },
+      {
+        "layer": 1,
+        "y_sha256": "edab9435a801956436f641e30cf795393bf5925e08e788b91c7ef8e8ed33c7be",
+        "modes": [
+          0,
+          255,
+          2845,
+          68
+        ],
+        "physical_writes": 9541
+      },
+      {
+        "layer": 2,
+        "y_sha256": "93a8e47634fee84a494a502fcd9dd40d78f84bf073d0e3837fa54bcd9e1ab43b",
+        "modes": [
+          1,
+          503,
+          2601,
+          63
+        ],
+        "physical_writes": 9286
+      },
+      {
+        "layer": 3,
+        "y_sha256": "e210d2462664359734f2d031c45c9f88066fa3294c6ab175e7822585d38ec75e",
+        "modes": [
+          0,
+          487,
+          2642,
+          39
+        ],
+        "physical_writes": 9280
+      },
+      {
+        "layer": 4,
+        "y_sha256": "f98b67344a3cc017ebc18b476504a42aa6e9b3cb852b8d7c713571546ebe793e",
+        "modes": [
+          5,
+          903,
+          2230,
+          30
+        ],
+        "physical_writes": 8845
+      },
+      {
+        "layer": 5,
+        "y_sha256": "ab376682bc0e77b2c7d3dd87966e18da32904eed2b9d7fa741646b65a9f44aba",
+        "modes": [
+          6,
+          895,
+          2226,
+          41
+        ],
+        "physical_writes": 8862
+      },
+      {
+        "layer": 6,
+        "y_sha256": "5eb96de3f3fa80f7a0d6f8518762a4c2f37dd1bbb2254d76d53034653b8cdb87",
+        "modes": [
+          28,
+          1410,
+          1702,
+          28
+        ],
+        "physical_writes": 8290
+      },
+      {
+        "layer": 7,
+        "y_sha256": "f25f5fc157fd02cb9cdaaca4136c1e0d22224616d1f748b3ad2b154458a3ab36",
+        "modes": [
+          25,
+          1128,
+          1961,
+          54
+        ],
+        "physical_writes": 8604
+      },
+      {
+        "layer": 8,
+        "y_sha256": "f60f4d5b707a68123b0ac45f5f88218f2475b5da535d54a7555eeecea84ee7da",
+        "modes": [
+          20,
+          702,
+          2398,
+          48
+        ],
+        "physical_writes": 9034
+      },
+      {
+        "layer": 9,
+        "y_sha256": "9df410411c578d1dfff6242758cf8e243d26137ade7d7c148794886e7b50ec47",
+        "modes": [
+          4,
+          262,
+          2820,
+          82
+        ],
+        "physical_writes": 9540
+      },
+      {
+        "layer": 10,
+        "y_sha256": "c89291ccf70678fddc6ea672980d9d03c392fce30aea4b13d1b6363e3037e440",
+        "modes": [
+          0,
+          67,
+          2988,
+          113
+        ],
+        "physical_writes": 9774
+      },
+      {
+        "layer": 11,
+        "y_sha256": "e61cfad8577d0385af1cc2b138698d6027d8fead1ee8b4c3e3de7c9f61d8704f",
+        "modes": [
+          0,
+          0,
+          3023,
+          145
+        ],
+        "physical_writes": 9873
+      }
+    ],
+    "class_02": [
+      {
+        "layer": 0,
+        "y_sha256": "2f369546c64de36b47778c6fee10df80fa8e1289a00e8ad3aa0e3d2a54c523b4",
+        "modes": [
+          356,
+          776,
+          1956,
+          80
+        ],
+        "physical_writes": 8320
+      },
+      {
+        "layer": 1,
+        "y_sha256": "bf4019e4f6d1df4c5383cac64b133f8f545432ede0f6ed0e5b65a39e48b23291",
+        "modes": [
+          338,
+          893,
+          1855,
+          82
+        ],
+        "physical_writes": 8241
+      },
+      {
+        "layer": 2,
+        "y_sha256": "6eb81e67e0625e380eb6bee3700525ed5ea84f725d4d91fac6d355441dccc9e3",
+        "modes": [
+          436,
+          998,
+          1683,
+          51
+        ],
+        "physical_writes": 7909
+      },
+      {
+        "layer": 3,
+        "y_sha256": "05849a68733994a72acce2c0fa87fe83af806e428cc4b9ff10e377bfc7426ead",
+        "modes": [
+          377,
+          1004,
+          1735,
+          52
+        ],
+        "physical_writes": 8022
+      },
+      {
+        "layer": 4,
+        "y_sha256": "d50787478bb1a9859efb41fbdd8a77eb2c16af6317f75f362baa58b4269056d2",
+        "modes": [
+          442,
+          1251,
+          1429,
+          46
+        ],
+        "physical_writes": 7639
+      },
+      {
+        "layer": 5,
+        "y_sha256": "adc75250e587d7a60d9fd05082e5c3bbb47ac91ee2ffecd840d4bb6cb57adf69",
+        "modes": [
+          487,
+          1298,
+          1329,
+          54
+        ],
+        "physical_writes": 7510
+      },
+      {
+        "layer": 6,
+        "y_sha256": "54922956a82dd253160a1c4b17fdae57ade1a1ddb337e15f7f0b4e2bc7f57902",
+        "modes": [
+          794,
+          1334,
+          999,
+          41
+        ],
+        "physical_writes": 6847
+      },
+      {
+        "layer": 7,
+        "y_sha256": "3e251fa34a4410c493a0e52506f5992161e2a8125655c3b97944f696f604ed4f",
+        "modes": [
+          638,
+          1323,
+          1157,
+          50
+        ],
+        "physical_writes": 7179
+      },
+      {
+        "layer": 8,
+        "y_sha256": "a357ed980027ccfff5a4f48fd9c13d0b9b6c4b9961aa1bd5f92a492f903cee81",
+        "modes": [
+          459,
+          1272,
+          1396,
+          41
+        ],
+        "physical_writes": 7579
+      },
+      {
+        "layer": 9,
+        "y_sha256": "c28d029ade19ed4947ecd09903d7fcc86a56a76e5c2ecee2ea0ad176fe93ccfe",
+        "modes": [
+          255,
+          1125,
+          1729,
+          59
+        ],
+        "physical_writes": 8152
+      },
+      {
+        "layer": 10,
+        "y_sha256": "758a6ab3099a8bc1ee573a405132b30d5f463c32889383e3eba9af93164449f5",
+        "modes": [
+          105,
+          1106,
+          1865,
+          92
+        ],
+        "physical_writes": 8504
+      },
+      {
+        "layer": 11,
+        "y_sha256": "7d9aa9119db85a3ae8096fb6d95ac6d63dd95732c9f040531c017dafb33fc127",
+        "modes": [
+          6,
+          1033,
+          2010,
+          119
+        ],
+        "physical_writes": 8802
+      }
+    ],
+    "class_03": [
+      {
+        "layer": 0,
+        "y_sha256": "8293fa49839db4e2faf1126dce46085fe851826bdb1ad58b2604eb7822cff303",
+        "modes": [
+          2,
+          144,
+          2888,
+          134
+        ],
+        "physical_writes": 9714
+      },
+      {
+        "layer": 1,
+        "y_sha256": "5b226a55548245c5800bd7a761119fe02633c59358eca72a77f9c20e1fc84827",
+        "modes": [
+          7,
+          314,
+          2775,
+          72
+        ],
+        "physical_writes": 9472
+      },
+      {
+        "layer": 2,
+        "y_sha256": "c27ae22a9d47d388461b4b6f01565dcea34bfca62549b51ef46def34a4fa9c29",
+        "modes": [
+          6,
+          520,
+          2589,
+          53
+        ],
+        "physical_writes": 9249
+      },
+      {
+        "layer": 3,
+        "y_sha256": "eb1b15acee20e1715990cb66d5cd5b3eecd5f0bc17604b1e08237710e328d8d6",
+        "modes": [
+          3,
+          504,
+          2604,
+          57
+        ],
+        "physical_writes": 9275
+      },
+      {
+        "layer": 4,
+        "y_sha256": "321a745bd3df818af493693fbc998d8b4c7ca807a9cda77bcfe6da9e9bec5e63",
+        "modes": [
+          7,
+          931,
+          2191,
+          39
+        ],
+        "physical_writes": 8822
+      },
+      {
+        "layer": 5,
+        "y_sha256": "462b1a6ab51d12a5d8b72c714ea08d188e5e592a0129e92735bd4fbeca0ed095",
+        "modes": [
+          16,
+          993,
+          2120,
+          39
+        ],
+        "physical_writes": 8742
+      },
+      {
+        "layer": 6,
+        "y_sha256": "c8aa94a041c99fdf387633d1e08a9a110f72425cc151ae9a95161ee2a9cc0af1",
+        "modes": [
+          104,
+          1482,
+          1552,
+          30
+        ],
+        "physical_writes": 8068
+      },
+      {
+        "layer": 7,
+        "y_sha256": "f97f2215b5d18ff8ba511cb4429a28b49f8c9030630bac21a759a0d57f805ce0",
+        "modes": [
+          123,
+          1174,
+          1830,
+          41
+        ],
+        "physical_writes": 8349
+      },
+      {
+        "layer": 8,
+        "y_sha256": "15976c40d723c25b9af5751c362bb8812784adc2fcf79cdced509524c167516c",
+        "modes": [
+          91,
+          923,
+          2102,
+          52
+        ],
+        "physical_writes": 8675
+      },
+      {
+        "layer": 9,
+        "y_sha256": "0a108c23fdfc75a8acfc91d7a48842090c850a19a6a67f15fa916870ebbbed18",
+        "modes": [
+          12,
+          422,
+          2676,
+          58
+        ],
+        "physical_writes": 9340
+      },
+      {
+        "layer": 10,
+        "y_sha256": "7f8bee976a2d493b060732f01f4bb4c179d8e3cde94337e56975557b8ccf812d",
+        "modes": [
+          0,
+          153,
+          2936,
+          79
+        ],
+        "physical_writes": 9654
+      },
+      {
+        "layer": 11,
+        "y_sha256": "e60043e30f4d6ba7a5ce0a3a7ce3197d248d766dad82a40d79f3d7beffa38aac",
+        "modes": [
+          0,
+          17,
+          3039,
+          112
+        ],
+        "physical_writes": 9823
+      }
+    ],
+    "class_04": [
+      {
+        "layer": 0,
+        "y_sha256": "afb578316928ea2ea7f363fcc77b4ed6618db8ed1a1cee75b0554624b5dfbae8",
+        "modes": [
+          1,
+          161,
+          2889,
+          117
+        ],
+        "physical_writes": 9682
+      },
+      {
+        "layer": 1,
+        "y_sha256": "e4b659757ff624bcd42ee1fe7a37bd90d27a20bc97d38cfcbc35e124163a20f9",
+        "modes": [
+          0,
+          229,
+          2865,
+          74
+        ],
+        "physical_writes": 9573
+      },
+      {
+        "layer": 2,
+        "y_sha256": "b95d1671d10c347b3674040b5ef18a15f89d99db29354e3d34dbdfac03779f2c",
+        "modes": [
+          1,
+          450,
+          2641,
+          76
+        ],
+        "physical_writes": 9352
+      },
+      {
+        "layer": 3,
+        "y_sha256": "a424a1e57912bace3e8903f91aa81ce468fcb24b773da2cb81aa2f3623c2e228",
+        "modes": [
+          0,
+          445,
+          2643,
+          80
+        ],
+        "physical_writes": 9363
+      },
+      {
+        "layer": 4,
+        "y_sha256": "cb54daa44145c9de32429145f68a9be2eae99b3d64adc95cb5f9bafb95fe9790",
+        "modes": [
+          1,
+          837,
+          2265,
+          65
+        ],
+        "physical_writes": 8954
+      },
+      {
+        "layer": 5,
+        "y_sha256": "7fa05ee896690fbefa6f91baefb5ad5f88f735034af5a23470e90ba695d3f11c",
+        "modes": [
+          3,
+          797,
+          2288,
+          80
+        ],
+        "physical_writes": 9005
+      },
+      {
+        "layer": 6,
+        "y_sha256": "0479c33353cfa4e3236cd141232b49c09d17c348be9acf9d62fae260c48f1810",
+        "modes": [
+          10,
+          1393,
+          1714,
+          51
+        ],
+        "physical_writes": 8366
+      },
+      {
+        "layer": 7,
+        "y_sha256": "216a6805151bffaa770c58ca6295f77ca9e2e3c94a4ea48062ba606c3662c743",
+        "modes": [
+          11,
+          1067,
+          2007,
+          83
+        ],
+        "physical_writes": 8722
+      },
+      {
+        "layer": 8,
+        "y_sha256": "fe657232ba928a9124f8ae0cd43fe2e07cbe7fce67feda41c9f01495cca6f9c3",
+        "modes": [
+          5,
+          612,
+          2466,
+          85
+        ],
+        "physical_writes": 9191
+      },
+      {
+        "layer": 9,
+        "y_sha256": "140f67a40bf1feedd5efecf70fd3bfb31a778740dd50cd2fe131446836a40809",
+        "modes": [
+          0,
+          202,
+          2765,
+          201
+        ],
+        "physical_writes": 9727
+      },
+      {
+        "layer": 10,
+        "y_sha256": "ff8a5d1118f59b9680b4781f6ce087086a295a552d48bb29bf17a60a3ef6761a",
+        "modes": [
+          0,
+          33,
+          2895,
+          240
+        ],
+        "physical_writes": 9935
+      },
+      {
+        "layer": 11,
+        "y_sha256": "9579688621bfa5430e82d0c02ca10dec674015028d7a90b2eba083d4fd551e85",
+        "modes": [
+          0,
+          0,
+          2828,
+          340
+        ],
+        "physical_writes": 10068
+      }
+    ],
+    "class_05": [
+      {
+        "layer": 0,
+        "y_sha256": "e11375fc90d92e751d0b08512e6e61ff2b9e4c2847558c556cb8babe0f0effb9",
+        "modes": [
+          1,
+          222,
+          2842,
+          103
+        ],
+        "physical_writes": 9607
+      },
+      {
+        "layer": 1,
+        "y_sha256": "781ed0a17c3478e6165e6a5540e3c7949f8eda72b969b7e90b55ba16eee01e78",
+        "modes": [
+          5,
+          291,
+          2810,
+          62
+        ],
+        "physical_writes": 9489
+      },
+      {
+        "layer": 2,
+        "y_sha256": "c52843b188315de571bd5a87fedb195415ff2fc862f4df6e4e15f428a3d26414",
+        "modes": [
+          8,
+          527,
+          2567,
+          66
+        ],
+        "physical_writes": 9251
+      },
+      {
+        "layer": 3,
+        "y_sha256": "3b3a49a73b9d3bef3db59ad70882043f59765b729e905880c628c75ef2d3cb2f",
+        "modes": [
+          1,
+          490,
+          2609,
+          68
+        ],
+        "physical_writes": 9304
+      },
+      {
+        "layer": 4,
+        "y_sha256": "1423db1295404dea762076046bb0544732bd483b2a245301ca38139395d0517c",
+        "modes": [
+          5,
+          904,
+          2204,
+          55
+        ],
+        "physical_writes": 8869
+      },
+      {
+        "layer": 5,
+        "y_sha256": "3685ca409462b49d4209c7c418e3a6551e06319430e70446e98af72ab6568f22",
+        "modes": [
+          15,
+          986,
+          2111,
+          56
+        ],
+        "physical_writes": 8768
+      },
+      {
+        "layer": 6,
+        "y_sha256": "a05fbc121343ad6abf117c2d27e54b99b0cc0fe6a7ef6270548046f553e35961",
+        "modes": [
+          15,
+          1466,
+          1641,
+          46
+        ],
+        "physical_writes": 8278
+      },
+      {
+        "layer": 7,
+        "y_sha256": "63fcbc0fdb35901ac7061a1acedbc789995b09131c11d376801f46158547d6c2",
+        "modes": [
+          50,
+          1131,
+          1923,
+          64
+        ],
+        "physical_writes": 8561
+      },
+      {
+        "layer": 8,
+        "y_sha256": "40518604c2d1c28c720c1a51f1fb3ff4f403de6e32355f5b35b50666b9eae151",
+        "modes": [
+          34,
+          800,
+          2276,
+          58
+        ],
+        "physical_writes": 8918
+      },
+      {
+        "layer": 9,
+        "y_sha256": "c7bc31ca20fb918be3451c7edbb81a5efe38bce5a901aace4146bca7d2238271",
+        "modes": [
+          3,
+          298,
+          2765,
+          102
+        ],
+        "physical_writes": 9526
+      },
+      {
+        "layer": 10,
+        "y_sha256": "5c6619034c592edfc1274acc805a189235d695088ea1c00bd5ed00f5e03e965f",
+        "modes": [
+          0,
+          70,
+          2991,
+          107
+        ],
+        "physical_writes": 9765
+      },
+      {
+        "layer": 11,
+        "y_sha256": "7b811a9b28bd7aedd195af8b9379158ffb81f090bc4e4e7855dc6da699572071",
+        "modes": [
+          0,
+          4,
+          3042,
+          122
+        ],
+        "physical_writes": 9846
+      }
+    ],
+    "class_06": [
+      {
+        "layer": 0,
+        "y_sha256": "928f2218f738574053e22e26af905cb161de17ac97ce24229f93487094550ed1",
+        "modes": [
+          6,
+          264,
+          2829,
+          69
+        ],
+        "physical_writes": 9521
+      },
+      {
+        "layer": 1,
+        "y_sha256": "09679ddaf0aae948e1965dcdd3a0add672fa001eb82284312913293017b26648",
+        "modes": [
+          12,
+          311,
+          2782,
+          63
+        ],
+        "physical_writes": 9456
+      },
+      {
+        "layer": 2,
+        "y_sha256": "02fd4dce51d8992801332758c66b339c00faafb4729aa850fe364f200041760a",
+        "modes": [
+          9,
+          552,
+          2551,
+          56
+        ],
+        "physical_writes": 9214
+      },
+      {
+        "layer": 3,
+        "y_sha256": "dba240b84ab2a817eb3c976b7dac7e6a05b0b067f83e8c05772809f71f454804",
+        "modes": [
+          3,
+          566,
+          2541,
+          58
+        ],
+        "physical_writes": 9214
+      },
+      {
+        "layer": 4,
+        "y_sha256": "2d00658955710d2f0601100d36ce6f83072a95bd700c18f2ffa7afd62d873c18",
+        "modes": [
+          7,
+          973,
+          2139,
+          49
+        ],
+        "physical_writes": 8790
+      },
+      {
+        "layer": 5,
+        "y_sha256": "29ff7e27f4b404170b0f63e1e3bb6ca2ba6513d4c272afe703170f0473bbbc8c",
+        "modes": [
+          24,
+          1010,
+          2082,
+          52
+        ],
+        "physical_writes": 8722
+      },
+      {
+        "layer": 6,
+        "y_sha256": "1ef408102300b03c3034d36b526f1d1501e7c152d17aeba964333eb559397896",
+        "modes": [
+          96,
+          1466,
+          1560,
+          46
+        ],
+        "physical_writes": 8116
+      },
+      {
+        "layer": 7,
+        "y_sha256": "74254653776c0a6fab6e4b2db1e73c3f6aed2f4ad18b236c43cdc465178a81e1",
+        "modes": [
+          53,
+          1156,
+          1896,
+          63
+        ],
+        "physical_writes": 8529
+      },
+      {
+        "layer": 8,
+        "y_sha256": "876c6a4dd2ea4d5b1b33e8cafd64655daa743e704717457a85ed15771670fcec",
+        "modes": [
+          34,
+          830,
+          2252,
+          52
+        ],
+        "physical_writes": 8882
+      },
+      {
+        "layer": 9,
+        "y_sha256": "fb3b2d49ea708cbcc36965386b14e2cc28fff5c000db28dc8d37844d83ba28d7",
+        "modes": [
+          10,
+          348,
+          2696,
+          114
+        ],
+        "physical_writes": 9474
+      },
+      {
+        "layer": 10,
+        "y_sha256": "fec68fef6897d00a9c5849fb2cb6823cb957710d506d10e979756e7d267dbfbd",
+        "modes": [
+          0,
+          92,
+          2909,
+          167
+        ],
+        "physical_writes": 9803
+      },
+      {
+        "layer": 11,
+        "y_sha256": "6adfd559d71e5124124133d6f2562c698e66b3f659d4cc34c9be52b7bb000c7b",
+        "modes": [
+          0,
+          15,
+          2977,
+          176
+        ],
+        "physical_writes": 9889
+      }
+    ],
+    "class_07": [
+      {
+        "layer": 0,
+        "y_sha256": "39cf070364eab282b080cac4181b5786ff2381d177e51f0d9ca41446644782bf",
+        "modes": [
+          3,
+          180,
+          2851,
+          134
+        ],
+        "physical_writes": 9676
+      },
+      {
+        "layer": 1,
+        "y_sha256": "35cf4394fcb14494628296eff7bd6741fcda9f54832567bd9dcf0f754fc500ff",
+        "modes": [
+          5,
+          296,
+          2768,
+          99
+        ],
+        "physical_writes": 9521
+      },
+      {
+        "layer": 2,
+        "y_sha256": "b0d0cc6ed1db3883103eeaedb82510c4afd3c35544d98a9203b514a9f18806e1",
+        "modes": [
+          7,
+          520,
+          2567,
+          74
+        ],
+        "physical_writes": 9268
+      },
+      {
+        "layer": 3,
+        "y_sha256": "b29ba2a58f87a3e5e8d4acb55affaa8ec3b155ea632f89b84e10b849f3d14ee4",
+        "modes": [
+          1,
+          506,
+          2588,
+          73
+        ],
+        "physical_writes": 9293
+      },
+      {
+        "layer": 4,
+        "y_sha256": "01f75f654ced70b782d97db6a6bb2af7d9cfc7b5ab82263ce65191ee2441d6be",
+        "modes": [
+          6,
+          924,
+          2167,
+          71
+        ],
+        "physical_writes": 8863
+      },
+      {
+        "layer": 5,
+        "y_sha256": "4e9ca02127dd1d995bd376e02f1bb1672397980cb6310f8c9d38fcf869dc1352",
+        "modes": [
+          13,
+          946,
+          2155,
+          54
+        ],
+        "physical_writes": 8810
+      },
+      {
+        "layer": 6,
+        "y_sha256": "b5424724b4bab4dfc5318ca8b8aaa2d722277a584d7cc633249b8982595e1f6b",
+        "modes": [
+          44,
+          1425,
+          1649,
+          50
+        ],
+        "physical_writes": 8265
+      },
+      {
+        "layer": 7,
+        "y_sha256": "02fb448199409e48000c205016cd1900f7271d9d361ecd6fb9bfe258e515d08e",
+        "modes": [
+          52,
+          1140,
+          1915,
+          61
+        ],
+        "physical_writes": 8545
+      },
+      {
+        "layer": 8,
+        "y_sha256": "179ef41c2d870f94969b7fc7acd82c59f6c92de46ced3e2cb02cb6eb52ca5b6b",
+        "modes": [
+          44,
+          768,
+          2300,
+          56
+        ],
+        "physical_writes": 8928
+      },
+      {
+        "layer": 9,
+        "y_sha256": "70d258a3ba1a5d755998da67b65002e28e9ac22531454c810bd28f1fa3c7bfd2",
+        "modes": [
+          6,
+          312,
+          2759,
+          91
+        ],
+        "physical_writes": 9495
+      },
+      {
+        "layer": 10,
+        "y_sha256": "56c19a99f6fbf15a43890f3cc2e0c380b2fba8bac1b63e6a09b8025ff836fcbe",
+        "modes": [
+          0,
+          90,
+          2959,
+          119
+        ],
+        "physical_writes": 9757
+      },
+      {
+        "layer": 11,
+        "y_sha256": "ff744cd4ea9df467a3af26fd999b4e31dcfcc8ab368e045fd7c22241133586f9",
+        "modes": [
+          0,
+          5,
+          2998,
+          165
+        ],
+        "physical_writes": 9888
+      }
+    ],
+    "class_08": [
+      {
+        "layer": 0,
+        "y_sha256": "65f142506922e81b32551bda73e82efc7bacb0d2308f4e57a7a1a247c88022c6",
+        "modes": [
+          3,
+          290,
+          2803,
+          72
+        ],
+        "physical_writes": 9504
+      },
+      {
+        "layer": 1,
+        "y_sha256": "3bd975037875cc65e08711df6a46d1fe5b0b55b066f52d6d87b758bc8bf82872",
+        "modes": [
+          19,
+          420,
+          2675,
+          54
+        ],
+        "physical_writes": 9324
+      },
+      {
+        "layer": 2,
+        "y_sha256": "afd71cb5fb8e6b8778b598192c02434acf83bc19385104b5378f0d5e6d9914e6",
+        "modes": [
+          14,
+          605,
+          2496,
+          53
+        ],
+        "physical_writes": 9148
+      },
+      {
+        "layer": 3,
+        "y_sha256": "e35cedc97658dc3195c7fc2e83a5c44d690e83492ea81913050b4c83378ba853",
+        "modes": [
+          1,
+          506,
+          2610,
+          51
+        ],
+        "physical_writes": 9271
+      },
+      {
+        "layer": 4,
+        "y_sha256": "e38404da2c37e6d3da5ae8f95315573caf7916047873bcae72d1d3eca275d2a4",
+        "modes": [
+          6,
+          956,
+          2164,
+          42
+        ],
+        "physical_writes": 8802
+      },
+      {
+        "layer": 5,
+        "y_sha256": "5181963d5b48d54ef770556cd98cb1d89b8713612fad595e9aa060276a571577",
+        "modes": [
+          27,
+          962,
+          2138,
+          41
+        ],
+        "physical_writes": 8753
+      },
+      {
+        "layer": 6,
+        "y_sha256": "e9b66b049d07eebda04469f2bb09b6a2525e174cd275415eb9033aeaf2176feb",
+        "modes": [
+          79,
+          1408,
+          1642,
+          39
+        ],
+        "physical_writes": 8201
+      },
+      {
+        "layer": 7,
+        "y_sha256": "8d7f92d5256bc6a4455344ae350532e3f1c9f0b3c9448baf4e1d55c3e7b7ac05",
+        "modes": [
+          40,
+          1124,
+          1949,
+          55
+        ],
+        "physical_writes": 8579
+      },
+      {
+        "layer": 8,
+        "y_sha256": "da70b9231d47af2ac7ceb3ffed45343990436d24312e4d4a7ab1e316af8185a8",
+        "modes": [
+          39,
+          770,
+          2310,
+          49
+        ],
+        "physical_writes": 8929
+      },
+      {
+        "layer": 9,
+        "y_sha256": "a8ae97b220cfcfc949eaf9c7cf02e9d902832f07beaf2fae22b4422fcdbc8e14",
+        "modes": [
+          7,
+          302,
+          2779,
+          80
+        ],
+        "physical_writes": 9492
+      },
+      {
+        "layer": 10,
+        "y_sha256": "b8dd5d7db6fecd6cfd248657f32f3c27d350bda5b67937bccee12e2c62e3c6f6",
+        "modes": [
+          0,
+          76,
+          3021,
+          71
+        ],
+        "physical_writes": 9723
+      },
+      {
+        "layer": 11,
+        "y_sha256": "a69773411d85685aa24581fe231b795e9e0d3dc8961d3007be290794af7fc71d",
+        "modes": [
+          0,
+          9,
+          3064,
+          95
+        ],
+        "physical_writes": 9814
+      }
+    ],
+    "class_09": [
+      {
+        "layer": 0,
+        "y_sha256": "219b8eb56ec36a3fbf18c6bc9d075cac6a2a9cd979f8095af78d81238a887aae",
+        "modes": [
+          3,
+          295,
+          2774,
+          96
+        ],
+        "physical_writes": 9523
+      },
+      {
+        "layer": 1,
+        "y_sha256": "29380bd72aefe61e6c6bcf8196b9c67367f3a482b28cd7dd842e0eeea64c2a3c",
+        "modes": [
+          18,
+          382,
+          2711,
+          57
+        ],
+        "physical_writes": 9367
+      },
+      {
+        "layer": 2,
+        "y_sha256": "e3343b48af66ed69a9a580d228c20067fba6d5a85267138111b1646fc2c1f21d",
+        "modes": [
+          22,
+          588,
+          2495,
+          63
+        ],
+        "physical_writes": 9159
+      },
+      {
+        "layer": 3,
+        "y_sha256": "a8216e0d285d0646e7615e195cb3c5b7bd2581615c342e9c07dd2d21976ac90d",
+        "modes": [
+          10,
+          538,
+          2559,
+          61
+        ],
+        "physical_writes": 9231
+      },
+      {
+        "layer": 4,
+        "y_sha256": "269a96e0c9dc5e9f100a9cb91fce631be40ddbeea751f2d376f5424388cf2f24",
+        "modes": [
+          28,
+          938,
+          2154,
+          48
+        ],
+        "physical_writes": 8782
+      },
+      {
+        "layer": 5,
+        "y_sha256": "ef36d7e2819ef80cc77450b984e132836b38c7a03409d4baa57053403973f1c1",
+        "modes": [
+          35,
+          1018,
+          2053,
+          62
+        ],
+        "physical_writes": 8702
+      },
+      {
+        "layer": 6,
+        "y_sha256": "792ae85521ccf60d19582df7a03f523d665e8616002f8417edd566dd94d3b404",
+        "modes": [
+          65,
+          1459,
+          1604,
+          40
+        ],
+        "physical_writes": 8179
+      },
+      {
+        "layer": 7,
+        "y_sha256": "91d93be8249135fa14254e3d6f3927ef240815068233201ab556b307184c2724",
+        "modes": [
+          108,
+          1137,
+          1868,
+          55
+        ],
+        "physical_writes": 8430
+      },
+      {
+        "layer": 8,
+        "y_sha256": "ab4101b1d181ff2f01d15f56e2dcace984c6bb7a80c459bba06f7ab5938224a5",
+        "modes": [
+          78,
+          774,
+          2240,
+          76
+        ],
+        "physical_writes": 8874
+      },
+      {
+        "layer": 9,
+        "y_sha256": "f917ac50f3372ebbc190204645a82ac1504b1c6555affd85dc21e94f2bc120fa",
+        "modes": [
+          10,
+          317,
+          2725,
+          116
+        ],
+        "physical_writes": 9507
+      },
+      {
+        "layer": 10,
+        "y_sha256": "aed3dfd80d81ffa563dabc9c1e9c96a30ece8bb174ab7859fe7f694263a1d09f",
+        "modes": [
+          0,
+          142,
+          2856,
+          170
+        ],
+        "physical_writes": 9756
+      },
+      {
+        "layer": 11,
+        "y_sha256": "1352ec67b3ca77fb56ef0e4e1eb863341e9a99504c2b7ed92a3807449196d9a5",
+        "modes": [
+          0,
+          19,
+          3007,
+          142
+        ],
+        "physical_writes": 9851
+      }
+    ],
+    "class_10": [
+      {
+        "layer": 0,
+        "y_sha256": "dea4b1b10528f39d50753ff9fa510fc81191cb73e127e65c8791d4bbef478ab2",
+        "modes": [
+          0,
+          164,
+          2854,
+          150
+        ],
+        "physical_writes": 9714
+      },
+      {
+        "layer": 1,
+        "y_sha256": "8157552fccddee840e4d107f5e39b9d6121893b868dfedfb2cc9732690300d19",
+        "modes": [
+          2,
+          278,
+          2806,
+          82
+        ],
+        "physical_writes": 9528
+      },
+      {
+        "layer": 2,
+        "y_sha256": "8f950ebb783bd6c008112249052138c5ca7578ebbdb9df8c59fd7c5bb264cd77",
+        "modes": [
+          3,
+          504,
+          2595,
+          66
+        ],
+        "physical_writes": 9284
+      },
+      {
+        "layer": 3,
+        "y_sha256": "51fbb298af1aaff2e9e8bbd10d620379a2cd0affc3923b5f380683d87a2d3114",
+        "modes": [
+          1,
+          507,
+          2591,
+          69
+        ],
+        "physical_writes": 9288
+      },
+      {
+        "layer": 4,
+        "y_sha256": "8d45749e6feb518bb722055ecf50c1e0e829bff6dc1ef274e0d246520dc9ff9d",
+        "modes": [
+          3,
+          912,
+          2191,
+          62
+        ],
+        "physical_writes": 8872
+      },
+      {
+        "layer": 5,
+        "y_sha256": "7a1f722415f8b19edcb058015a130e23633b9303b62fa040e18c2436d4dae001",
+        "modes": [
+          11,
+          963,
+          2129,
+          65
+        ],
+        "physical_writes": 8808
+      },
+      {
+        "layer": 6,
+        "y_sha256": "cfe7b5ad2fb834a0d384579a4ee3e65a6e255549c3e3fa728a1b7f980cf0b0b9",
+        "modes": [
+          53,
+          1443,
+          1629,
+          43
+        ],
+        "physical_writes": 8222
+      },
+      {
+        "layer": 7,
+        "y_sha256": "418bee8bc89260e72921a947e6720b94daefdc7bf6da0e4371c20e684a079ee3",
+        "modes": [
+          39,
+          1118,
+          1934,
+          77
+        ],
+        "physical_writes": 8609
+      },
+      {
+        "layer": 8,
+        "y_sha256": "0370636d081725b4fb948d71e8d53aeb3806cfe9ccd38d68f594ebf30c6ae129",
+        "modes": [
+          26,
+          732,
+          2325,
+          85
+        ],
+        "physical_writes": 9029
+      },
+      {
+        "layer": 9,
+        "y_sha256": "f936ef6b2741f4396a7bbfe67407aadf722a8674f6ba8ae55504922bf0ea0b60",
+        "modes": [
+          4,
+          277,
+          2761,
+          126
+        ],
+        "physical_writes": 9569
+      },
+      {
+        "layer": 10,
+        "y_sha256": "794e2b3d2061a04cb1e69a3225c9cb5d265bb088988838cf6f65efbdae6dfc0c",
+        "modes": [
+          0,
+          125,
+          2909,
+          134
+        ],
+        "physical_writes": 9737
+      },
+      {
+        "layer": 11,
+        "y_sha256": "2e5df9d45dcd4525b8af70c809450823b03079dc9524400c0f2c71d7700099e8",
+        "modes": [
+          0,
+          8,
+          3026,
+          134
+        ],
+        "physical_writes": 9854
+      }
+    ],
+    "class_11": [
+      {
+        "layer": 0,
+        "y_sha256": "1017d569dfaaf2697c9da8cbf0bb687fc207018997381e8fd3e09bb3559e9a57",
+        "modes": [
+          3,
+          320,
+          2746,
+          99
+        ],
+        "physical_writes": 9501
+      },
+      {
+        "layer": 1,
+        "y_sha256": "8fe7348bbbaaa7823d1aba6e39d821f477ce7854cf9a35819260219be2625b57",
+        "modes": [
+          16,
+          424,
+          2659,
+          69
+        ],
+        "physical_writes": 9341
+      },
+      {
+        "layer": 2,
+        "y_sha256": "d7e5588b966a4e815affdd41b9951c1d63564029cd8f72c32faaab93ea154755",
+        "modes": [
+          17,
+          587,
+          2507,
+          57
+        ],
+        "physical_writes": 9164
+      },
+      {
+        "layer": 3,
+        "y_sha256": "8e7bd9c883e68067927f3ed96f9637b6b3b545dc2d47552bea2d5c9d50a71d8c",
+        "modes": [
+          4,
+          592,
+          2515,
+          57
+        ],
+        "physical_writes": 9185
+      },
+      {
+        "layer": 4,
+        "y_sha256": "13d8ddb8b963dd3d20c0d2b623cc85e3a5a9bf48a9d8ded43393caa7be1977ad",
+        "modes": [
+          10,
+          1049,
+          2058,
+          51
+        ],
+        "physical_writes": 8710
+      },
+      {
+        "layer": 5,
+        "y_sha256": "c1af27856428fb930c6541d398d13a251e598816c8bde97051aa1a864550e898",
+        "modes": [
+          40,
+          1068,
+          2005,
+          55
+        ],
+        "physical_writes": 8635
+      },
+      {
+        "layer": 6,
+        "y_sha256": "c7e84d8ebc4e3663363b5fbf6e978c3824854e2bb22aeec52d36a2303b3fd742",
+        "modes": [
+          46,
+          1540,
+          1551,
+          31
+        ],
+        "physical_writes": 8127
+      },
+      {
+        "layer": 7,
+        "y_sha256": "636170908161515b449b473ff3af17ed42bcea0cebce93251bc737a3b35c7ad0",
+        "modes": [
+          48,
+          1240,
+          1823,
+          57
+        ],
+        "physical_writes": 8449
+      },
+      {
+        "layer": 8,
+        "y_sha256": "32777f834814b22db358905a6635b509f647b3bf1b5be321b20b2505f1e7e1ce",
+        "modes": [
+          61,
+          871,
+          2163,
+          73
+        ],
+        "physical_writes": 8808
+      },
+      {
+        "layer": 9,
+        "y_sha256": "b6a7b2b4870be812a0ba434ae143b3a64b4252c124b078b255bebdbd427e8083",
+        "modes": [
+          3,
+          344,
+          2736,
+          85
+        ],
+        "physical_writes": 9463
+      },
+      {
+        "layer": 10,
+        "y_sha256": "85d00a0aaed73a44ec96df09bb8e0941105464cb070c2913077406b6a3352c32",
+        "modes": [
+          0,
+          116,
+          2954,
+          98
+        ],
+        "physical_writes": 9710
+      },
+      {
+        "layer": 11,
+        "y_sha256": "151ba451d7c2d66c6b3197a5a83241b54d0f7552c3b39082373987c6c306a567",
+        "modes": [
+          0,
+          4,
+          3056,
+          108
+        ],
+        "physical_writes": 9832
+      }
+    ],
+    "worst": [
+      {
+        "layer": 0,
+        "y_sha256": "7fc078d2668747642f7d23bc2e69311c85e959d43ee4050d181a5e2bb45f011c",
+        "modes": [
+          590,
+          2512,
+          23,
+          43
+        ],
+        "physical_writes": 6079
+      },
+      {
+        "layer": 1,
+        "y_sha256": "3ae428fdeb2d1cd132e48bbfaeb74b32ea566823f498373a440740ced6eb62e1",
+        "modes": [
+          390,
+          2654,
+          80,
+          44
+        ],
+        "physical_writes": 6338
+      },
+      {
+        "layer": 2,
+        "y_sha256": "f6ddf895d6ab3b037846b0a4f3b348ce56e1ebf161a12e630d13fe8ded8ea17b",
+        "modes": [
+          601,
+          2434,
+          100,
+          33
+        ],
+        "physical_writes": 6125
+      },
+      {
+        "layer": 3,
+        "y_sha256": "33ffa6c35115a95d1ee6459b2cb028069708ab7f2f9e748700552d5c722289c5",
+        "modes": [
+          539,
+          2461,
+          134,
+          34
+        ],
+        "physical_writes": 6223
+      },
+      {
+        "layer": 4,
+        "y_sha256": "ba421ee8ae6b223cf386d29d96f21038ecc1bdf602d09884f1980ef2095ddd9e",
+        "modes": [
+          844,
+          2143,
+          151,
+          30
+        ],
+        "physical_writes": 5927
+      },
+      {
+        "layer": 5,
+        "y_sha256": "481c669a6b31811c7dd6a87ad8786112378ab2e3f900572369050c8751d204b3",
+        "modes": [
+          735,
+          2228,
+          177,
+          28
+        ],
+        "physical_writes": 6058
+      },
+      {
+        "layer": 6,
+        "y_sha256": "0296743cf6f164e0a356f3d7534397bc6d42bb98eb182318d3ddaebf2434f7a4",
+        "modes": [
+          1295,
+          1656,
+          191,
+          26
+        ],
+        "physical_writes": 5508
+      },
+      {
+        "layer": 7,
+        "y_sha256": "797c1c6d7d85bf58e48401b75424c34ab3a8a3927b2b57d060be54e3a590c90b",
+        "modes": [
+          31,
+          1104,
+          1968,
+          65
+        ],
+        "physical_writes": 8627
+      },
+      {
+        "layer": 8,
+        "y_sha256": "362363871828fdc02374f19ebd011303e4803a833fae2f3cc97b7ca730ac339a",
+        "modes": [
+          24,
+          729,
+          2382,
+          33
+        ],
+        "physical_writes": 8984
+      },
+      {
+        "layer": 9,
+        "y_sha256": "236454875d93c1f43387bd72efc91e9e537bca7f49c6110ea1efad2b6f08763d",
+        "modes": [
+          207,
+          2556,
+          363,
+          42
+        ],
+        "physical_writes": 6800
+      },
+      {
+        "layer": 10,
+        "y_sha256": "71993074a537060e6a25f95d590163403be038e6bfad8c877978b4f81c38b326",
+        "modes": [
+          53,
+          2712,
+          357,
+          46
+        ],
+        "physical_writes": 6956
+      },
+      {
+        "layer": 11,
+        "y_sha256": "a3beff0740e09c4570cbe16f8c607061e7f284cd982f1dd6243fada25a6d3eb1",
+        "modes": [
+          0,
+          103,
+          2913,
+          152
+        ],
+        "physical_writes": 9777
+      }
+    ]
+  },
+  "prior_float_baseline": {
+    "samples": 600,
+    "maximum_layer_nrmse": 0.00038912367592451873,
+    "source_sha256": "d98631eca071bd15e8b585ef0111813a7da374637c874779c999cef975c50c93"
+  }
+}

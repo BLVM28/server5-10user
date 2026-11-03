@@ -1,0 +1,41 @@
+{
+  "rtl_suites": {
+    "tb_kwt_arithmetic": 260,
+    "tb_v3_carries": 7,
+    "tb_kwt_icb": 4,
+    "tb_kwt_system": 29,
+    "tb_kwt_overlap": 5,
+    "tb_kwt_negative": 58,
+    "tb_kwt_mul_pipeline": 524288,
+    "tb_kwt_codec": 4096,
+    "tb_kwt_compact": 29
+  },
+  "extended_suites": 35,
+  "same_edge_matrix": true,
+  "activation_sets": [
+    "class_00",
+    "class_01",
+    "class_02",
+    "class_03",
+    "class_04",
+    "class_05",
+    "class_06",
+    "class_07",
+    "class_08",
+    "class_09",
+    "class_10",
+    "class_11",
+    "worst"
+  ],
+  "paired_packed_nice": 1568392,
+  "packed_gate_layers": {
+    "ss": [
+      0
+    ],
+    "ff": [
+      0
+    ]
+  },
+  "gate_tb_sha256": "22902d087dce89b692df05d9ad1d5bc8bbc1dfd51f64697e8be5754d24f00fe7",
+  "mapped_sha256": "d311ca7bf036707b58de7d5543bd4bfcc9955c72fa3129cf95892eb6ab66fe58"
+}

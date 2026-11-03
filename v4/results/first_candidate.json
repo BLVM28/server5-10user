@@ -1,0 +1,44 @@
+{
+  "note": "Initial 3x8 candidate. 320 unused simulation accumulator mux output cells failed min-cap in each corner; no qualifying 150 MHz claim.",
+  "rtl_sha256": {
+    "kwt_dot64.sv": "337bd0a5095d6fccb5f6bfd69f7bc5d61bae05c3918a6681bca592a5682f99ac",
+    "kwt_icb_master.sv": "20ebb1180124dc033d75d0b693e1115d684e1c3ef6eedd11909746e11b87ac07",
+    "kwt_linear_core.sv": "9ed1e84c6bc810f969c55daf4cb402b741b0efd6f6ea02794ed75f66ed9034c9",
+    "kwt_mac8.sv": "19e331e67884fbcf57fd82b635224eb3996ca9ed8dc49764a542a5c9d8e5d257",
+    "kwt_mul16_pipe.sv": "5e3ea334109b76bff5e583a4c1daa5757fbcf2ecf0ec0605f92b57734b874c27",
+    "kwt_nice_core.sv": "cd6bbc9af567bd7287baf926c85da68836611800ee4d77bfd2a5a31e9869ffde",
+    "kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "kwt_result_pages.sv": "3220f38e00305c3798ae7ee25be9bc00b275b42a400e30976af69e2f478ca11f",
+    "kwt_row_pack.sv": "a0fd07c0de606a35c485978ff33aba60b7b21a599c1df708220ea8add55250a0",
+    "kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "kwt_tile_compute.sv": "cb8c44ba045aa9065c9a32daefa1b964150750ee3b9760e9f3e1d2feef553ccc",
+    "kwt_tile_dma.sv": "520fd2c9efd4ef2c8612a41fdd8c725dcd4710f5b9ec95ba3bc084a6b2dba6ce",
+    "kwt_w_panel.sv": "682e20ae71e1415d768de8a5a454173156da85bed8d8d5ccbbcac3637cd63ae6",
+    "kwt_x_buffer.sv": "898d2ed2f31d42b3b3ab947e2bc0207f4a7a6e9319baa3ec1bbb425ced824117"
+  },
+  "paired": {
+    "v31_raw": [
+      3455514,
+      520.9065858219645
+    ],
+    "v4_raw": [
+      2043890,
+      880.6736174647364
+    ],
+    "v4_packed": [
+      1601382,
+      1124.0291198477314
+    ]
+  },
+  "initial_area": 318817.931836,
+  "initial_macro_area": 148587.932373,
+  "initial_ss_160_setup_hold_ns": [
+    0.450001,
+    0.44857
+  ],
+  "initial_ff_150_setup_hold_ns": [
+    4.070343,
+    0.200001
+  ],
+  "reported_min_cap_150_each": 320
+}

@@ -1,0 +1,198 @@
+{
+  "timing_window": "NICE instruction handshake to first result-valid, no inter-task reset/backpressure tail",
+  "paired": {
+    "v31_raw": {
+      "nice": [
+        288056,
+        287775,
+        287874,
+        287955,
+        287707,
+        287847,
+        287883,
+        288192,
+        288112,
+        287873,
+        287834,
+        288406
+      ],
+      "core": [
+        287980,
+        287700,
+        287801,
+        287882,
+        287628,
+        287776,
+        287822,
+        288135,
+        288034,
+        287793,
+        287762,
+        288330
+      ],
+      "writes": [
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672
+      ],
+      "total_nice": 3455514,
+      "tasks_s_150": 520.9065858219645
+    },
+    "v4_raw": {
+      "nice": [
+        167336,
+        167831,
+        167626,
+        167183,
+        167462,
+        167825,
+        167573,
+        167326,
+        167570,
+        167557,
+        167400,
+        167631
+      ],
+      "core": [
+        167270,
+        167769,
+        167572,
+        167128,
+        167407,
+        167774,
+        167513,
+        167269,
+        167513,
+        167505,
+        167336,
+        167578
+      ],
+      "writes": [
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672,
+        12672
+      ],
+      "total_nice": 2010320,
+      "tasks_s_150": 895.3798400254686
+    },
+    "v4_packed": {
+      "nice": [
+        125099,
+        126984,
+        125361,
+        126001,
+        123593,
+        125576,
+        121352,
+        141343,
+        143373,
+        129846,
+        130907,
+        148957
+      ],
+      "core": [
+        125033,
+        126936,
+        125299,
+        125942,
+        123541,
+        125509,
+        121299,
+        141279,
+        143319,
+        129776,
+        130856,
+        148903
+      ],
+      "writes": [
+        6079,
+        6338,
+        6125,
+        6223,
+        5927,
+        6058,
+        5508,
+        8627,
+        8984,
+        6800,
+        6956,
+        9777
+      ],
+      "total_nice": 1568392,
+      "tasks_s_150": 1147.6722656070676
+    }
+  },
+  "base_suites": {
+    "tb_kwt_arithmetic": 260,
+    "tb_v3_carries": 7,
+    "tb_kwt_icb": 4,
+    "tb_kwt_system": 29,
+    "tb_kwt_compact": 29,
+    "tb_kwt_overlap": 5,
+    "tb_kwt_negative": 58,
+    "tb_kwt_mul_pipeline": 524288,
+    "tb_kwt_codec": 4096
+  },
+  "rtl_sha256": {
+    "kwt_dot64.sv": "337bd0a5095d6fccb5f6bfd69f7bc5d61bae05c3918a6681bca592a5682f99ac",
+    "kwt_icb_master.sv": "20ebb1180124dc033d75d0b693e1115d684e1c3ef6eedd11909746e11b87ac07",
+    "kwt_linear_core.sv": "61fba59b2d3a28b5ae5f77a92583ff471054e103492a4fdad7532c42bb2d8865",
+    "kwt_mac8.sv": "19e331e67884fbcf57fd82b635224eb3996ca9ed8dc49764a542a5c9d8e5d257",
+    "kwt_mul16_pipe.sv": "5e3ea334109b76bff5e583a4c1daa5757fbcf2ecf0ec0605f92b57734b874c27",
+    "kwt_nice_core.sv": "cd6bbc9af567bd7287baf926c85da68836611800ee4d77bfd2a5a31e9869ffde",
+    "kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "kwt_result_pages.sv": "3220f38e00305c3798ae7ee25be9bc00b275b42a400e30976af69e2f478ca11f",
+    "kwt_row_pack.sv": "a0fd07c0de606a35c485978ff33aba60b7b21a599c1df708220ea8add55250a0",
+    "kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "kwt_tile_compute.sv": "e4b2f04ca1f81d38733a386598a490539c5945053bb2b84d9aab9481003f1e90",
+    "kwt_tile_dma.sv": "0a739e6edacba922ea06e9ff5b4afc719da5e84defbe9358422a725f08a7c19a",
+    "kwt_w_panel.sv": "682e20ae71e1415d768de8a5a454173156da85bed8d8d5ccbbcac3637cd63ae6",
+    "kwt_x_buffer.sv": "898d2ed2f31d42b3b3ab947e2bc0207f4a7a6e9319baa3ec1bbb425ced824117"
+  },
+  "xsim_log_sha256": {
+    "base": {
+      "tb_kwt_arithmetic": "b045ca16d5b57f325f0f8ec68326cdc50d72885f9958af34b1229a5d666a30f7",
+      "tb_v3_carries": "993840e20058d5e7e5f293f237e0345fc5b0ea15cb3686d8bb41c9f88103976d",
+      "tb_kwt_icb": "94ba61b1e105577f7107c0fe804a247c32b2faac53e41c6ece9df0036f0b5bc6",
+      "tb_kwt_system": "c03b1d3a5836fa71635cd73a40adc9783dc7fae6c519687f7a73effc28182012",
+      "tb_kwt_compact": "841cda058e8614de729c93ba9fdc37edc5afdd6808716feaa4cc74498072f88b",
+      "tb_kwt_overlap": "0e77d79af2b7310b0851316bc321867639c81d7f106d5a809428a9cb7cd292c7",
+      "tb_kwt_negative": "d5a9b87eb58e2943629fb837b02d3d6f2425e633b0d5d737cd058c029d337681",
+      "tb_kwt_mul_pipeline": "c7175723e987ef3e689839dd0e476ad46d964ed1d3f43d75db4d7c4bf3ccbe68",
+      "tb_kwt_codec": "0dfee266256cad8f6cdc39cde01d494bbbfb85769c6d4aa470e005602797e935"
+    },
+    "paired": {
+      "tb_kwt_system": "5c989f89e91580a87635e1000da4147fbd57934328e94dc381acd557bd031107",
+      "tb_kwt_compact": "8ca048054391db31e62cf397cde8e0c0ef5f2940cd0006df7ebe4e164742c378"
+    },
+    "swap_large": {
+      "tb_kwt_compact": "30c87ddd01a61a1cc73d70d2fd3e4dc1a7dff2135518253c8f0904e0b57dc008",
+      "tb_kwt_overlap": "941b5705eef96cbbbc0ece19bc4a6257f435608a726ab082ec12dbadd5cfa630"
+    },
+    "v31": {
+      "tb_kwt_system": "013d8c9e333fb42d34ecc2f68379ce0b08fa60ab63d645c30d163dcfa9681eaa"
+    },
+    "export": {
+      "tb_kwt_export": "2eb13678b40346d90b82fb31da49100ba0903530ea2ab73d81a75df3ca457ae2"
+    }
+  },
+  "integer_oracle": "v2/vec frozen, SHA verified against each XSim run"
+}

@@ -1,0 +1,3 @@
+# Final SS: U2216/ZN drove 0.137496 pF against a 0.134750 pF limit.
+# Instance, original, same-function replacement, output pin, measured capacitance (pF).
+U2216 CLKINV4_12TH40 CLKINV5_12TH40 ZN 0.137496

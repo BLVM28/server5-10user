@@ -1,0 +1,24 @@
+{
+  "tasks_by_set": {
+    "base": 12,
+    "class_00": 12,
+    "class_01": 12,
+    "class_02": 12,
+    "class_03": 12,
+    "class_04": 12,
+    "class_05": 12,
+    "class_06": 12,
+    "class_07": 12,
+    "class_08": 12,
+    "class_09": 12,
+    "class_10": 12,
+    "class_11": 12,
+    "worst": 12
+  },
+  "tasks": 168,
+  "acc40_elements": 4257792,
+  "int16_elements": 4257792,
+  "saturation_counters": 168,
+  "model_sha256": "829e742d81ce591033ad8c95af8d27134504721b03049d1034b6d75c94e4a2f0",
+  "vector_manifest_sha256": "5714836b3ada026943346329a5fb38bebb81b8e95774050b2e7194d79063b5ab"
+}
