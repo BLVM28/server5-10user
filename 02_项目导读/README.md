@@ -17,3 +17,4 @@
 6. [服务器手动操作](../v2/SERVER_GUIDE.md)：整理后目录、make 编译/功能/门级/时序/波形命令；[本轮服务器结果](../v2/SERVER_RESULTS.md) 给出保守频率与未完成边界。
 
 7. [v3 八列与提频](../v3/README.md) 配套 [模块导读](../v3/rtl/README.md)、[正式服务器入口](../v3/SERVER_GUIDE.md) 和 [五个分类包](../v3/packages/README.md)。先比较 v2/v3 在统一 150 MHz 的周期，再比较各自通过的时钟点。
+8. [v3.1 同频吞吐优化](../v3.1/README.md) 配套 [预取时序](../v3.1/ARCHITECTURE.md)、[逐层对照与工艺结果](../v3.1/RESULTS.md) 及 [服务器手册](../v3.1/SERVER_GUIDE.md)。重点看单口 SRAM 怎样容纳两块权重，以及遇到慢总线怎样补读。

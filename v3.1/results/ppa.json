@@ -1,0 +1,90 @@
+{
+  "top": "kwt_nice_core",
+  "scope": "SMIC40 pre-layout; same implemented netlist, SS/FF",
+  "mapped_sha256": "00389fe9806504eb83a23cfe47d1ffdae61e09999a72275dc5fdfcf52c1972bb",
+  "qualification_sha256": "6fd72f4d13e2f2d57d45baaa11cc2e2ec14f46dd0b7bc2c90a266367aafa1eb7",
+  "map_period_ns": 4.5,
+  "total_cell_area": 155089.24009,
+  "macro_area": 85456.079102,
+  "v3_cell_area": 149410.352847,
+  "references_resized": 1,
+  "columns": [
+    "period_ns",
+    "corner",
+    "setup_ns",
+    "hold_ns",
+    "reported_violations"
+  ],
+  "points": [
+    [
+      5.0,
+      "ss",
+      0.382994,
+      0.163323,
+      0
+    ],
+    [
+      5.0,
+      "ff",
+      2.616569,
+      0.098712,
+      0
+    ],
+    [
+      4.761905,
+      "ss",
+      0.144899,
+      0.163323,
+      0
+    ],
+    [
+      4.761905,
+      "ff",
+      2.378474,
+      0.098712,
+      0
+    ],
+    [
+      4.651163,
+      "ss",
+      0.034157,
+      0.163323,
+      0
+    ],
+    [
+      4.651163,
+      "ff",
+      2.267732,
+      0.098712,
+      0
+    ],
+    [
+      4.545455,
+      "ss",
+      -0.071551,
+      0.163323,
+      4
+    ],
+    [
+      4.545455,
+      "ff",
+      2.162024,
+      0.098712,
+      0
+    ],
+    [
+      6.666667,
+      "ss",
+      2.049661,
+      0.163323,
+      0
+    ],
+    [
+      6.666667,
+      "ff",
+      4.283236,
+      0.098712,
+      0
+    ]
+  ]
+}

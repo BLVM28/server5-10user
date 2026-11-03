@@ -1,0 +1,35 @@
+{
+  "activation_sets": [
+    "class_00",
+    "class_01",
+    "class_02",
+    "class_03",
+    "class_04",
+    "class_05",
+    "class_06",
+    "class_07",
+    "class_08",
+    "class_09",
+    "class_10",
+    "class_11",
+    "worst"
+  ],
+  "directory": "/storage2/2026contest/server5/s5_10usr/v3.1",
+  "long_gate_run": false,
+  "mapped_sha256": "00389fe9806504eb83a23cfe47d1ffdae61e09999a72275dc5fdfcf52c1972bb",
+  "rtl_suites": {
+    "tb_kwt_arithmetic": 260,
+    "tb_kwt_icb": 4,
+    "tb_kwt_mul_pipeline": 524288,
+    "tb_kwt_negative": 58,
+    "tb_kwt_overlap": 5,
+    "tb_kwt_system": 29,
+    "tb_v3_carries": 7
+  },
+  "sdf_probes": {
+    "ff": "PASS",
+    "ss": "PASS"
+  },
+  "waveform": "PASS",
+  "worst_first_12_cycles": 3454643
+}

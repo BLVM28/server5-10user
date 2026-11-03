@@ -1,0 +1,234 @@
+{
+  "workload": "same worst 12 layers, first pass only, same system TB, 12672 word writes per matrix",
+  "per_layer_cycles": {
+    "v3": [
+      346680,
+      346514,
+      346353,
+      346495,
+      346390,
+      346341,
+      346576,
+      346110,
+      346893,
+      346170,
+      346497,
+      346593
+    ],
+    "prefetch_only": [
+      285381,
+      285263,
+      284808,
+      285055,
+      285024,
+      284819,
+      285073,
+      284945,
+      285315,
+      285097,
+      284888,
+      284857
+    ],
+    "v31": [
+      287980,
+      287700,
+      287801,
+      287882,
+      287628,
+      287776,
+      287822,
+      288135,
+      288034,
+      287793,
+      287762,
+      288330
+    ]
+  },
+  "total_cycles": {
+    "v3": 4157612,
+    "prefetch_only": 3420525,
+    "v31": 3454643
+  },
+  "relative_cycle_change": -0.1690799911102816,
+  "equal_clock_throughput_gain": 0.20348528053405235,
+  "rtl_sha256": {
+    "kwt_dot64.sv": "337bd0a5095d6fccb5f6bfd69f7bc5d61bae05c3918a6681bca592a5682f99ac",
+    "kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "kwt_linear_core.sv": "5db2d4227c6a00b8095138ced0aad6c8f7e36fcb9498fba07c0a28a54b9a037e",
+    "kwt_mac8.sv": "19e331e67884fbcf57fd82b635224eb3996ca9ed8dc49764a542a5c9d8e5d257",
+    "kwt_mul16_pipe.sv": "5e3ea334109b76bff5e583a4c1daa5757fbcf2ecf0ec0605f92b57734b874c27",
+    "kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "kwt_w_panel.sv": "682e20ae71e1415d768de8a5a454173156da85bed8d8d5ccbbcac3637cd63ae6",
+    "kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424"
+  },
+  "v3_baseline_evidence_sha256": "a49d9c55804b56c14f13a2f15ef05a732665e67120f70abc9302561d4d084e1f",
+  "xsim": [
+    {
+      "run": "final_base",
+      "top": "tb_kwt_arithmetic",
+      "count": 260,
+      "defines": [],
+      "log_sha256": "3bee3f5c9701af6a3462afffd680b3e2c01996d7f77c3508d1316b72c6668fca",
+      "tb_sha256": "de2449d34d890ff07ce814ae07d639414d3808e51d36a9e9d7c8d6e982ed332f",
+      "measurement_lines": [
+        "ALL PASS, 260/260 arithmetic checks"
+      ]
+    },
+    {
+      "run": "final_base",
+      "top": "tb_v3_carries",
+      "count": 7,
+      "defines": [],
+      "log_sha256": "cba8eac1dd7c01ef901f1ad99d103802e8e3256a0d1a440f87b11702457ee43b",
+      "tb_sha256": "d50c2ea38cdbf3303d6c21a23d5258903efdaf1af8af8692c554bf82c5c2690f",
+      "measurement_lines": [
+        "ALL PASS, 7/7 deferred carry / abort / recovery cases"
+      ]
+    },
+    {
+      "run": "final_base",
+      "top": "tb_kwt_icb",
+      "count": 4,
+      "defines": [],
+      "log_sha256": "b0cbb067a7fe5b32e034961049176959fbf68d4fd4b11e236c30e6dda8233344",
+      "tb_sha256": "bf78018da54896eecc93cdf15ca92fa2718814c20572176988d54f7cfb33f14e",
+      "measurement_lines": [
+        "ALL PASS, 4/4 ICB master checks"
+      ]
+    },
+    {
+      "run": "final_base",
+      "top": "tb_kwt_system",
+      "count": 29,
+      "defines": [],
+      "log_sha256": "b4a9f7c2d4bd3195e6dcd04548e27486ce5babe7a2069888253a26c08b7fd7f3",
+      "tb_sha256": "9b2b437ab1c4d620d3aad621f533846123395460d1ab2e04b243a6ee07731c92",
+      "measurement_lines": [
+        "matrix layer 0 PASS core_cycles=287980 writes=12672",
+        "matrix layer 1 PASS core_cycles=287700 writes=12672",
+        "matrix layer 2 PASS core_cycles=287801 writes=12672",
+        "matrix layer 3 PASS core_cycles=287882 writes=12672",
+        "matrix layer 4 PASS core_cycles=287628 writes=12672",
+        "matrix layer 5 PASS core_cycles=287776 writes=12672",
+        "matrix layer 6 PASS core_cycles=287822 writes=12672",
+        "matrix layer 7 PASS core_cycles=288135 writes=12672",
+        "matrix layer 8 PASS core_cycles=288034 writes=12672",
+        "matrix layer 9 PASS core_cycles=287793 writes=12672",
+        "matrix layer 10 PASS core_cycles=287762 writes=12672",
+        "matrix layer 11 PASS core_cycles=288330 writes=12672",
+        "matrix layer 0 PASS core_cycles=287980 writes=12672",
+        "matrix layer 11 PASS core_cycles=287980 writes=12672",
+        "ALL PASS, 29/29 NICE/matrix scenarios PACK=1 WAW=7"
+      ]
+    },
+    {
+      "run": "panel_stress",
+      "top": "tb_kwt_overlap",
+      "count": 5,
+      "defines": [],
+      "log_sha256": "7ca23ee02122993990ee79c824780660f3514cefb96db865afcbd7364ff5f0a9",
+      "tb_sha256": "63d21175cda565228f527319c0b65df45d26cabe9af1d158f3ac99914a88b529",
+      "measurement_lines": [
+        "matrix layer 0 PASS core_cycles=321133 writes=12672",
+        "matrix layer 11 PASS core_cycles=320586 writes=12672",
+        "matrix layer 0 PASS core_cycles=320831 writes=12672",
+        "PANEL PASS 2/2 reset/error; full=90 partial=3 port_stalls=13886 reads=23331",
+        "ALL PASS, 5/5 overlap/error-recovery scenarios overlap_cycles=300025 held_mac_cycles=32393"
+      ]
+    },
+    {
+      "run": "final_base",
+      "top": "tb_kwt_negative",
+      "count": 58,
+      "defines": [],
+      "log_sha256": "0d3265f8a5124609d2c21200fe5ac7de7a8a5faa263a5d137849b90bf460df37",
+      "tb_sha256": "b413d5e1e15193ec137b9a3d577e6f28745c90e097f9a5188b6be1b710376e41",
+      "measurement_lines": [
+        "matrix layer 0 PASS core_cycles=287803 writes=12672",
+        "matrix layer 11 PASS core_cycles=287984 writes=12672",
+        "ALL PASS, 58/58 expanded rejection/error-recovery scenarios"
+      ]
+    },
+    {
+      "run": "final_base",
+      "top": "tb_kwt_mul_pipeline",
+      "count": 524288,
+      "defines": [],
+      "log_sha256": "908360a3a037f5ceb47df141321c00855ca22f564444cce1acdbbc06acf383af",
+      "tb_sha256": "757989598d9d177eca8675545a900872a302c43ed9fe1232818ee3d2b61d70db",
+      "measurement_lines": [
+        "ALL PASS, 524288/524288 exhaustive products; total_checked=527566 with bubbles/resets"
+      ]
+    },
+    {
+      "run": "panel_swap_large",
+      "top": "tb_kwt_overlap",
+      "count": 5,
+      "defines": [
+        "KWT_TEST_SWAP",
+        "KWT_TEST_W1024"
+      ],
+      "log_sha256": "402f4167f58be9123ceb0ea6fb9548b98ca1f714319c3eb14828023c295dd381",
+      "tb_sha256": "63d21175cda565228f527319c0b65df45d26cabe9af1d158f3ac99914a88b529",
+      "measurement_lines": [
+        "matrix layer 0 PASS core_cycles=321133 writes=12672",
+        "matrix layer 11 PASS core_cycles=320586 writes=12672",
+        "matrix layer 0 PASS core_cycles=320831 writes=12672",
+        "PANEL PASS 2/2 reset/error; full=90 partial=3 port_stalls=13886 reads=23331",
+        "ALL PASS, 5/5 overlap/error-recovery scenarios overlap_cycles=300025 held_mac_cycles=32393"
+      ]
+    },
+    {
+      "run": "panel_only",
+      "top": "tb_kwt_system",
+      "count": 29,
+      "defines": [],
+      "log_sha256": "11e1c5db9e7d4967ddc0c23e5da06bf99bf36771e34949868b500cd940a595c4",
+      "tb_sha256": "9b2b437ab1c4d620d3aad621f533846123395460d1ab2e04b243a6ee07731c92",
+      "measurement_lines": [
+        "matrix layer 0 PASS core_cycles=285381 writes=12672",
+        "matrix layer 1 PASS core_cycles=285263 writes=12672",
+        "matrix layer 2 PASS core_cycles=284808 writes=12672",
+        "matrix layer 3 PASS core_cycles=285055 writes=12672",
+        "matrix layer 4 PASS core_cycles=285024 writes=12672",
+        "matrix layer 5 PASS core_cycles=284819 writes=12672",
+        "matrix layer 6 PASS core_cycles=285073 writes=12672",
+        "matrix layer 7 PASS core_cycles=284945 writes=12672",
+        "matrix layer 8 PASS core_cycles=285315 writes=12672",
+        "matrix layer 9 PASS core_cycles=285097 writes=12672",
+        "matrix layer 10 PASS core_cycles=284888 writes=12672",
+        "matrix layer 11 PASS core_cycles=284857 writes=12672",
+        "matrix layer 0 PASS core_cycles=285381 writes=12672",
+        "matrix layer 11 PASS core_cycles=285381 writes=12672",
+        "ALL PASS, 29/29 NICE/matrix scenarios PACK=1 WAW=7"
+      ]
+    },
+    {
+      "run": "final_worst",
+      "top": "tb_kwt_system",
+      "count": 29,
+      "defines": [],
+      "log_sha256": "c31b6924f980be5475ef582be539c73110cf194e2724ff1fca008ee9aea67c9f",
+      "tb_sha256": "9b2b437ab1c4d620d3aad621f533846123395460d1ab2e04b243a6ee07731c92",
+      "measurement_lines": [
+        "matrix layer 0 PASS core_cycles=287980 writes=12672",
+        "matrix layer 1 PASS core_cycles=287700 writes=12672",
+        "matrix layer 2 PASS core_cycles=287801 writes=12672",
+        "matrix layer 3 PASS core_cycles=287882 writes=12672",
+        "matrix layer 4 PASS core_cycles=287628 writes=12672",
+        "matrix layer 5 PASS core_cycles=287776 writes=12672",
+        "matrix layer 6 PASS core_cycles=287822 writes=12672",
+        "matrix layer 7 PASS core_cycles=288135 writes=12672",
+        "matrix layer 8 PASS core_cycles=288034 writes=12672",
+        "matrix layer 9 PASS core_cycles=287793 writes=12672",
+        "matrix layer 10 PASS core_cycles=287762 writes=12672",
+        "matrix layer 11 PASS core_cycles=288330 writes=12672",
+        "matrix layer 0 PASS core_cycles=287980 writes=12672",
+        "matrix layer 11 PASS core_cycles=287980 writes=12672",
+        "ALL PASS, 29/29 NICE/matrix scenarios PACK=1 WAW=7"
+      ]
+    }
+  ]
+}

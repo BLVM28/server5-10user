@@ -1,0 +1,3 @@
+# v3.1 initial SS: nice_rst_n -> master/cmd_read_reg/SDN, slack -0.036613 ns.
+# Instance expected-ref replacement-ref output-pin cap (0 means a timing-only repair)
+master/U467 INV32_12TH40 INV1_12TH40 ZN 0
