@@ -1,0 +1,22 @@
+ECHO is off.
+ECHO is off.
+
+****** xsim v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_kwt_negative_sim/xsim_script.tcl
+# xsim {tb_kwt_negative_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+matrix layer 0 PASS core_cycles=346837 writes=12672
+matrix layer 11 PASS core_cycles=345823 writes=12672
+ALL PASS, 58/58 expanded rejection/error-recovery scenarios
+$finish called at time : 18968890 ns : File "C:/Users/lenovo/Desktop/server5-10user/v3/build/final_base/tb_kwt_negative.sv" Line 208
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:36 . Memory (MB): peak = 214.898 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 14384 KB (Peak: 14384 KB), Simulation CPU Usage: 34796 ms
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 14:11:15 2026...

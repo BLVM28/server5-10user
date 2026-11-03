@@ -1,0 +1,56 @@
+{
+  "commands_passed": [
+    "make env",
+    "make clean",
+    "make compile",
+    "make check",
+    "make waves",
+    "make probe",
+    "make package",
+    "make -C server_eda report"
+  ],
+  "full_layer_gate": "not run for deployment",
+  "package_files": {
+    "flow": 33,
+    "makefile": 2,
+    "rtl": 12,
+    "tb": 9,
+    "vectors": 971
+  },
+  "package_sha256": {
+    "flow": "cdaad05192f09797c7b9c789307738da25010d4aa0de895342f77a029270fd99",
+    "makefile": "ed8c2dce36dbafe1f0c3fd4614ba2fa325aa3f7165d8449036a5863830656e42",
+    "rtl": "fae8244993b9c34e1a9e24890a2d55e0f2287ea36fcb55488604d1cf4a6dfdd4",
+    "tb": "19d09f44f8c3b6b1fc574857c859b12ab1082676c3ba1e30872aefb33d37dc48",
+    "vectors": "ccc26f321c3650edbb16ac45eee58bc6c0496fd0fac0f88503d7bc14b1b6edae"
+  },
+  "pinned_vector_files": 952,
+  "qualified_netlist_sha256": "89e474d858bb1e7fbeae1d7b4cac52e0f51bbceed8d34fa3bf1f95c51e59687d",
+  "scope": "v3 official delivery: RTL regression, full-core pre-layout STA, SDF short probes and archives",
+  "sdf_annotation_probe": [
+    "ss",
+    "ff"
+  ],
+  "server_directory": "/storage2/2026contest/server5/s5_10usr/v3",
+  "source_manifest_sha256": "fd87b097cffe96029bc8a1ddf253f9733090e36e344123c2caf289673b3f3782",
+  "test_counts": {
+    "tb_kwt_arithmetic": 260,
+    "tb_kwt_icb": 4,
+    "tb_kwt_mul_pipeline": 524288,
+    "tb_kwt_negative": 58,
+    "tb_kwt_overlap": 5,
+    "tb_kwt_system": 29,
+    "tb_v3_carries": 7
+  },
+  "timing_200mhz_setup_hold_ns": {
+    "ff": [
+      2.539268,
+      0.125206
+    ],
+    "ss": [
+      0.000194,
+      0.295461
+    ]
+  },
+  "verified_source_files": 1058
+}

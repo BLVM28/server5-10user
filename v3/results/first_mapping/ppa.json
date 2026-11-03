@@ -1,0 +1,27 @@
+{
+  "status": "NOT QUALIFIED",
+  "tool": "DC + PrimeTime, same SS/FF HVT libraries and constraints as v2",
+  "server": "v3_trial_20261103_8f99ca2431b4/build/ppa/b6c0042a4bc01dde",
+  "server_qualification_sha256": "9e0e0675c67419ec211ec726945f3bee18b5103fb94fe8f3605e2393bcd38bca",
+  "mapped_sha256": "9f87f00b2a5763cff33607d70dad1c5524e73cff55cd39ab0d7ad675c2b56d0c",
+  "vcs_system": "29/29",
+  "vcs_system_log_sha256": "bb5cf0e592701d64a29e6590a7c934825c7ab8a3e0e7cd9c7270d67cb62b0912",
+  "total_cell_area": 148585.85926,
+  "sram_area": 85456.079102,
+  "vs_v2_percent": 0.5034950565774743,
+  "ss_setup_hold_ns_at_5ns": [
+    1.2e-05,
+    0.045681
+  ],
+  "ff_setup_hold_ns_at_5ns": [
+    2.378007,
+    0.053907
+  ],
+  "max_cap_ss": {
+    "pin": "core/U2239/ZN",
+    "limit_pF": 0.033992,
+    "actual_pF": 0.034357
+  },
+  "min_cap_ss_and_ff": "one unused busy inverter per lane, minimum 0.000500 pF, actual zero",
+  "qualification_scope": "9 SS and 8 FF reported electrical violations; not an accepted 200 MHz implementation"
+}

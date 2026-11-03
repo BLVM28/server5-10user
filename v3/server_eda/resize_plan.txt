@@ -1,0 +1,6 @@
+# v3 final direct map: instance, expected ref, replacement ref, output pin, observed cap (pF; 0 for timing-only change)
+core/U2375 CLKINV0_12TH40 CLKINV1_12TH40 ZN 0.034357
+core/mac/lane_2__dot/mul/U139 DEL4V0_12TH40 DEL2V0_12TH40 Z 0
+core/mac/lane_1__dot/mul/U131 DEL4V0_12TH40 DEL2V0_12TH40 Z 0
+core/mac/lane_4__dot/mul/U141 DEL4V0_12TH40 DEL2V0_12TH40 Z 0
+core/mac/lane_3__dot/mul/U239 DEL4V0_12TH40 DEL2V0_12TH40 Z 0

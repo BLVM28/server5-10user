@@ -2,3 +2,7 @@
 01_核心参考/keyword-transformer-master/models_data_v2_12_labels/kwt3/last_weights.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
 03_过程与分析/05_工具/tf24_env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.lib filter=lfs diff=lfs merge=lfs -text
 03_过程与分析/05_工具/tf24_env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text
+# Keep checked source/vector bytes reproducible in Windows and Linux clones.
+v2/vec/** -text
+v2/server_eda/easy.py -text
+v3/** -text

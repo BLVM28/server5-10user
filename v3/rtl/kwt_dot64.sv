@@ -1,0 +1,83 @@
+// SPDX-License-Identifier: MIT
+// Eight lanes use this same dot. Carries crossing bits 14 and 27 are delayed
+// by one accepted product. Two zero additions at the end normalize the sum.
+module kwt_dot64 #(parameter integer EXPOSE_BUSY = 1) (
+  input wire clk, rst_n, clear,
+  input wire cmd_valid, output wire cmd_ready,
+  input wire signed [31:0] cmd_bias,
+  input wire pair_valid, output wire pair_ready,
+  input wire signed [15:0] pair_x, pair_w,
+  output wire out_valid, input wire out_ready,
+  output reg signed [15:0] out_y,
+  output reg signed [39:0] out_acc,
+  output reg out_saturated, output wire busy
+);
+  localparam [2:0] IDLE=0, RUN=1, FOLD_FIRST=2, FOLD_LAST=3, ROUND=4, RESPONSE=5;
+  reg [2:0] state;
+  reg [6:0] received;
+  reg [13:0] low_sum;
+  reg [12:0] middle_sum, high_sum;
+  reg carry14, carry27;
+
+  wire mul_valid, mul_last;
+  wire signed [31:0] product;
+  wire signed [15:0] quant_y;
+  wire quant_sat;
+  wire [39:0] bias_extended = {{8{cmd_bias[31]}},cmd_bias};
+  wire [39:0] term = (state == RUN) ? {{8{product[31]}},product} : 40'd0;
+  wire [14:0] low_next = {1'b0,low_sum} + {1'b0,term[13:0]};
+  wire [13:0] middle_next = {1'b0,middle_sum} + {1'b0,term[26:14]} + {13'd0,carry14};
+  wire [12:0] high_next = high_sum + term[39:27] + {12'd0,carry27};
+  wire signed [39:0] canonical_sum = {high_sum,middle_sum,low_sum};
+  assign cmd_ready = rst_n && state == IDLE;
+  assign pair_ready = rst_n && state == RUN && received < 64;
+  assign out_valid = rst_n && state == RESPONSE;
+  // Standalone users observe busy. The enclosing mac8 has no consumer for it.
+  assign busy = EXPOSE_BUSY ? (state != IDLE) : 1'b0;
+
+  kwt_mul16_pipe mul(.clk(clk),.rst_n(rst_n),.clear(clear),
+    .in_valid(pair_valid && pair_ready),.in_last(received == 63),
+    .in_x(pair_x),.in_w(pair_w),.out_valid(mul_valid),
+    .out_last(mul_last),.out_product(product));
+  kwt_quantize quant(.acc(canonical_sum),.y(quant_y),.saturated(quant_sat));
+
+  // Every command loads all five fields before any product is accepted.
+  // Only the valid/control state needs reset; aborted data is never consumed.
+  always @(posedge clk) begin
+    if (cmd_valid && cmd_ready && !clear) begin
+      low_sum <= bias_extended[13:0];
+      middle_sum <= bias_extended[26:14];
+      high_sum <= bias_extended[39:27];
+      carry14 <= 1'b0;
+      carry27 <= 1'b0;
+    end else if ((state == RUN && mul_valid) || state == FOLD_FIRST || state == FOLD_LAST) begin
+      {carry14,low_sum} <= low_next;
+      {carry27,middle_sum} <= middle_next;
+      high_sum <= high_next;
+    end
+  end
+
+  always @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+      state <= IDLE; received <= 0;
+      out_y <= 0; out_acc <= 0; out_saturated <= 0;
+    end else if (clear) begin
+      state <= IDLE; received <= 0;
+      out_y <= 0; out_acc <= 0; out_saturated <= 0;
+    end else case (state)
+      IDLE: if (cmd_valid) begin received <= 0; state <= RUN; end
+      RUN: begin
+        if (pair_valid && pair_ready) received <= received + 1'b1;
+        if (mul_valid && mul_last) state <= FOLD_FIRST;
+      end
+      FOLD_FIRST: state <= FOLD_LAST;
+      FOLD_LAST: state <= ROUND;
+      ROUND: begin
+        out_y <= quant_y; out_acc <= canonical_sum; out_saturated <= quant_sat;
+        state <= RESPONSE;
+      end
+      RESPONSE: if (out_ready) state <= IDLE;
+      default: state <= IDLE;
+    endcase
+  end
+endmodule

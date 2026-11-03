@@ -1,0 +1,107 @@
+{
+  "scope": "kwt_nice_core accelerator pre-layout timing; test 512 KiB aperture, 8 SP128 and 7 SP1024 macros",
+  "date": "2026-11-03",
+  "server_relative_directory": "v3_trial_20261103_07384bb8170d/build/ppa/d75a28b4f29109af/resize_4a17da389159cc41",
+  "server_qualification_sha256": "4e917095b032cf0d8f31dfa620687ec3bbcee4474e27b0b0326aebc50513b0b7",
+  "mapped_sha256": "89e474d858bb1e7fbeae1d7b4cac52e0f51bbceed8d34fa3bf1f95c51e59687d",
+  "server_vcs_system_log_sha256": "c3577f18ba3cdfb67fbc8673412845247317a927e01a2fdee5789093714feaf9",
+  "vcs_foundry_rtl_system": "29/29",
+  "rtl_sha256_dict_digest": "5d09877d5456cbc917011b90ae522b4fdcd3041082a57215af1407cea1d993a1",
+  "area": {
+    "v2_fix1": 147841.484693,
+    "v3_final": 149410.352847,
+    "macro": 85456.079102,
+    "increase_percent": 1.0611826289879556,
+    "proposed_limit_percent": 5
+  },
+  "coverage_ss_200": {
+    "total": 21784,
+    "met": 18379,
+    "violated": 0,
+    "untested": 3405
+  },
+  "check_timing_succeeded": true,
+  "resize_reference_count": 5,
+  "other_netlist_statements_identical": true,
+  "selected_points": [
+    {
+      "period_ns": 5.0,
+      "corner": "ss",
+      "setup_ns": 0.000194,
+      "hold_ns": 0.295461,
+      "reported_violations": 0,
+      "pass": true
+    },
+    {
+      "period_ns": 5.0,
+      "corner": "ff",
+      "setup_ns": 2.539268,
+      "hold_ns": 0.125206,
+      "reported_violations": 0,
+      "pass": true
+    },
+    {
+      "period_ns": 5.555556,
+      "corner": "ss",
+      "setup_ns": 0.555749,
+      "hold_ns": 0.295461,
+      "reported_violations": 0,
+      "pass": true
+    },
+    {
+      "period_ns": 5.555556,
+      "corner": "ff",
+      "setup_ns": 3.094824,
+      "hold_ns": 0.125206,
+      "reported_violations": 0,
+      "pass": true
+    },
+    {
+      "period_ns": 6.25,
+      "corner": "ss",
+      "setup_ns": 1.250194,
+      "hold_ns": 0.295461,
+      "reported_violations": 0,
+      "pass": true
+    },
+    {
+      "period_ns": 6.25,
+      "corner": "ff",
+      "setup_ns": 3.789268,
+      "hold_ns": 0.125206,
+      "reported_violations": 0,
+      "pass": true
+    },
+    {
+      "period_ns": 6.666667,
+      "corner": "ss",
+      "setup_ns": 1.666861,
+      "hold_ns": 0.295461,
+      "reported_violations": 0,
+      "pass": true
+    },
+    {
+      "period_ns": 6.666667,
+      "corner": "ff",
+      "setup_ns": 4.205935,
+      "hold_ns": 0.125206,
+      "reported_violations": 0,
+      "pass": true
+    }
+  ],
+  "global_gate_200mhz": "PASS",
+  "worst_ss_setup_path": {
+    "from": "core/mac/lane_0__dot/mul/partial_high_reg_1_/CK",
+    "to": "core/mac/lane_0__dot/mul/out_product_reg_31_/D"
+  },
+  "direct_mapping_before_resize": {
+    "area": 149416.736847,
+    "ss_5ns_setup": -0.039375,
+    "ss_5ns_hold": 0.295461,
+    "ss_5ns_violators": 5,
+    "ff_5ns_setup": 2.539268,
+    "ff_5ns_hold": 0.144577,
+    "ff_5ns_violators": 0
+  },
+  "units": "slack in ns, areas in DC library area units"
+}

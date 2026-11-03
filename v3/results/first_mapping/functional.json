@@ -1,0 +1,222 @@
+{
+  "suites": {
+    "base": {
+      "tests": {
+        "tb_kwt_arithmetic": 260,
+        "tb_v3_carries": 7,
+        "tb_kwt_system": 29,
+        "tb_kwt_overlap": 5,
+        "tb_kwt_negative": 58,
+        "tb_kwt_icb": 4,
+        "tb_kwt_mul_pipeline": 524288
+      },
+      "matrix_rows": [
+        [
+          0,
+          346680,
+          12672
+        ],
+        [
+          1,
+          346514,
+          12672
+        ],
+        [
+          2,
+          346353,
+          12672
+        ],
+        [
+          3,
+          346495,
+          12672
+        ],
+        [
+          4,
+          346390,
+          12672
+        ],
+        [
+          5,
+          346341,
+          12672
+        ],
+        [
+          6,
+          346576,
+          12672
+        ],
+        [
+          7,
+          346110,
+          12672
+        ],
+        [
+          8,
+          346893,
+          12672
+        ],
+        [
+          9,
+          346170,
+          12672
+        ],
+        [
+          10,
+          346497,
+          12672
+        ],
+        [
+          11,
+          346593,
+          12672
+        ],
+        [
+          0,
+          346680,
+          12672
+        ],
+        [
+          11,
+          346680,
+          12672
+        ]
+      ],
+      "log_sha256": {
+        "tb_kwt_arithmetic.log": "1e51502b262bd19752db1b86bab827b8766d27db6b40b0f0e755118f3254bc75",
+        "tb_kwt_icb.log": "c040e52797a40b584de906ea42c6f3f49b329c40a1b0990f56828582d9ead491",
+        "tb_kwt_mul_pipeline.log": "efdf06925c53b6c1400ffbb9d01f9832cc8ff8e4efd8f2ebd8996378d12909a5",
+        "tb_kwt_negative.log": "f3e176c8f1bd96df35926aef503f1539620b15ed86c5ee53938671330c9d780f",
+        "tb_kwt_overlap.log": "93e5e862a051254cc1f345485d8d8b6c8a0245c1c9ddd7ae95ed4ff7f1a9026d",
+        "tb_kwt_system.log": "3dd3ef8abe8fc642c7d230aa4f6b16a1a1dda02b9b52fc99a0375f29cc896f00",
+        "tb_v3_carries.log": "d6bf1784ef6f22b1702a2cf3c0c32ed425f283a1ea8b415ff355d7d4498b12d7"
+      }
+    },
+    "worst": {
+      "tests": {
+        "tb_kwt_system": 29
+      },
+      "matrix_rows": [
+        [
+          0,
+          346680,
+          12672
+        ],
+        [
+          1,
+          346514,
+          12672
+        ],
+        [
+          2,
+          346353,
+          12672
+        ],
+        [
+          3,
+          346495,
+          12672
+        ],
+        [
+          4,
+          346390,
+          12672
+        ],
+        [
+          5,
+          346341,
+          12672
+        ],
+        [
+          6,
+          346576,
+          12672
+        ],
+        [
+          7,
+          346110,
+          12672
+        ],
+        [
+          8,
+          346893,
+          12672
+        ],
+        [
+          9,
+          346170,
+          12672
+        ],
+        [
+          10,
+          346497,
+          12672
+        ],
+        [
+          11,
+          346593,
+          12672
+        ],
+        [
+          0,
+          346680,
+          12672
+        ],
+        [
+          11,
+          346680,
+          12672
+        ]
+      ],
+      "log_sha256": {
+        "tb_kwt_system.log": "1f5ec3c59169cabe3d874ab8f1bfd08e16b86f68b3f00b8f33e401957d610750"
+      }
+    }
+  },
+  "paired_cycle_comparison": {
+    "workload": "same worst vectors / seed, first 12 distinct layers, recovery repetitions excluded",
+    "v2_core_cycles": 4081340,
+    "v3_core_cycles": 4157612,
+    "change_percent": 1.8687979928160958,
+    "per_layer_v2": [
+      340094,
+      340271,
+      340092,
+      340090,
+      339671,
+      340117,
+      339658,
+      340157,
+      340275,
+      340240,
+      340332,
+      340343
+    ],
+    "per_layer_v3": [
+      346680,
+      346514,
+      346353,
+      346495,
+      346390,
+      346341,
+      346576,
+      346110,
+      346893,
+      346170,
+      346497,
+      346593
+    ]
+  },
+  "rtl_sha256": {
+    "kwt_dot64.sv": "fda0f3429db46a0475defd4fe09936d750cf552421da0668151f3f5ad62cba7f",
+    "kwt_icb_master.sv": "e3f414f167fae7f1e9bf3c39d2de6c023e6b3379b61427a7598647cb42d0243a",
+    "kwt_linear_core.sv": "53a4de5bc9ee74825b7db233ca5e86d185ec829bd6d7c30b19701b547596bd77",
+    "kwt_mac8.sv": "b7631021161a69375b4cd34630c8904de0ac7e1d6c2588c47160fdc46be0297f",
+    "kwt_mul16_pipe.sv": "f9fa28af737e85538fcb1223eea168dc07a120e1446484e06189ce590c7bc2bd",
+    "kwt_nice_core.sv": "5b4eeea7bc9532f3a4886d6206fda2ab09f86a5025fcc4232c257e9965b3aaeb",
+    "kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "kwt_w_panel.sv": "3fd1e98ab81798c5c82eb50fec7177a75b1b5c626f2a4e130ed70dab8c0b8a01",
+    "kwt_x_buffer.sv": "a2ec19f579e45554772f2b339485029332b9b02ae5c887f524c08a69df444424"
+  }
+}
