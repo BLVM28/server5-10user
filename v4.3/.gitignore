@@ -1,0 +1,17 @@
+build/**
+!build/README.md
+implementation/**
+!implementation/README.md
+!implementation/rebuilt/
+implementation/rebuilt/**
+!implementation/rebuilt/README.md
+/reports/**
+!/reports/README.md
+/history/*.zip
+/.manual.lock
+/vec/**/*.hex
+/vec/**/*.npz
+/vec/**/*.json
+/vec/**/*.txt
+/packages/tmp*/
+__pycache__/

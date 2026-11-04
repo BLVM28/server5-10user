@@ -1,0 +1,23 @@
+Model and parameters
+--------------------
+The KWT-1 checkpoint and numerical test sources come from the local
+ARM-software/keyword-transformer reference at commit 237e4097, under Apache-2.0.
+The exact pinned source hashes are in py/vector_manifest.json and the preserved
+v2/vec/weights/format.json. Profile42 is frozen from the v4.2 training-only
+33-WAV calibration; no new validation/test sample was used to tune it.
+UPSTREAM_LICENSE.txt contains the unmodified Apache-2.0 license.
+
+Public E203 controller
+----------------------
+integration/upstream contains verbatim Apache-2.0 Nuclei files copied read-only
+from the authorized public ZIP, not a modified implementation of the controller.
+See integration/upstream/README.md and provenance.json for source ZIP identity,
+per-file hashes, and the simulator-only generic clock-gate selection.
+The E203 CPU is not part of the synthesized accelerator or its power estimate.
+
+Foundry libraries
+-----------------
+No proprietary standard-cell/SRAM Liberty, DB, Verilog macro models, mapped
+netlists, SDF or VCD are redistributed. Server scripts read licensed files from
+the public directory or the user's existing private library selection.
+Public reports contain scalar metrics and cryptographic artifact identities.

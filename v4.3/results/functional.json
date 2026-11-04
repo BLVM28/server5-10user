@@ -1,0 +1,136 @@
+{
+  "tool": "XSim 2023.2",
+  "endpoint": "unaltered public E203 sirv_sram_icb_ctrl, functional one-cycle RAM",
+  "passed": true,
+  "matrices": [
+    {
+      "layer": 0,
+      "cycles": 15984,
+      "reads": 6021,
+      "writes": 4522,
+      "mode": 3
+    },
+    {
+      "layer": 1,
+      "cycles": 15988,
+      "reads": 5880,
+      "writes": 4323,
+      "mode": 3
+    },
+    {
+      "layer": 2,
+      "cycles": 15993,
+      "reads": 6260,
+      "writes": 4310,
+      "mode": 3
+    },
+    {
+      "layer": 3,
+      "cycles": 15980,
+      "reads": 6317,
+      "writes": 4425,
+      "mode": 3
+    },
+    {
+      "layer": 4,
+      "cycles": 15967,
+      "reads": 5969,
+      "writes": 4928,
+      "mode": 3
+    },
+    {
+      "layer": 5,
+      "cycles": 15959,
+      "reads": 5773,
+      "writes": 4581,
+      "mode": 3
+    },
+    {
+      "layer": 6,
+      "cycles": 15959,
+      "reads": 5894,
+      "writes": 4400,
+      "mode": 3
+    },
+    {
+      "layer": 7,
+      "cycles": 16278,
+      "reads": 6363,
+      "writes": 4947,
+      "mode": 3
+    },
+    {
+      "layer": 8,
+      "cycles": 16298,
+      "reads": 6384,
+      "writes": 4990,
+      "mode": 3
+    },
+    {
+      "layer": 9,
+      "cycles": 16066,
+      "reads": 6503,
+      "writes": 4381,
+      "mode": 3
+    },
+    {
+      "layer": 10,
+      "cycles": 16001,
+      "reads": 6904,
+      "writes": 5431,
+      "mode": 3
+    },
+    {
+      "layer": 11,
+      "cycles": 16883,
+      "reads": 7913,
+      "writes": 7309,
+      "mode": 3
+    },
+    {
+      "layer": 0,
+      "cycles": 15984,
+      "reads": 6021,
+      "writes": 4522,
+      "mode": 3
+    },
+    {
+      "layer": 11,
+      "cycles": 16883,
+      "reads": 7913,
+      "writes": 7309,
+      "mode": 3
+    }
+  ],
+  "scenarios": 29,
+  "stream_guards": 25,
+  "total_12_cycles": 193356,
+  "tasks_s_at_150": 9309.25339787749,
+  "log_sha256": "4763844c8a7af3926b771dc975cd06dc4073bf4898dadfdec142eeb2c986fc0d",
+  "sources": {
+    "rtl\\kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "rtl\\kwt_mul16_pipe.sv": "5e3ea334109b76bff5e583a4c1daa5757fbcf2ecf0ec0605f92b57734b874c27",
+    "rtl\\kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "rtl\\kwt_rice_pack.sv": "0e0117dbe9f939c00fcfae11469ff650331ef5c213febc180f864f6cda815e37",
+    "rtl\\kwt43_icb_master.sv": "962d9339f23177562c9e1cff8e91cbd245bfec38b8bf27c4730842d16e137112",
+    "rtl\\kwt43_unpack.sv": "d16285ba6641c8921489d1d778fa08346a081195c946275d18fddb95462fa70e",
+    "rtl\\kwt43_dot.sv": "06fac7c5758c0ff635c35503a7f2a3f5494df59a5068ef80f2b00985bc68b5f0",
+    "rtl\\kwt43_xram.sv": "65678f534693d4987801d2aa992e0cffe9cb8c27bb4e22e262ff1f13999a1069",
+    "rtl\\kwt43_wram.sv": "83341e7af83c96e4fa648868e3e6bb42cda388d580a77ffa0b9da8d8988d7042",
+    "rtl\\kwt43_yram.sv": "1ff589b5a0de03e4ebd2d9ed963b3af7c8591926c02932c1d56b45977fa7bebb",
+    "rtl\\kwt43_reader.sv": "861a7fdec31b3fe7860e6a9afc1b5ccb157b3b3b51509751cf558d5789521f3e",
+    "rtl\\kwt43_writer.sv": "b8798dec1712f95aa721d2bc0d0f0c87cbeab0bcc875344e8d45cb5719f3a68c",
+    "rtl\\kwt43_compute.sv": "8a4debb3f5c7f6eb64c8c3834a83cf09985e8c3913dd3a9bf1752f35734cc06c",
+    "rtl\\kwt43_core.sv": "4a20e7e139f62fbf912127332c2bb164da175e6dd45894224011153fa285e4c0",
+    "rtl\\kwt_nice_core.sv": "67dad7b0985f4d81c9eb778e758a3fa06c6e086de04c7098858c500bd19a5a91",
+    "tb\\kwt_sram_sim.sv": "e8345d4d7fc72970ea9ee0f08a77037ac896e579fbc3e867a0e25038a822ba2b",
+    "build\\public_full\\tb_kwt_public_sram.sv": "311330f76ddc21f48e89428cc10d0642876d6ac10d7b647096f0e5876a11c654",
+    "build\\public_full\\tb_kwt_streams.sv": "65393cff48f67d738569206687666f6cff8930b3b84d025c73d00a207b08b5c2",
+    "integration\\upstream\\sirv_sram_icb_ctrl.v": "c8cb42edc2a85e0e50b9f78f6b395682fecae4d8bade144ddc34aba3c89d14e6",
+    "integration\\upstream\\sirv_1cyc_sram_ctrl.v": "bb5ec8cd01da783be4dfe45774fda1662009d178b26a46f89adea95e202905ae",
+    "integration\\upstream\\sirv_gnrl_bufs.v": "d46f8701f99a79b321cecd2e2b776caa2d7a76925e07b675bbd3952a47fb3ab2",
+    "integration\\upstream\\sirv_gnrl_dffs.v": "cd903d78882040cc17b6fb8bec3862f8d440726d7027ba9c61310d18801f8d83",
+    "integration\\upstream\\e203_clkgate.v": "162491aa3fcb15051606072612fcf3b6d35ba7687481ff353a24e4c472d9f5d0",
+    "integration\\upstream\\GENERIC_RVT_SMIC.v": "dd95980eed40125ceeba19d69f165b829608b4e88ff489ef87f05ca9d3a6871a"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "files": {
+    "GENERIC_RVT_ARM.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/generic/GENERIC_RVT_ARM.v",
+        "e203_hbirdv2-master/vsim/install/rtl/generic/GENERIC_RVT_ARM.v"
+      ],
+      "sha256": "7b290ee79a27434d4577869c4614d5382872e72388722e68590216f41ccc698b",
+      "unmodified": true
+    },
+    "GENERIC_RVT_SMIC.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/generic/GENERIC_RVT_SMIC.v",
+        "e203_hbirdv2-master/vsim/install/rtl/generic/GENERIC_RVT_SMIC.v"
+      ],
+      "sha256": "dd95980eed40125ceeba19d69f165b829608b4e88ff489ef87f05ca9d3a6871a",
+      "unmodified": true
+    },
+    "config.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/core/config.v"
+      ],
+      "sha256": "c2830ad5e73e9acec9cff0e8c98a1648ec5c53cddd8cdc9a04b7f0c7f2fbef61",
+      "unmodified": true
+    },
+    "e203_clkgate.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/core/e203_clkgate.v"
+      ],
+      "sha256": "162491aa3fcb15051606072612fcf3b6d35ba7687481ff353a24e4c472d9f5d0",
+      "unmodified": true
+    },
+    "e203_defines.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/core/e203_defines.v"
+      ],
+      "sha256": "50348b28a961b87eff4040cecc44b35e163acc28042eb6fa53bd1c2e69682109",
+      "unmodified": true
+    },
+    "sirv_1cyc_sram_ctrl.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/general/sirv_1cyc_sram_ctrl.v"
+      ],
+      "sha256": "bb5ec8cd01da783be4dfe45774fda1662009d178b26a46f89adea95e202905ae",
+      "unmodified": true
+    },
+    "sirv_gnrl_bufs.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/general/sirv_gnrl_bufs.v"
+      ],
+      "sha256": "d46f8701f99a79b321cecd2e2b776caa2d7a76925e07b675bbd3952a47fb3ab2",
+      "unmodified": true
+    },
+    "sirv_gnrl_dffs.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/general/sirv_gnrl_dffs.v"
+      ],
+      "sha256": "cd903d78882040cc17b6fb8bec3862f8d440726d7027ba9c61310d18801f8d83",
+      "unmodified": true
+    },
+    "sirv_sram_icb_ctrl.v": {
+      "original_paths": [
+        "e203_hbirdv2-master/rtl/e203/general/sirv_sram_icb_ctrl.v"
+      ],
+      "sha256": "c8cb42edc2a85e0e50b9f78f6b395682fecae4d8bade144ddc34aba3c89d14e6",
+      "unmodified": true
+    }
+  },
+  "license": "Apache-2.0",
+  "public_zip": "/storage1/admin_public_dir/SOC_RTL_2025/e203_hbirdv2-master_1013_update_sim.zip",
+  "zip_sha256": "63f9a4203402ae28721f1333f255fcccaa98a70066293f88b80fb67fd25f7c69"
+}

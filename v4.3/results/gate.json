@@ -1,0 +1,43 @@
+[
+  {
+    "annotation_sha256": "ea798ddf906b84685032da0c75cc662d4a0bd654aaf68f679b97af861452260a",
+    "corner": "ss",
+    "cycles": 59339,
+    "duration_ns": 395593.35311300005,
+    "layer": 0,
+    "netlist_sha256": "10208b5e54917f06675522b84682bcf3da9fe4fd447da27dd80592288e7d6069",
+    "passed": true,
+    "power_scope": "accelerator incl. local SRAM, excluding CPU/shared512KiB/interconnect/physical",
+    "run_log_sha256": "a7a510a179827f0d1de005942241c5cf34c0268ca86c0034a19f89407fcc1391",
+    "sdf_sha256": "bc8ab3e054c3e7209dd9e575007c9acc59ba651b71fed7ca2ec02d36f49aa93d",
+    "vcd_sha256": "09761994d3fff7ed2e123053763eb0ced08713dcc849266fddbf787e6ceafe9c",
+    "version": "v42"
+  },
+  {
+    "annotation_sha256": "8d45109cb9a25ccb9b524b6d060d4c761229e61e71bfc3ef79dd8d28787f78e4",
+    "corner": "ss",
+    "cycles": 15984,
+    "duration_ns": 106560.005328,
+    "layer": 0,
+    "netlist_sha256": "2d16a2487a8ed1214fe48b7d9bf63df5546126820f9ccf7f2913054e2657d054",
+    "passed": true,
+    "power_scope": "accelerator incl. local SRAM, excluding CPU/shared512KiB/interconnect/physical",
+    "run_log_sha256": "bba67cb7b2171c4a822e00ee17dd3971adb31ec98bdfad2ab7ce4a4e7d7a4353",
+    "sdf_sha256": "9f6df088edfb3cec10c76eaa61acd65aab46af3f1f51e038b676e76463c69a8b",
+    "vcd_sha256": "a239544b3be00e40e04edd873956f5416a430d1879f40dede5bc3ec8cb69f2d7",
+    "version": "v43"
+  },
+  {
+    "annotation_sha256": "52533fd0fef8f0975b8a1473c4e0e0e74481e56434db22c7d4f3e18d181ed835",
+    "corner": "ff",
+    "cycles": 15984,
+    "duration_ns": 106560.005328,
+    "layer": 0,
+    "netlist_sha256": "2d16a2487a8ed1214fe48b7d9bf63df5546126820f9ccf7f2913054e2657d054",
+    "passed": true,
+    "power_scope": "accelerator incl. local SRAM, excluding CPU/shared512KiB/interconnect/physical",
+    "run_log_sha256": "15ab13a7496f47d5d5c0b75f32e4ae67e7df5f3311b0420ae6b4ee7e7044c522",
+    "sdf_sha256": "86f54a3fce947a2954321377af336b0805f109f0b46ec0ca9c573a02c11685f4",
+    "version": "v43"
+  }
+]

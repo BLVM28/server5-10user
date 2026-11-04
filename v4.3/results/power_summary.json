@@ -1,0 +1,37 @@
+{
+  "measurements": [
+    {
+      "version": "v42",
+      "corner": "ss",
+      "clock_MHz": 150,
+      "power_mW": 28.50321158217048,
+      "dynamic_mW": 28.175667505665107,
+      "leakage_mW": 0.327544127253819,
+      "duration_us": 395.59335311300003,
+      "energy_uJ": 11.27568104428012,
+      "cycles": 59339,
+      "window": "one full cold Dense1 task layer0 worst, nominal 150MHz NICE activity interval",
+      "activity": "100% reported nets from file, 0% default/unannotated",
+      "excluded": "CPU/shared512KiB/interconnect/CTS/SPEF",
+      "model": "SS 0.99V/125C, no interconnect wire load model"
+    },
+    {
+      "version": "v43",
+      "corner": "ss",
+      "clock_MHz": 150,
+      "power_mW": 91.91457503540555,
+      "dynamic_mW": 91.36495435469918,
+      "leakage_mW": 0.5496203937537529,
+      "duration_us": 106.560005328,
+      "energy_uJ": 9.79441760549367,
+      "cycles": 15984,
+      "window": "one full cold Dense1 task layer0 worst, nominal 150MHz NICE activity interval",
+      "activity": "100% reported nets from file, 0% default/unannotated",
+      "excluded": "CPU/shared512KiB/interconnect/CTS/SPEF",
+      "model": "SS 0.99V/125C, no interconnect wire load model"
+    }
+  ],
+  "power_ratio": 3.224709425126696,
+  "energy_improvement_percent": 13.136797972286196,
+  "scope": "pre-layout accelerator incl. 72/40 local SRAM macros, single task in SS; not chip nor worst-PVT power"
+}

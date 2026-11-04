@@ -1,0 +1,16 @@
+{
+  "precision_scope": "fresh 600-sample original float Dense1 vs frozen numeric v4.2; NOT quantized end-to-end word recognition accuracy",
+  "validation_real_distinct_wavs": 550,
+  "silence_copies": 50,
+  "layer_comparisons": 7200,
+  "profile_unchanged_from_v42": true,
+  "math_unchanged_from_v42": true,
+  "fresh_log_sha256": "fdfe7caf1dc2ecbeb638cb1a95ba10b07364245ec2658907cd2301c42325a7eb",
+  "script_sha256": "733d84b7e4ddf0025c8c7625ffa413eecd4809abd4559caaaa30882bb0ba1262",
+  "stream_generator_sha256": "00877f564f1c4e7d8037d5e69650d28c19bf626f1a7d16d1ebcd2e71f2946b8f",
+  "actual_pin_level_transport_and_C_proofs": [
+    "functional.json",
+    "driver.json",
+    "rv32.json"
+  ]
+}

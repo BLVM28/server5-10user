@@ -1,0 +1,2578 @@
+{
+  "base": {
+    "tb_kwt_streams": {
+      "cycles": 233358,
+      "layers": [
+        {
+          "cycles": 20338,
+          "layer": 0,
+          "mode": 0,
+          "reads": 7179,
+          "writes": 11656
+        },
+        {
+          "cycles": 19986,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6939,
+          "writes": 11407
+        },
+        {
+          "cycles": 19399,
+          "layer": 2,
+          "mode": 0,
+          "reads": 7288,
+          "writes": 10555
+        },
+        {
+          "cycles": 19196,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7307,
+          "writes": 10287
+        },
+        {
+          "cycles": 19579,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6903,
+          "writes": 11097
+        },
+        {
+          "cycles": 19172,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6700,
+          "writes": 10817
+        },
+        {
+          "cycles": 19233,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6768,
+          "writes": 10679
+        },
+        {
+          "cycles": 19192,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6610,
+          "writes": 10866
+        },
+        {
+          "cycles": 18887,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6592,
+          "writes": 10550
+        },
+        {
+          "cycles": 18805,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7348,
+          "writes": 9812
+        },
+        {
+          "cycles": 19209,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7748,
+          "writes": 9889
+        },
+        {
+          "cycles": 20362,
+          "layer": 11,
+          "mode": 0,
+          "reads": 8147,
+          "writes": 10749
+        }
+      ],
+      "log_sha256": "f2d3bbe42100d6bd8913bf29016de0a60042366c086cb39121de45ea824b14e3",
+      "tasks_s_at_150": 7713.470290283599
+    },
+    "tb_kwt_wait": {
+      "cycles": 1412000,
+      "layers": [
+        {
+          "cycles": 124158,
+          "layer": 0,
+          "mode": 1,
+          "reads": 7179,
+          "writes": 11656
+        },
+        {
+          "cycles": 121430,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6939,
+          "writes": 11407
+        },
+        {
+          "cycles": 117643,
+          "layer": 2,
+          "mode": 1,
+          "reads": 7288,
+          "writes": 10555
+        },
+        {
+          "cycles": 116384,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7307,
+          "writes": 10287
+        },
+        {
+          "cycles": 118685,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6903,
+          "writes": 11097
+        },
+        {
+          "cycles": 115506,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6700,
+          "writes": 10817
+        },
+        {
+          "cycles": 115640,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6768,
+          "writes": 10679
+        },
+        {
+          "cycles": 115422,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6610,
+          "writes": 10866
+        },
+        {
+          "cycles": 113146,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6592,
+          "writes": 10550
+        },
+        {
+          "cycles": 113168,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7348,
+          "writes": 9812
+        },
+        {
+          "cycles": 116355,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7748,
+          "writes": 9889
+        },
+        {
+          "cycles": 124463,
+          "layer": 11,
+          "mode": 1,
+          "reads": 8147,
+          "writes": 10749
+        }
+      ],
+      "log_sha256": "05284bc3787140eb897dc7fe1f4e3c1b989ad0cf1f97f7dc334e27896b9ef00c",
+      "tasks_s_at_150": 1274.7875354107648
+    }
+  },
+  "class_00": {
+    "tb_kwt_streams": {
+      "cycles": 191876,
+      "layers": [
+        {
+          "cycles": 15984,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6021,
+          "writes": 4522
+        },
+        {
+          "cycles": 15988,
+          "layer": 1,
+          "mode": 0,
+          "reads": 5880,
+          "writes": 4323
+        },
+        {
+          "cycles": 15993,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6260,
+          "writes": 4310
+        },
+        {
+          "cycles": 15980,
+          "layer": 3,
+          "mode": 0,
+          "reads": 6317,
+          "writes": 4425
+        },
+        {
+          "cycles": 15967,
+          "layer": 4,
+          "mode": 0,
+          "reads": 5969,
+          "writes": 4928
+        },
+        {
+          "cycles": 15959,
+          "layer": 5,
+          "mode": 0,
+          "reads": 5773,
+          "writes": 4581
+        },
+        {
+          "cycles": 15959,
+          "layer": 6,
+          "mode": 0,
+          "reads": 5894,
+          "writes": 4400
+        },
+        {
+          "cycles": 15967,
+          "layer": 7,
+          "mode": 0,
+          "reads": 5760,
+          "writes": 4438
+        },
+        {
+          "cycles": 15955,
+          "layer": 8,
+          "mode": 0,
+          "reads": 5763,
+          "writes": 4495
+        },
+        {
+          "cycles": 16066,
+          "layer": 9,
+          "mode": 0,
+          "reads": 6503,
+          "writes": 4381
+        },
+        {
+          "cycles": 16001,
+          "layer": 10,
+          "mode": 0,
+          "reads": 6904,
+          "writes": 5431
+        },
+        {
+          "cycles": 16057,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7300,
+          "writes": 6852
+        }
+      ],
+      "log_sha256": "d91184c29d48f9c4bd97bc6026becf1a20464a8b8c5bc4010588044370e6494e",
+      "tasks_s_at_150": 9381.058600346058
+    },
+    "tb_kwt_wait": {
+      "cycles": 869102,
+      "layers": [
+        {
+          "cycles": 69711,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6021,
+          "writes": 4522
+        },
+        {
+          "cycles": 67353,
+          "layer": 1,
+          "mode": 1,
+          "reads": 5880,
+          "writes": 4323
+        },
+        {
+          "cycles": 70293,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6260,
+          "writes": 4310
+        },
+        {
+          "cycles": 70982,
+          "layer": 3,
+          "mode": 1,
+          "reads": 6317,
+          "writes": 4425
+        },
+        {
+          "cycles": 71927,
+          "layer": 4,
+          "mode": 1,
+          "reads": 5969,
+          "writes": 4928
+        },
+        {
+          "cycles": 68795,
+          "layer": 5,
+          "mode": 1,
+          "reads": 5773,
+          "writes": 4581
+        },
+        {
+          "cycles": 68065,
+          "layer": 6,
+          "mode": 1,
+          "reads": 5894,
+          "writes": 4400
+        },
+        {
+          "cycles": 67249,
+          "layer": 7,
+          "mode": 1,
+          "reads": 5760,
+          "writes": 4438
+        },
+        {
+          "cycles": 67788,
+          "layer": 8,
+          "mode": 1,
+          "reads": 5763,
+          "writes": 4495
+        },
+        {
+          "cycles": 71678,
+          "layer": 9,
+          "mode": 1,
+          "reads": 6503,
+          "writes": 4381
+        },
+        {
+          "cycles": 81636,
+          "layer": 10,
+          "mode": 1,
+          "reads": 6904,
+          "writes": 5431
+        },
+        {
+          "cycles": 93625,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7300,
+          "writes": 6852
+        }
+      ],
+      "log_sha256": "9245edf3d8d81c7f2face19554b9ba1cb1bee5b3663f8e43038c875b1482caf7",
+      "tasks_s_at_150": 2071.103276715506
+    }
+  },
+  "class_01": {
+    "tb_kwt_streams": {
+      "cycles": 197302,
+      "layers": [
+        {
+          "cycles": 16358,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6795,
+          "writes": 4841
+        },
+        {
+          "cycles": 16410,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6601,
+          "writes": 4880
+        },
+        {
+          "cycles": 16433,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6975,
+          "writes": 4734
+        },
+        {
+          "cycles": 16433,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7008,
+          "writes": 4847
+        },
+        {
+          "cycles": 16223,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6606,
+          "writes": 5372
+        },
+        {
+          "cycles": 16238,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6418,
+          "writes": 5078
+        },
+        {
+          "cycles": 16434,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6491,
+          "writes": 4878
+        },
+        {
+          "cycles": 16259,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6346,
+          "writes": 4871
+        },
+        {
+          "cycles": 16248,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6336,
+          "writes": 4991
+        },
+        {
+          "cycles": 16667,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7108,
+          "writes": 4802
+        },
+        {
+          "cycles": 16526,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7517,
+          "writes": 5954
+        },
+        {
+          "cycles": 17073,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7924,
+          "writes": 7501
+        }
+      ],
+      "log_sha256": "fff4e87c42af5fb4c5476c13a698bc5bf405ff1822eab69e808305aa30a1a835",
+      "tasks_s_at_150": 9123.070217230439
+    },
+    "tb_kwt_wait": {
+      "cycles": 957694,
+      "layers": [
+        {
+          "cycles": 76764,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6795,
+          "writes": 4841
+        },
+        {
+          "cycles": 75898,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6601,
+          "writes": 4880
+        },
+        {
+          "cycles": 77757,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6975,
+          "writes": 4734
+        },
+        {
+          "cycles": 78411,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7008,
+          "writes": 4847
+        },
+        {
+          "cycles": 79132,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6606,
+          "writes": 5372
+        },
+        {
+          "cycles": 76110,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6418,
+          "writes": 5078
+        },
+        {
+          "cycles": 75060,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6491,
+          "writes": 4878
+        },
+        {
+          "cycles": 74101,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6346,
+          "writes": 4871
+        },
+        {
+          "cycles": 74714,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6336,
+          "writes": 4991
+        },
+        {
+          "cycles": 78824,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7108,
+          "writes": 4802
+        },
+        {
+          "cycles": 89104,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7517,
+          "writes": 5954
+        },
+        {
+          "cycles": 101819,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7924,
+          "writes": 7501
+        }
+      ],
+      "log_sha256": "f5e6422d8c90ee5c98222c48deec41b6b09144cb2167990cc319acb073df98da",
+      "tasks_s_at_150": 1879.5147510582713
+    }
+  },
+  "class_02": {
+    "tb_kwt_streams": {
+      "cycles": 196613,
+      "layers": [
+        {
+          "cycles": 16377,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6815,
+          "writes": 4772
+        },
+        {
+          "cycles": 16387,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6578,
+          "writes": 4605
+        },
+        {
+          "cycles": 16395,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6940,
+          "writes": 4543
+        },
+        {
+          "cycles": 16407,
+          "layer": 3,
+          "mode": 0,
+          "reads": 6982,
+          "writes": 4653
+        },
+        {
+          "cycles": 16208,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6589,
+          "writes": 5175
+        },
+        {
+          "cycles": 16213,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6393,
+          "writes": 4870
+        },
+        {
+          "cycles": 16410,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6467,
+          "writes": 4626
+        },
+        {
+          "cycles": 16224,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6310,
+          "writes": 4677
+        },
+        {
+          "cycles": 16219,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6309,
+          "writes": 4734
+        },
+        {
+          "cycles": 16623,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7064,
+          "writes": 4604
+        },
+        {
+          "cycles": 16471,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7461,
+          "writes": 5697
+        },
+        {
+          "cycles": 16679,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7861,
+          "writes": 7146
+        }
+      ],
+      "log_sha256": "62c2dcb7e923122c48d834c36b896d149b8f48267c45c17a22a7c072bec3172e",
+      "tasks_s_at_150": 9155.040612777386
+    },
+    "tb_kwt_wait": {
+      "cycles": 937770,
+      "layers": [
+        {
+          "cycles": 76471,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6815,
+          "writes": 4772
+        },
+        {
+          "cycles": 73925,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6578,
+          "writes": 4605
+        },
+        {
+          "cycles": 76216,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6940,
+          "writes": 4543
+        },
+        {
+          "cycles": 76705,
+          "layer": 3,
+          "mode": 1,
+          "reads": 6982,
+          "writes": 4653
+        },
+        {
+          "cycles": 77681,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6589,
+          "writes": 5175
+        },
+        {
+          "cycles": 74656,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6393,
+          "writes": 4870
+        },
+        {
+          "cycles": 73306,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6467,
+          "writes": 4626
+        },
+        {
+          "cycles": 72656,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6310,
+          "writes": 4677
+        },
+        {
+          "cycles": 72870,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6309,
+          "writes": 4734
+        },
+        {
+          "cycles": 77163,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7064,
+          "writes": 4604
+        },
+        {
+          "cycles": 87077,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7461,
+          "writes": 5697
+        },
+        {
+          "cycles": 99044,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7861,
+          "writes": 7146
+        }
+      ],
+      "log_sha256": "c010dd0bcecd34f40f89319983184fcb74eb268898d9c27fcf1eaea487285ebe",
+      "tasks_s_at_150": 1919.4471992066285
+    }
+  },
+  "class_03": {
+    "tb_kwt_streams": {
+      "cycles": 196944,
+      "layers": [
+        {
+          "cycles": 16448,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6886,
+          "writes": 5083
+        },
+        {
+          "cycles": 16416,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6606,
+          "writes": 4679
+        },
+        {
+          "cycles": 16453,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6996,
+          "writes": 4671
+        },
+        {
+          "cycles": 16446,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7021,
+          "writes": 4734
+        },
+        {
+          "cycles": 16245,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6627,
+          "writes": 5274
+        },
+        {
+          "cycles": 16230,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6412,
+          "writes": 4906
+        },
+        {
+          "cycles": 16420,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6478,
+          "writes": 4694
+        },
+        {
+          "cycles": 16226,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6312,
+          "writes": 4683
+        },
+        {
+          "cycles": 16217,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6303,
+          "writes": 4720
+        },
+        {
+          "cycles": 16630,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7070,
+          "writes": 4654
+        },
+        {
+          "cycles": 16472,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7465,
+          "writes": 5750
+        },
+        {
+          "cycles": 16741,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7862,
+          "writes": 7211
+        }
+      ],
+      "log_sha256": "8f46798dea50f6c10d808568b539a25e5bb78cb0d103e176ee2b3faf6b92a72c",
+      "tasks_s_at_150": 9139.653911771875
+    },
+    "tb_kwt_wait": {
+      "cycles": 946190,
+      "layers": [
+        {
+          "cycles": 79030,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6886,
+          "writes": 5083
+        },
+        {
+          "cycles": 74651,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6606,
+          "writes": 4679
+        },
+        {
+          "cycles": 77415,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6996,
+          "writes": 4671
+        },
+        {
+          "cycles": 77681,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7021,
+          "writes": 4734
+        },
+        {
+          "cycles": 78629,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6627,
+          "writes": 5274
+        },
+        {
+          "cycles": 74987,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6412,
+          "writes": 4906
+        },
+        {
+          "cycles": 73654,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6478,
+          "writes": 4694
+        },
+        {
+          "cycles": 72782,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6312,
+          "writes": 4683
+        },
+        {
+          "cycles": 72765,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6303,
+          "writes": 4720
+        },
+        {
+          "cycles": 77533,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7070,
+          "writes": 4654
+        },
+        {
+          "cycles": 87388,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7465,
+          "writes": 5750
+        },
+        {
+          "cycles": 99675,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7862,
+          "writes": 7211
+        }
+      ],
+      "log_sha256": "9bae9adc17e60f037137a1e4034cb8f08651255f4850a39193704fcf9a6db89f",
+      "tasks_s_at_150": 1902.3663323433982
+    }
+  },
+  "class_04": {
+    "tb_kwt_streams": {
+      "cycles": 197885,
+      "layers": [
+        {
+          "cycles": 16389,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6828,
+          "writes": 5063
+        },
+        {
+          "cycles": 16414,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6604,
+          "writes": 4909
+        },
+        {
+          "cycles": 16444,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6987,
+          "writes": 4839
+        },
+        {
+          "cycles": 16443,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7018,
+          "writes": 5006
+        },
+        {
+          "cycles": 16247,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6627,
+          "writes": 5588
+        },
+        {
+          "cycles": 16251,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6434,
+          "writes": 5175
+        },
+        {
+          "cycles": 16460,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6516,
+          "writes": 5170
+        },
+        {
+          "cycles": 16279,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6366,
+          "writes": 5217
+        },
+        {
+          "cycles": 16278,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6363,
+          "writes": 5435
+        },
+        {
+          "cycles": 16690,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7130,
+          "writes": 5077
+        },
+        {
+          "cycles": 16538,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7530,
+          "writes": 6207
+        },
+        {
+          "cycles": 17452,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7942,
+          "writes": 7886
+        }
+      ],
+      "log_sha256": "39823162553451ab74df16de26cdbb2e80e08489ef8d5869b387d74a9782f37c",
+      "tasks_s_at_150": 9096.19223286252
+    },
+    "tb_kwt_wait": {
+      "cycles": 977691,
+      "layers": [
+        {
+          "cycles": 78458,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6828,
+          "writes": 5063
+        },
+        {
+          "cycles": 76251,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6604,
+          "writes": 4909
+        },
+        {
+          "cycles": 78432,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6987,
+          "writes": 4839
+        },
+        {
+          "cycles": 79357,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7018,
+          "writes": 5006
+        },
+        {
+          "cycles": 80562,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6627,
+          "writes": 5588
+        },
+        {
+          "cycles": 76815,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6434,
+          "writes": 5175
+        },
+        {
+          "cycles": 77318,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6516,
+          "writes": 5170
+        },
+        {
+          "cycles": 76466,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6366,
+          "writes": 5217
+        },
+        {
+          "cycles": 77772,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6363,
+          "writes": 5435
+        },
+        {
+          "cycles": 80942,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7130,
+          "writes": 5077
+        },
+        {
+          "cycles": 90740,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7530,
+          "writes": 6207
+        },
+        {
+          "cycles": 104578,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7942,
+          "writes": 7886
+        }
+      ],
+      "log_sha256": "182698c6f1b2067da906593619fd42207036b37e97dfa917d483e8ff62d7432b",
+      "tasks_s_at_150": 1841.0724860922317
+    }
+  },
+  "class_05": {
+    "tb_kwt_streams": {
+      "cycles": 197287,
+      "layers": [
+        {
+          "cycles": 16404,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6843,
+          "writes": 4906
+        },
+        {
+          "cycles": 16432,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6623,
+          "writes": 4750
+        },
+        {
+          "cycles": 16464,
+          "layer": 2,
+          "mode": 0,
+          "reads": 7007,
+          "writes": 4660
+        },
+        {
+          "cycles": 16455,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7030,
+          "writes": 4804
+        },
+        {
+          "cycles": 16253,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6635,
+          "writes": 5358
+        },
+        {
+          "cycles": 16248,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6431,
+          "writes": 4957
+        },
+        {
+          "cycles": 16449,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6507,
+          "writes": 4807
+        },
+        {
+          "cycles": 16268,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6354,
+          "writes": 4872
+        },
+        {
+          "cycles": 16249,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6335,
+          "writes": 4836
+        },
+        {
+          "cycles": 16667,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7108,
+          "writes": 4748
+        },
+        {
+          "cycles": 16517,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7508,
+          "writes": 5799
+        },
+        {
+          "cycles": 16881,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7909,
+          "writes": 7303
+        }
+      ],
+      "log_sha256": "64788bbd6e08f33427140ccc50b7a48855a8b60a0add73da5222c6c8c258dbc4",
+      "tasks_s_at_150": 9123.763856716358
+    },
+    "tb_kwt_wait": {
+      "cycles": 952205,
+      "layers": [
+        {
+          "cycles": 77524,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6843,
+          "writes": 4906
+        },
+        {
+          "cycles": 75226,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6623,
+          "writes": 4750
+        },
+        {
+          "cycles": 77415,
+          "layer": 2,
+          "mode": 1,
+          "reads": 7007,
+          "writes": 4660
+        },
+        {
+          "cycles": 78139,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7030,
+          "writes": 4804
+        },
+        {
+          "cycles": 79175,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6635,
+          "writes": 5358
+        },
+        {
+          "cycles": 75405,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6431,
+          "writes": 4957
+        },
+        {
+          "cycles": 74562,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6507,
+          "writes": 4807
+        },
+        {
+          "cycles": 74235,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6354,
+          "writes": 4872
+        },
+        {
+          "cycles": 73692,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6335,
+          "writes": 4836
+        },
+        {
+          "cycles": 78393,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7108,
+          "writes": 4748
+        },
+        {
+          "cycles": 87956,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7508,
+          "writes": 5799
+        },
+        {
+          "cycles": 100483,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7909,
+          "writes": 7303
+        }
+      ],
+      "log_sha256": "2c5bf6295f2e3436e4bddf88b973478b7388c8b14d9dc2c6c018b3b12482be9d",
+      "tasks_s_at_150": 1890.3492420224636
+    }
+  },
+  "class_06": {
+    "tb_kwt_streams": {
+      "cycles": 197687,
+      "layers": [
+        {
+          "cycles": 16414,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6851,
+          "writes": 4797
+        },
+        {
+          "cycles": 16444,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6633,
+          "writes": 4674
+        },
+        {
+          "cycles": 16471,
+          "layer": 2,
+          "mode": 0,
+          "reads": 7011,
+          "writes": 4608
+        },
+        {
+          "cycles": 16465,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7039,
+          "writes": 4755
+        },
+        {
+          "cycles": 16265,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6645,
+          "writes": 5240
+        },
+        {
+          "cycles": 16269,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6450,
+          "writes": 4895
+        },
+        {
+          "cycles": 16477,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6531,
+          "writes": 4722
+        },
+        {
+          "cycles": 16294,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6379,
+          "writes": 4855
+        },
+        {
+          "cycles": 16289,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6374,
+          "writes": 4968
+        },
+        {
+          "cycles": 16695,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7135,
+          "writes": 4780
+        },
+        {
+          "cycles": 16564,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7555,
+          "writes": 5929
+        },
+        {
+          "cycles": 17040,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7958,
+          "writes": 7421
+        }
+      ],
+      "log_sha256": "44d04dd3da1d3e4f48f6b69564968f1480ab1960468b375e6fe9089f941d0af5",
+      "tasks_s_at_150": 9105.302827196529
+    },
+    "tb_kwt_wait": {
+      "cycles": 952951,
+      "layers": [
+        {
+          "cycles": 76860,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6851,
+          "writes": 4797
+        },
+        {
+          "cycles": 74718,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6633,
+          "writes": 4674
+        },
+        {
+          "cycles": 77102,
+          "layer": 2,
+          "mode": 1,
+          "reads": 7011,
+          "writes": 4608
+        },
+        {
+          "cycles": 77868,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7039,
+          "writes": 4755
+        },
+        {
+          "cycles": 78540,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6645,
+          "writes": 5240
+        },
+        {
+          "cycles": 75069,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6450,
+          "writes": 4895
+        },
+        {
+          "cycles": 74290,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6531,
+          "writes": 4722
+        },
+        {
+          "cycles": 74192,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6379,
+          "writes": 4855
+        },
+        {
+          "cycles": 74831,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6374,
+          "writes": 4968
+        },
+        {
+          "cycles": 78784,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7135,
+          "writes": 4780
+        },
+        {
+          "cycles": 89091,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7555,
+          "writes": 5929
+        },
+        {
+          "cycles": 101606,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7958,
+          "writes": 7421
+        }
+      ],
+      "log_sha256": "cd33d5c457fbe6c79c10497c2eeb3c3857f72767e33ce8593c587f079b9c9317",
+      "tasks_s_at_150": 1888.8694172103287
+    }
+  },
+  "class_07": {
+    "tb_kwt_streams": {
+      "cycles": 197961,
+      "layers": [
+        {
+          "cycles": 16479,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6918,
+          "writes": 4991
+        },
+        {
+          "cycles": 16490,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6681,
+          "writes": 4852
+        },
+        {
+          "cycles": 16518,
+          "layer": 2,
+          "mode": 0,
+          "reads": 7058,
+          "writes": 4710
+        },
+        {
+          "cycles": 16509,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7083,
+          "writes": 4875
+        },
+        {
+          "cycles": 16302,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6686,
+          "writes": 5422
+        },
+        {
+          "cycles": 16298,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6479,
+          "writes": 5031
+        },
+        {
+          "cycles": 16488,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6544,
+          "writes": 4891
+        },
+        {
+          "cycles": 16298,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6386,
+          "writes": 4797
+        },
+        {
+          "cycles": 16298,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6383,
+          "writes": 4911
+        },
+        {
+          "cycles": 16709,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7149,
+          "writes": 4825
+        },
+        {
+          "cycles": 16562,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7550,
+          "writes": 5843
+        },
+        {
+          "cycles": 17010,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7951,
+          "writes": 7401
+        }
+      ],
+      "log_sha256": "aacd3da0b7d13e63cd5e4f14c5f0ca4e44f49cf6ab63066433d943502c9655dd",
+      "tasks_s_at_150": 9092.700077287951
+    },
+    "tb_kwt_wait": {
+      "cycles": 961305,
+      "layers": [
+        {
+          "cycles": 78538,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6918,
+          "writes": 4991
+        },
+        {
+          "cycles": 76352,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6681,
+          "writes": 4852
+        },
+        {
+          "cycles": 78122,
+          "layer": 2,
+          "mode": 1,
+          "reads": 7058,
+          "writes": 4710
+        },
+        {
+          "cycles": 79019,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7083,
+          "writes": 4875
+        },
+        {
+          "cycles": 79779,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6686,
+          "writes": 5422
+        },
+        {
+          "cycles": 76133,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6479,
+          "writes": 5031
+        },
+        {
+          "cycles": 75695,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6544,
+          "writes": 4891
+        },
+        {
+          "cycles": 73837,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6386,
+          "writes": 4797
+        },
+        {
+          "cycles": 74413,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6383,
+          "writes": 4911
+        },
+        {
+          "cycles": 79326,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7149,
+          "writes": 4825
+        },
+        {
+          "cycles": 88680,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7550,
+          "writes": 5843
+        },
+        {
+          "cycles": 101411,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7951,
+          "writes": 7401
+        }
+      ],
+      "log_sha256": "c60022b46d4d113ad69abcfe525bf6af1e9c25e329db3da423e4a336b1a72f33",
+      "tasks_s_at_150": 1872.4546319846459
+    }
+  },
+  "class_08": {
+    "tb_kwt_streams": {
+      "cycles": 196833,
+      "layers": [
+        {
+          "cycles": 16377,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6814,
+          "writes": 4830
+        },
+        {
+          "cycles": 16352,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6541,
+          "writes": 4573
+        },
+        {
+          "cycles": 16394,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6936,
+          "writes": 4534
+        },
+        {
+          "cycles": 16414,
+          "layer": 3,
+          "mode": 0,
+          "reads": 6989,
+          "writes": 4768
+        },
+        {
+          "cycles": 16218,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6600,
+          "writes": 5223
+        },
+        {
+          "cycles": 16221,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6402,
+          "writes": 4852
+        },
+        {
+          "cycles": 16429,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6485,
+          "writes": 4710
+        },
+        {
+          "cycles": 16240,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6330,
+          "writes": 4716
+        },
+        {
+          "cycles": 16235,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6322,
+          "writes": 4853
+        },
+        {
+          "cycles": 16652,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7091,
+          "writes": 4647
+        },
+        {
+          "cycles": 16498,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7488,
+          "writes": 5745
+        },
+        {
+          "cycles": 16803,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7893,
+          "writes": 7238
+        }
+      ],
+      "log_sha256": "35e851acd780661e107545b90deb400740331d9c26e4c9db829eb9c038d2e6b7",
+      "tasks_s_at_150": 9144.808035237993
+    },
+    "tb_kwt_wait": {
+      "cycles": 942671,
+      "layers": [
+        {
+          "cycles": 76881,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6814,
+          "writes": 4830
+        },
+        {
+          "cycles": 73494,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6541,
+          "writes": 4573
+        },
+        {
+          "cycles": 76150,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6936,
+          "writes": 4534
+        },
+        {
+          "cycles": 77593,
+          "layer": 3,
+          "mode": 1,
+          "reads": 6989,
+          "writes": 4768
+        },
+        {
+          "cycles": 78052,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6600,
+          "writes": 5223
+        },
+        {
+          "cycles": 74595,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6402,
+          "writes": 4852
+        },
+        {
+          "cycles": 73933,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6485,
+          "writes": 4710
+        },
+        {
+          "cycles": 73055,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6330,
+          "writes": 4716
+        },
+        {
+          "cycles": 73785,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6322,
+          "writes": 4853
+        },
+        {
+          "cycles": 77655,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7091,
+          "writes": 4647
+        },
+        {
+          "cycles": 87543,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7488,
+          "writes": 5745
+        },
+        {
+          "cycles": 99935,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7893,
+          "writes": 7238
+        }
+      ],
+      "log_sha256": "f2e51949b479f50530d9699a72f5090585faf280434cf9b9ebf33cd79672d934",
+      "tasks_s_at_150": 1909.4678843414085
+    }
+  },
+  "class_09": {
+    "tb_kwt_streams": {
+      "cycles": 197252,
+      "layers": [
+        {
+          "cycles": 16383,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6823,
+          "writes": 4824
+        },
+        {
+          "cycles": 16384,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6573,
+          "writes": 4603
+        },
+        {
+          "cycles": 16425,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6967,
+          "writes": 4596
+        },
+        {
+          "cycles": 16433,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7010,
+          "writes": 4805
+        },
+        {
+          "cycles": 16241,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6623,
+          "writes": 5297
+        },
+        {
+          "cycles": 16240,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6423,
+          "writes": 4934
+        },
+        {
+          "cycles": 16444,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6501,
+          "writes": 4761
+        },
+        {
+          "cycles": 16260,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6349,
+          "writes": 4801
+        },
+        {
+          "cycles": 16258,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6345,
+          "writes": 4948
+        },
+        {
+          "cycles": 16674,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7115,
+          "writes": 4842
+        },
+        {
+          "cycles": 16529,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7521,
+          "writes": 5951
+        },
+        {
+          "cycles": 16981,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7921,
+          "writes": 7405
+        }
+      ],
+      "log_sha256": "b2fdc75321e9db45c62694615535233a0616a85eb3c5ad9fe28d3bbe4b4e8bce",
+      "tasks_s_at_150": 9125.382759110174
+    },
+    "tb_kwt_wait": {
+      "cycles": 951446,
+      "layers": [
+        {
+          "cycles": 76894,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6823,
+          "writes": 4824
+        },
+        {
+          "cycles": 73865,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6573,
+          "writes": 4603
+        },
+        {
+          "cycles": 76839,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6967,
+          "writes": 4596
+        },
+        {
+          "cycles": 78001,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7010,
+          "writes": 4805
+        },
+        {
+          "cycles": 78737,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6623,
+          "writes": 5297
+        },
+        {
+          "cycles": 75136,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6423,
+          "writes": 4934
+        },
+        {
+          "cycles": 74412,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6501,
+          "writes": 4761
+        },
+        {
+          "cycles": 73661,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6349,
+          "writes": 4801
+        },
+        {
+          "cycles": 74505,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6345,
+          "writes": 4948
+        },
+        {
+          "cycles": 79114,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7115,
+          "writes": 4842
+        },
+        {
+          "cycles": 89067,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7521,
+          "writes": 5951
+        },
+        {
+          "cycles": 101215,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7921,
+          "writes": 7405
+        }
+      ],
+      "log_sha256": "8c12612b32b9f4c8e44192ec9c8e81fdb44c5db22854aa30a7d6fc0edd6157d1",
+      "tasks_s_at_150": 1891.8572362488255
+    }
+  },
+  "class_10": {
+    "tb_kwt_streams": {
+      "cycles": 197303,
+      "layers": [
+        {
+          "cycles": 16440,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6877,
+          "writes": 5051
+        },
+        {
+          "cycles": 16411,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6600,
+          "writes": 4727
+        },
+        {
+          "cycles": 16450,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6993,
+          "writes": 4697
+        },
+        {
+          "cycles": 16451,
+          "layer": 3,
+          "mode": 0,
+          "reads": 7027,
+          "writes": 4807
+        },
+        {
+          "cycles": 16261,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6640,
+          "writes": 5330
+        },
+        {
+          "cycles": 16252,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6432,
+          "writes": 4942
+        },
+        {
+          "cycles": 16449,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6505,
+          "writes": 4763
+        },
+        {
+          "cycles": 16271,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6359,
+          "writes": 4854
+        },
+        {
+          "cycles": 16268,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6355,
+          "writes": 4993
+        },
+        {
+          "cycles": 16682,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7122,
+          "writes": 4862
+        },
+        {
+          "cycles": 16521,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7512,
+          "writes": 5829
+        },
+        {
+          "cycles": 16847,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7898,
+          "writes": 7295
+        }
+      ],
+      "log_sha256": "23a0670abd859e4e7e327f0a587a0289a334e6a72ae38cbf7263756abf69d61c",
+      "tasks_s_at_150": 9123.023978348023
+    },
+    "tb_kwt_wait": {
+      "cycles": 954954,
+      "layers": [
+        {
+          "cycles": 78678,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6877,
+          "writes": 5051
+        },
+        {
+          "cycles": 74912,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6600,
+          "writes": 4727
+        },
+        {
+          "cycles": 77572,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6993,
+          "writes": 4697
+        },
+        {
+          "cycles": 78230,
+          "layer": 3,
+          "mode": 1,
+          "reads": 7027,
+          "writes": 4807
+        },
+        {
+          "cycles": 79096,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6640,
+          "writes": 5330
+        },
+        {
+          "cycles": 75278,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6432,
+          "writes": 4942
+        },
+        {
+          "cycles": 74299,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6505,
+          "writes": 4763
+        },
+        {
+          "cycles": 74115,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6359,
+          "writes": 4854
+        },
+        {
+          "cycles": 74897,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6355,
+          "writes": 4993
+        },
+        {
+          "cycles": 79279,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7122,
+          "writes": 4862
+        },
+        {
+          "cycles": 88239,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7512,
+          "writes": 5829
+        },
+        {
+          "cycles": 100359,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7898,
+          "writes": 7295
+        }
+      ],
+      "log_sha256": "461f40e636353690753c1292f150006ba67238d847965d794571bc970682f024",
+      "tasks_s_at_150": 1884.9075452849038
+    }
+  },
+  "class_11": {
+    "tb_kwt_streams": {
+      "cycles": 196870,
+      "layers": [
+        {
+          "cycles": 16387,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6826,
+          "writes": 4788
+        },
+        {
+          "cycles": 16395,
+          "layer": 1,
+          "mode": 0,
+          "reads": 6583,
+          "writes": 4603
+        },
+        {
+          "cycles": 16426,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6968,
+          "writes": 4540
+        },
+        {
+          "cycles": 16417,
+          "layer": 3,
+          "mode": 0,
+          "reads": 6994,
+          "writes": 4688
+        },
+        {
+          "cycles": 16227,
+          "layer": 4,
+          "mode": 0,
+          "reads": 6608,
+          "writes": 5222
+        },
+        {
+          "cycles": 16223,
+          "layer": 5,
+          "mode": 0,
+          "reads": 6404,
+          "writes": 4858
+        },
+        {
+          "cycles": 16422,
+          "layer": 6,
+          "mode": 0,
+          "reads": 6478,
+          "writes": 4749
+        },
+        {
+          "cycles": 16240,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6327,
+          "writes": 4766
+        },
+        {
+          "cycles": 16232,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6317,
+          "writes": 4805
+        },
+        {
+          "cycles": 16644,
+          "layer": 9,
+          "mode": 0,
+          "reads": 7083,
+          "writes": 4714
+        },
+        {
+          "cycles": 16494,
+          "layer": 10,
+          "mode": 0,
+          "reads": 7486,
+          "writes": 5778
+        },
+        {
+          "cycles": 16763,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7887,
+          "writes": 7207
+        }
+      ],
+      "log_sha256": "5350d51515bf2d501e885a1c580bf8bc694f9dd66453d500c0417b4e8ee0d00e",
+      "tasks_s_at_150": 9143.08934830091
+    },
+    "tb_kwt_wait": {
+      "cycles": 943374,
+      "layers": [
+        {
+          "cycles": 76626,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6826,
+          "writes": 4788
+        },
+        {
+          "cycles": 73989,
+          "layer": 1,
+          "mode": 1,
+          "reads": 6583,
+          "writes": 4603
+        },
+        {
+          "cycles": 76349,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6968,
+          "writes": 4540
+        },
+        {
+          "cycles": 77213,
+          "layer": 3,
+          "mode": 1,
+          "reads": 6994,
+          "writes": 4688
+        },
+        {
+          "cycles": 78196,
+          "layer": 4,
+          "mode": 1,
+          "reads": 6608,
+          "writes": 5222
+        },
+        {
+          "cycles": 74616,
+          "layer": 5,
+          "mode": 1,
+          "reads": 6404,
+          "writes": 4858
+        },
+        {
+          "cycles": 74182,
+          "layer": 6,
+          "mode": 1,
+          "reads": 6478,
+          "writes": 4749
+        },
+        {
+          "cycles": 73268,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6327,
+          "writes": 4766
+        },
+        {
+          "cycles": 73450,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6317,
+          "writes": 4805
+        },
+        {
+          "cycles": 77991,
+          "layer": 9,
+          "mode": 1,
+          "reads": 7083,
+          "writes": 4714
+        },
+        {
+          "cycles": 87701,
+          "layer": 10,
+          "mode": 1,
+          "reads": 7486,
+          "writes": 5778
+        },
+        {
+          "cycles": 99793,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7887,
+          "writes": 7207
+        }
+      ],
+      "log_sha256": "2e8da5f33cf74908ed37e6a416f3e98f25496d6838205408dcb648413137b39a",
+      "tasks_s_at_150": 1908.0449535391053
+    }
+  },
+  "worst": {
+    "tb_kwt_streams": {
+      "cycles": 193356,
+      "layers": [
+        {
+          "cycles": 15984,
+          "layer": 0,
+          "mode": 0,
+          "reads": 6021,
+          "writes": 4522
+        },
+        {
+          "cycles": 15988,
+          "layer": 1,
+          "mode": 0,
+          "reads": 5880,
+          "writes": 4323
+        },
+        {
+          "cycles": 15993,
+          "layer": 2,
+          "mode": 0,
+          "reads": 6260,
+          "writes": 4310
+        },
+        {
+          "cycles": 15980,
+          "layer": 3,
+          "mode": 0,
+          "reads": 6317,
+          "writes": 4425
+        },
+        {
+          "cycles": 15967,
+          "layer": 4,
+          "mode": 0,
+          "reads": 5969,
+          "writes": 4928
+        },
+        {
+          "cycles": 15959,
+          "layer": 5,
+          "mode": 0,
+          "reads": 5773,
+          "writes": 4581
+        },
+        {
+          "cycles": 15959,
+          "layer": 6,
+          "mode": 0,
+          "reads": 5894,
+          "writes": 4400
+        },
+        {
+          "cycles": 16278,
+          "layer": 7,
+          "mode": 0,
+          "reads": 6363,
+          "writes": 4947
+        },
+        {
+          "cycles": 16298,
+          "layer": 8,
+          "mode": 0,
+          "reads": 6384,
+          "writes": 4990
+        },
+        {
+          "cycles": 16066,
+          "layer": 9,
+          "mode": 0,
+          "reads": 6503,
+          "writes": 4381
+        },
+        {
+          "cycles": 16001,
+          "layer": 10,
+          "mode": 0,
+          "reads": 6904,
+          "writes": 5431
+        },
+        {
+          "cycles": 16883,
+          "layer": 11,
+          "mode": 0,
+          "reads": 7913,
+          "writes": 7309
+        }
+      ],
+      "log_sha256": "3a12334924dc776551dc2726aef6cf778abfb92fc743c3d59e1b531ea1c71da6",
+      "tasks_s_at_150": 9309.25339787749
+    },
+    "tb_kwt_wait": {
+      "cycles": 890836,
+      "layers": [
+        {
+          "cycles": 69711,
+          "layer": 0,
+          "mode": 1,
+          "reads": 6021,
+          "writes": 4522
+        },
+        {
+          "cycles": 67353,
+          "layer": 1,
+          "mode": 1,
+          "reads": 5880,
+          "writes": 4323
+        },
+        {
+          "cycles": 70293,
+          "layer": 2,
+          "mode": 1,
+          "reads": 6260,
+          "writes": 4310
+        },
+        {
+          "cycles": 70982,
+          "layer": 3,
+          "mode": 1,
+          "reads": 6317,
+          "writes": 4425
+        },
+        {
+          "cycles": 71927,
+          "layer": 4,
+          "mode": 1,
+          "reads": 5969,
+          "writes": 4928
+        },
+        {
+          "cycles": 68795,
+          "layer": 5,
+          "mode": 1,
+          "reads": 5773,
+          "writes": 4581
+        },
+        {
+          "cycles": 68065,
+          "layer": 6,
+          "mode": 1,
+          "reads": 5894,
+          "writes": 4400
+        },
+        {
+          "cycles": 74385,
+          "layer": 7,
+          "mode": 1,
+          "reads": 6363,
+          "writes": 4947
+        },
+        {
+          "cycles": 75231,
+          "layer": 8,
+          "mode": 1,
+          "reads": 6384,
+          "writes": 4990
+        },
+        {
+          "cycles": 71845,
+          "layer": 9,
+          "mode": 1,
+          "reads": 6503,
+          "writes": 4381
+        },
+        {
+          "cycles": 81751,
+          "layer": 10,
+          "mode": 1,
+          "reads": 6904,
+          "writes": 5431
+        },
+        {
+          "cycles": 100498,
+          "layer": 11,
+          "mode": 1,
+          "reads": 7913,
+          "writes": 7309
+        }
+      ],
+      "log_sha256": "4d98f3c4091be5199919d0fb1abe0796bde43a0e846c4824b0634cb8d2dd6274",
+      "tasks_s_at_150": 2020.5739328002012
+    }
+  }
+}

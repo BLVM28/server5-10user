@@ -1,0 +1,9 @@
+{
+  "compiler": "15.2.0",
+  "flags": "-march=rv32imac -mabi=ilp32 -ffreestanding -std=c11 -O2 -Wall -Wextra -Werror",
+  "object": "elf32-littleriscv",
+  "custom_word": "8005657b",
+  "source_sha256": "2838d724d314effd18cb33673f90bedbeba30a0c5e902624f3d5fa3eff3eda19",
+  "object_sha256": "84a6fa175bb8135b7059246c79d7926db01d5ed994210aa82952d979c4382b0b",
+  "driver_sha256": "54fdd37158d2349928b29a61a0953d16c95181342edf4530f6c050cbce8e1141"
+}

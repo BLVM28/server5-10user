@@ -1,0 +1,92 @@
+{
+  "cycles": [
+    {
+      "cycles": 59339,
+      "layer": 0
+    },
+    {
+      "cycles": 59341,
+      "layer": 1
+    },
+    {
+      "cycles": 59340,
+      "layer": 2
+    },
+    {
+      "cycles": 59340,
+      "layer": 3
+    },
+    {
+      "cycles": 59341,
+      "layer": 4
+    },
+    {
+      "cycles": 59341,
+      "layer": 5
+    },
+    {
+      "cycles": 59339,
+      "layer": 6
+    },
+    {
+      "cycles": 59339,
+      "layer": 7
+    },
+    {
+      "cycles": 59339,
+      "layer": 8
+    },
+    {
+      "cycles": 59339,
+      "layer": 9
+    },
+    {
+      "cycles": 59339,
+      "layer": 10
+    },
+    {
+      "cycles": 59340,
+      "layer": 11
+    }
+  ],
+  "log_sha256": "56f5082c0df95bd8706afe7e6fc2b25658b32e429121faa72ec54957c726b20a",
+  "scope": "v4.2 RTL + exact public SRAM controller, 12 cold tasks",
+  "sources": {
+    "/storage1/admin_public_dir/SRAM_Lib_2025/RAMSP1024X16/verilog/RAMSP1024X16.v": "81b55d87d5e6821d44037d6f0290ec89c9edb9582eb1932957f181aefc300d51",
+    "/storage1/admin_public_dir/SRAM_Lib_2025/RAMSP1024X16/verilog/RAMSP1024X16_rtl.v": "ffdfd40e274d605a992adb5542d8c8e5904e4bb5aeb01b3ef47c4ec63ae94c05",
+    "/storage1/admin_public_dir/SRAM_Lib_2025/RAMSP128X16/verilog/RAMSP128X16.v": "f9d6d881746681dacd4f3851467561e441ee7190776ab566b1f0a729aa3ddb4d",
+    "/storage1/admin_public_dir/SRAM_Lib_2025/RAMSP128X16/verilog/RAMSP128X16_rtl.v": "fffb35e394560d5366a42f7eab5f00f21acfe414bb9e6f25dc107ead35b916ad",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_block8_encoder.sv": "730130f01f86d621218e41cbe8244a2fe31be427dd20d7f2f6f39b313c113fd4",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_block8_reader.sv": "b5d9d53b35ec80b3fcffa6f7261a9f1c0c6c58f0d74bbb38f1c5f28fb9268ff3",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_block8_writer.sv": "178b1a0d127ea63f15c393dcd78fd0d242d603c7a090cf1bb48e28aedefe6fb3",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_dot64.sv": "337bd0a5095d6fccb5f6bfd69f7bc5d61bae05c3918a6681bca592a5682f99ac",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_icb_master.sv": "20ebb1180124dc033d75d0b693e1115d684e1c3ef6eedd11909746e11b87ac07",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_legacy_dma.sv": "e7f4f1c9fc939a7123e9f4c886e3ec033aa0dfeae61ab685b52616ee773d5514",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_linear_core.sv": "7e6c63cb8bc390d15ab6a7c1c074cdfa4cd4ae70fce01b64b789f6473499d65d",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_mac8.sv": "19e331e67884fbcf57fd82b635224eb3996ca9ed8dc49764a542a5c9d8e5d257",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_mul16_pipe.sv": "5e3ea334109b76bff5e583a4c1daa5757fbcf2ecf0ec0605f92b57734b874c27",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_nice_core.sv": "1b767f1eccb079a9ed818cf2d916663cd118bf35de80ce760fb40b7b754e5e13",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_result_pages.sv": "3220f38e00305c3798ae7ee25be9bc00b275b42a400e30976af69e2f478ca11f",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_rice_pack.sv": "0e0117dbe9f939c00fcfae11469ff650331ef5c213febc180f864f6cda815e37",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_rice_reader.sv": "7db27342e3c4e2ad9405c06e763d7d37e801a973e7f7858b3fc53bccc6f4e60d",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_rice_unpack.sv": "f82adc33fd4fa872f3e1793d18d757dbf26942df2eef0df15e58cc9b992cef2e",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_rice_writer.sv": "687eef305a15bc6de29895a97473a701bc87f6777fc4a154f36aca25114a665f",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_row_pack.sv": "00a7e3b5a665dcc7a849c51dadc0af8db6c7a51b0c94ea85360818a61089cd4a",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_stream_dot.sv": "86708a2af56d7c740ca7ec7acb43e489ec56be6dacb817da7519c5aff7ac46d5",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_tile_compute.sv": "d522f757c5f3147d2a1037f8994075ff42b79ea13843031915f6f23c9383c092",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_tile_dma.sv": "95d213e69aded5817b8f66fc1ff4be108939b68a590383129cb2f3bb7d3a8f98",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_w_panel.sv": "682e20ae71e1415d768de8a5a454173156da85bed8d8d5ccbbcac3637cd63ae6",
+    "/storage2/2026contest/server5/s5_10usr/v4.2/rtl/kwt_x_buffer.sv": "e2af97ec5ad7ad7c6af83e5d91046d91dee4ee9cc14d23f34eec749ba87de194",
+    "/storage2/2026contest/server5/s5_10usr/v4.3/integration/upstream/GENERIC_RVT_SMIC.v": "dd95980eed40125ceeba19d69f165b829608b4e88ff489ef87f05ca9d3a6871a",
+    "/storage2/2026contest/server5/s5_10usr/v4.3/integration/upstream/e203_clkgate.v": "162491aa3fcb15051606072612fcf3b6d35ba7687481ff353a24e4c472d9f5d0",
+    "/storage2/2026contest/server5/s5_10usr/v4.3/integration/upstream/sirv_1cyc_sram_ctrl.v": "bb5ec8cd01da783be4dfe45774fda1662009d178b26a46f89adea95e202905ae",
+    "/storage2/2026contest/server5/s5_10usr/v4.3/integration/upstream/sirv_gnrl_bufs.v": "d46f8701f99a79b321cecd2e2b776caa2d7a76925e07b675bbd3952a47fb3ab2",
+    "/storage2/2026contest/server5/s5_10usr/v4.3/integration/upstream/sirv_gnrl_dffs.v": "cd903d78882040cc17b6fb8bec3862f8d440726d7027ba9c61310d18801f8d83",
+    "/storage2/2026contest/server5/s5_10usr/v4.3/integration/upstream/sirv_sram_icb_ctrl.v": "c8cb42edc2a85e0e50b9f78f6b395682fecae4d8bade144ddc34aba3c89d14e6",
+    "/storage2/2026contest/server5/s5_10usr/v4.3/tb/tb_kwt_v42_reference.sv": "0d7f2f894d3270c305d8dcc3ca8d61b7b51a98f8bc509a10ccf0d4e7805c6864"
+  },
+  "tasks_s_at_150": 2527.8165142252874,
+  "total_cycles": 712077
+}

@@ -1,0 +1,50 @@
+{
+  "version": "v4.3",
+  "date": "2026-11-04",
+  "scope": "Dense1 accelerator; conditional native-SRAM performance and pre-layout accelerator-only power",
+  "vcs_suites": 30,
+  "scenarios_per_suite": 29,
+  "stream_guards_per_suite": 25,
+  "native_worst_12_cycles": 193356,
+  "native_worst_tasks_s_150": 9309.25339787749,
+  "native_classes144_cycles": 2361813,
+  "native_classes_tasks_s_150": 9145.516601017947,
+  "ss_150_setup_hold_ns": [
+    1.466715,
+    0.161594
+  ],
+  "ff_150_setup_hold_ns": [
+    3.567728,
+    0.080024
+  ],
+  "area_um2": 1043554.314779,
+  "netlist_sha256": "2d16a2487a8ed1214fe48b7d9bf63df5546126820f9ccf7f2913054e2657d054",
+  "accuracy_samples": 600,
+  "max_layer_nrmse": 0.0014181070697310985,
+  "software_frames": 348,
+  "power_ss_mW": 91.91457503540555,
+  "energy_ss_uJ": 9.79441760549367,
+  "remaining": [
+    "official shared512KiB implementation/address",
+    "E203 CPU/firmware end-to-end and dynamic input encoding timing",
+    "full SoC power including sharedRAM/interconnect",
+    "post-layout parasitic analysis if pursued"
+  ],
+  "evidence_sha256": {
+    "accuracy.json": "b146a944b48bf1727a916d1d3c15511a683421129b5086d717a7a6234a89e9e7",
+    "accuracy_audit.json": "fbdaed56a8efd005a06e6cf09fd454ac8540ac64195810bd41b53f592447be3e",
+    "accuracy_cases.json": "e96a88d4f796695141233c7b774e374b2da22ac161db57d22dc1b67420b11bbd",
+    "accuracy_provenance.json": "a6d28b91ab148c975e5fc8664c105223426fd06da69a6b7072cb6af4bc9e7053",
+    "conformance.json": "d11ac25a30a3774b8316e1efd0dc588fd6393f3522ace683d6986acad3f66955",
+    "driver.json": "b4f545e0ca9fde992106b24c88b387fc900183a02670484cb4b87dfb9b00617a",
+    "extra.json": "a0e19fbf11f2a8abf8b7216bc8cd3069d85ab1a6de72b0f0d56b7def71b68beb",
+    "functional.json": "fe7a9e79b949986ea2d673307e9038a083982c25a27acc5d7817192c964ef987",
+    "gate.json": "dc9597d5658818956e29f4041beba37dcc275773dbe76a420c1244eabd3b04c4",
+    "paired_v42.json": "7c2471e0c451fe56b757c4032011e328e8637bc8db5ac43c5574f36413a21a13",
+    "power.json": "1c566f6e3ddf95885670124c92405dfdb76c511468bffc91046e9b19441fd136",
+    "power_summary.json": "67cc12021aa924feb733f17446aa11f6929a71424c9d97dea8eecd26cde4969b",
+    "ppa.json": "1abcf0731a767190d804c3c23808adf9228df3e6432daf99985cc0c699dbaa3c",
+    "rv32.json": "2c8b9fc9f5855b9837cdfe8fb389e97f47c7e5af1b4b86993443a854d8b6a147",
+    "workloads.json": "eb0e6242c24a57067e2dc82be687b4fe5bcc10e76d9cec692501bf7395b9b38a"
+  }
+}

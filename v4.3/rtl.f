@@ -1,0 +1,15 @@
+rtl/kwt_quantize.sv
+rtl/kwt_mul16_pipe.sv
+rtl/kwt_sp_ram.sv
+rtl/kwt_rice_pack.sv
+rtl/kwt43_icb_master.sv
+rtl/kwt43_unpack.sv
+rtl/kwt43_dot.sv
+rtl/kwt43_xram.sv
+rtl/kwt43_wram.sv
+rtl/kwt43_yram.sv
+rtl/kwt43_reader.sv
+rtl/kwt43_writer.sv
+rtl/kwt43_compute.sv
+rtl/kwt43_core.sv
+rtl/kwt_nice_core.sv

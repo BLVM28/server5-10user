@@ -1,0 +1,9 @@
+{
+  "wrapper_linked": true,
+  "public_defines_sha256": "50348b28a961b87eff4040cecc44b35e163acc28042eb6fa53bd1c2e69682109",
+  "wrapper_sha256": "98d49bd06e5a05eba263239fafb53283235901452fc2f25bf9c93b4612d13f28",
+  "elaboration_log_sha256": "631c7a4b9fc554ab578c0e0d80e0f52553ee11b84268bf3f679fda5e8a69ceb2",
+  "aligned_signed_dot_tests": 64,
+  "dot_log_sha256": "209aeba7c1df9d31ab2ad84c932cf65efe646a5fbc31b3c9629f9e60d7f8583a",
+  "dot_tb_sha256": "fb4558afa8c8ffd82bb72bb189fad2db0fe59fb07478f47690cb1a59ef6f6b04"
+}

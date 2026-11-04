@@ -1,0 +1,174 @@
+{
+  "tb_kwt_public_sram": [
+    {
+      "cycles": 15984,
+      "layer": 0,
+      "mode": 3,
+      "reads": 6021,
+      "writes": 4522
+    },
+    {
+      "cycles": 15988,
+      "layer": 1,
+      "mode": 3,
+      "reads": 5880,
+      "writes": 4323
+    },
+    {
+      "cycles": 15993,
+      "layer": 2,
+      "mode": 3,
+      "reads": 6260,
+      "writes": 4310
+    },
+    {
+      "cycles": 15980,
+      "layer": 3,
+      "mode": 3,
+      "reads": 6317,
+      "writes": 4425
+    },
+    {
+      "cycles": 15967,
+      "layer": 4,
+      "mode": 3,
+      "reads": 5969,
+      "writes": 4928
+    },
+    {
+      "cycles": 15959,
+      "layer": 5,
+      "mode": 3,
+      "reads": 5773,
+      "writes": 4581
+    },
+    {
+      "cycles": 15959,
+      "layer": 6,
+      "mode": 3,
+      "reads": 5894,
+      "writes": 4400
+    },
+    {
+      "cycles": 16278,
+      "layer": 7,
+      "mode": 3,
+      "reads": 6363,
+      "writes": 4947
+    },
+    {
+      "cycles": 16298,
+      "layer": 8,
+      "mode": 3,
+      "reads": 6384,
+      "writes": 4990
+    },
+    {
+      "cycles": 16066,
+      "layer": 9,
+      "mode": 3,
+      "reads": 6503,
+      "writes": 4381
+    },
+    {
+      "cycles": 16001,
+      "layer": 10,
+      "mode": 3,
+      "reads": 6904,
+      "writes": 5431
+    },
+    {
+      "cycles": 16883,
+      "layer": 11,
+      "mode": 3,
+      "reads": 7913,
+      "writes": 7309
+    }
+  ],
+  "tb_kwt_zero": [
+    {
+      "cycles": 15980,
+      "layer": 0,
+      "mode": 2,
+      "reads": 6021,
+      "writes": 4522
+    },
+    {
+      "cycles": 15985,
+      "layer": 1,
+      "mode": 2,
+      "reads": 5880,
+      "writes": 4323
+    },
+    {
+      "cycles": 15992,
+      "layer": 2,
+      "mode": 2,
+      "reads": 6260,
+      "writes": 4310
+    },
+    {
+      "cycles": 15977,
+      "layer": 3,
+      "mode": 2,
+      "reads": 6317,
+      "writes": 4425
+    },
+    {
+      "cycles": 15965,
+      "layer": 4,
+      "mode": 2,
+      "reads": 5969,
+      "writes": 4928
+    },
+    {
+      "cycles": 15957,
+      "layer": 5,
+      "mode": 2,
+      "reads": 5773,
+      "writes": 4581
+    },
+    {
+      "cycles": 15956,
+      "layer": 6,
+      "mode": 2,
+      "reads": 5894,
+      "writes": 4400
+    },
+    {
+      "cycles": 16277,
+      "layer": 7,
+      "mode": 2,
+      "reads": 6363,
+      "writes": 4947
+    },
+    {
+      "cycles": 16295,
+      "layer": 8,
+      "mode": 2,
+      "reads": 6384,
+      "writes": 4990
+    },
+    {
+      "cycles": 16065,
+      "layer": 9,
+      "mode": 2,
+      "reads": 6503,
+      "writes": 4381
+    },
+    {
+      "cycles": 15999,
+      "layer": 10,
+      "mode": 2,
+      "reads": 6904,
+      "writes": 5431
+    },
+    {
+      "cycles": 16857,
+      "layer": 11,
+      "mode": 2,
+      "reads": 7913,
+      "writes": 7309
+    }
+  ]
+}
