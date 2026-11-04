@@ -11,3 +11,8 @@
 9. 清理新目录中过时复制文件，归到 history；保留 v4.2 正式目录不改。按 rtl/tb/makefile/flow/vectors 分包，添加各目录解释、手动操作和机器可核验交付清单。
 
 最终数字及本轮实际通过项目以 RESULTS.md、SERVER_RESULTS.md、results/ 和 releases/ 为准。平台剩余工作是正式 512 KiB 共享 RAM/地址、E203 固件调度、动态 X 编码计时，以及物理布局/CTS/寄生后验证；不能把当前端点测试改称这些事项均已完成。
+
+
+## precision-fix-1
+
+修正权重格式说明和NRMSE极小分母；13项解析测试及原600样本重测通过，RTL/profile保持不变。原PPA不重测、不扩大统计范围。任务1/2与任务3的交付责任见根目录材料划分.md，修订证据见results/metric_fix.json；旧修订已备份，历史版本不回写。

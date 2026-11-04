@@ -1,4 +1,4 @@
-> 当前新增版本：[v4.3](v4.3/README.md)，四路码流与 8×16 阵列；固定组公共 SRAM 端点约 9,309 tasks/s @150 MHz，保持 v4.2 数值精度。查看 [完整结果](v4.3/RESULTS.md) 的总线、面积和功耗口径。
+> 当前任务1、2交接主线：[v4.3](v4.3/README.md)。先读[材料划分](材料划分.md)：独立核已有功能/数值证据，正式SoC吞吐与整机PPA尚未完成。
 
 > GitHub 协作入口：[公开仓库](https://github.com/BLVM28/server5-10user)。本机后续工作目录：`C:/Users/lenovo/Desktop/server5-10user`。
 

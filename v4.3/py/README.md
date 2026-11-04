@@ -10,10 +10,12 @@
 | block8.py | 为兼容原始数据仅复用其中读 hex/int16 工具；本版不采用 Block8 数据格式 |
 | profile42.json、profile_header.py | 33 个训练 WAV 标定得到的冻结参数，生成相同 C profile |
 | qualify_speech.py | TF2.4 加载实际 KWT-1，核对 162 个 checkpoint 张量、上游预处理和逐层 Dense1 |
+| precision_metrics.py、test_precision_metrics.py | 按原文实现NRMSE参考RMS下限，单样本和聚合共用；13项解析边界测试 |
 | run_xsim.py | 本地编译/运行和严格完整 PASS 计数，支持独立目录、参数和四种端点 |
 | audit_driver.py | C 与 Python 两种字序编码逐字对照，另解码 12 层真实 RTL RAM 导出 |
 | rv32_verify.py | RV32IMAC 交叉编译，检查 custom3 的实际指令字段 |
-| check_wrapper.py | 用公共定义文件编译并链接 E203 wrapper，验证实际端口/参数连接；不等同CPU执行 |\n| local_evidence.py | 校验完整本地日志、源码和 600 样本后公开结果，不推断服务器通过 |
+| check_wrapper.py | 用公共定义文件编译并链接 E203 wrapper，验证实际端口/参数连接；不等同CPU执行 |
+| local_evidence.py | 校验完整本地日志、源码和 600 样本后公开结果，不推断服务器通过 |
 | assets.py | 五类确定性 ZIP、成员哈希与回读校验 |
 | delivery.py | 本地打包与发布清单；服务器受路径和旧版本哈希保护的安装、过时文件归档 |
 

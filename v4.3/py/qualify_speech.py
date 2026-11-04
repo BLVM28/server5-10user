@@ -16,6 +16,7 @@ sys.dont_write_bytecode = True
 import numpy as np
 from numeric_model import encode, quantize
 from rice import math_layer
+from precision_metrics import nrmse_from_sums, REFERENCE_RMS_FLOOR
 
 ROOT = Path(__file__).resolve().parents[1]
 SEED = 59185
@@ -226,8 +227,9 @@ def main():
             yc=math_layer(xi,wi,bi,sx,sw,sy)[4]
             decoded=(yc<<sy).astype(np.float64)/2048.
             ref=reference.astype(np.float64)
+            assert np.isfinite(decoded).all() and np.isfinite(ref).all()
             err=float(np.sum((decoded-ref)**2)); energy=float(np.sum(ref**2))
-            ratio=float(np.sqrt(err/max(energy,1.e-16)))
+            ratio=nrmse_from_sums(err,energy,ref.size)
             t=totals[i];t["error_sum_sq"]+=err;t["reference_sum_sq"]+=energy;t["elements"]+=ref.size
             t["max_sample_nrmse"]=max(t["max_sample_nrmse"],ratio)
             t["samples_over_3_percent"]+=int(ratio>.03)
@@ -236,14 +238,19 @@ def main():
         if (n+1)%50==0:print("SPEECH",n+1,flush=True)
     preprocessing_session.close()
     for t in totals:
-        t["nrmse"]=float(np.sqrt(t["error_sum_sq"]/t["reference_sum_sq"]))
+        t["nrmse"]=nrmse_from_sums(t["error_sum_sq"],t["reference_sum_sq"],t["elements"])
     report={"scope":"self-selected validation only; original float model and per-layer Dense1 decoded comparison",
             "samples":len(samples),"real_distinct_wavs":11*a.per_class,"silence_copies":a.per_class,
             "checkpoint_tensors":len(checkpoint_audit),"native_logits_replays":len(samples),
             "max_layer_nrmse":max(t["nrmse"] for t in totals),"max_single_nrmse":max(t["max_sample_nrmse"] for t in totals),
             "cases_over_3_percent":sum(t["samples_over_3_percent"] for t in totals),
             "layers":[[t["layer"],t["nrmse"],t["max_sample_nrmse"]] for t in totals],
-            "rice_sha256":sha(ROOT/"py/rice.py"),"profile_sha256":sha(ROOT/"py/profile42.json")}
+            "rice_sha256":sha(ROOT/"py/rice.py"),"profile_sha256":sha(ROOT/"py/profile42.json"),
+            "nrmse_definition":"RMSE(error) / max(RMS(reference), 1e-8)",
+            "reference_rms_floor":REFERENCE_RMS_FLOOR,
+            "metric_sha256":sha(ROOT/"py/precision_metrics.py"),
+            "qualification_script_sha256":sha(Path(__file__)),
+            "elements_per_layer":[t["elements"] for t in totals]}
     assert len(predictions)==len(samples)
     (a.out/"cases.json").write_text(json.dumps(predictions,indent=2)+"\n")
     (a.out/"accuracy.json").write_text(json.dumps(report,indent=2)+"\n")

@@ -1,5 +1,5 @@
 """Publish only checked local evidence; never infer a server pass."""
-import hashlib,json,re
+import hashlib,json,math,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -21,8 +21,12 @@ def main():
       log_sha256=sha(path/"tb_kwt_public_sram.log"),sources=rec["source_sha256"]))
     speech=ROOT/"build/speech";a=json.loads((speech/"accuracy.json").read_text())
     old=json.loads((ROOT.parent/"v4.2/results/accuracy.json").read_text())
-    assert a["samples"]==600 and a["cases_over_3_percent"]==0 and a["max_layer_nrmse"]==old["max_layer_nrmse"]
+    assert a["samples"]==600 and a["cases_over_3_percent"]==0
+    assert math.isclose(a["max_layer_nrmse"],old["max_layer_nrmse"],rel_tol=1e-12,abs_tol=1e-15)
     assert a["rice_sha256"]==sha(ROOT/"py/rice.py") and a["profile_sha256"]==sha(ROOT/"py/profile42.json")
+    assert a["metric_sha256"]==sha(ROOT/"py/precision_metrics.py")
+    assert a["qualification_script_sha256"]==sha(ROOT/"py/qualify_speech.py")
+    assert a["reference_rms_floor"]==1e-8
     for src,dst in (("accuracy.json","accuracy.json"),("manifest.json","accuracy_provenance.json"),("cases.json","accuracy_cases.json")):
         (ROOT/"results"/dst).write_bytes((speech/src).read_bytes())
     proof={"precision_scope":"fresh 600-sample original float Dense1 vs frozen numeric v4.2; NOT quantized end-to-end word recognition accuracy",
@@ -31,6 +35,9 @@ def main():
       "math_unchanged_from_v42":sha(ROOT/"py/rice.py")==sha(ROOT.parent/"v4.2/py/rice.py"),
       "fresh_log_sha256":sha(ROOT/"build/accuracy_run.log"),"script_sha256":sha(ROOT/"py/qualify_speech.py"),
       "stream_generator_sha256":sha(ROOT/"py/streams43.py"),
+      "metric_sha256":sha(ROOT/"py/precision_metrics.py"),
+      "nrmse_definition":a["nrmse_definition"],
+      "reference_rms_floor":a["reference_rms_floor"],
       "actual_pin_level_transport_and_C_proofs":["functional.json","driver.json","rv32.json"]}
     assert proof["profile_unchanged_from_v42"] and proof["math_unchanged_from_v42"]
     write("accuracy_audit.json",proof);print("LOCAL EVIDENCE PASS",total,1800000000./total)

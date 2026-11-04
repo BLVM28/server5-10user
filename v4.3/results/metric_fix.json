@@ -1,0 +1,44 @@
+{
+  "revision": "precision-fix-1",
+  "date": "2026-11-04",
+  "previous_commit": "e01d8f33",
+  "changes": [
+    "Correct ARCHITECTURE.md to X16/F11, W16/F16, bias32/F27, acc40/F27, Y16/F11",
+    "Use RMSE(error)/max(RMS(reference),1e-8) for both per-sample and aggregated per-layer scores"
+  ],
+  "metric_tests": 13,
+  "metric_tests_passed": true,
+  "metric_test_log_sha256": "31a99a9ffd28891667453ef705cfb1ed512328248973d651efe43a536cdc89f0",
+  "metric_sha256": "22d1c7d8c106abd922bfc2c51e79da3334cd96bd4490d16b54f124fbf11a8ace",
+  "qualification_script_sha256": "e9eb47808124e6055a4d92066c91d989e8795af8539a119375ddeb8db8da512a",
+  "fresh_speech_log_sha256": "61c7dd95e3af8175f900a39e7ab43c15f30ad60e4c9d06b4ae239cb0344525aa",
+  "samples": 600,
+  "layer_comparisons": 7200,
+  "max_layer_nrmse": 0.0014181070697310985,
+  "max_single_nrmse": 0.0019385242922462804,
+  "cases_over_3_percent": 0,
+  "rtl_and_implementation_sources_unchanged": true,
+  "rtl_sha256": {
+    "rtl/kwt43_compute.sv": "8a4debb3f5c7f6eb64c8c3834a83cf09985e8c3913dd3a9bf1752f35734cc06c",
+    "rtl/kwt43_core.sv": "4a20e7e139f62fbf912127332c2bb164da175e6dd45894224011153fa285e4c0",
+    "rtl/kwt43_dot.sv": "06fac7c5758c0ff635c35503a7f2a3f5494df59a5068ef80f2b00985bc68b5f0",
+    "rtl/kwt43_icb_master.sv": "962d9339f23177562c9e1cff8e91cbd245bfec38b8bf27c4730842d16e137112",
+    "rtl/kwt43_reader.sv": "861a7fdec31b3fe7860e6a9afc1b5ccb157b3b3b51509751cf558d5789521f3e",
+    "rtl/kwt43_unpack.sv": "d16285ba6641c8921489d1d778fa08346a081195c946275d18fddb95462fa70e",
+    "rtl/kwt43_wram.sv": "83341e7af83c96e4fa648868e3e6bb42cda388d580a77ffa0b9da8d8988d7042",
+    "rtl/kwt43_writer.sv": "b8798dec1712f95aa721d2bc0d0f0c87cbeab0bcc875344e8d45cb5719f3a68c",
+    "rtl/kwt43_xram.sv": "65678f534693d4987801d2aa992e0cffe9cb8c27bb4e22e262ff1f13999a1069",
+    "rtl/kwt43_yram.sv": "1ff589b5a0de03e4ebd2d9ed963b3af7c8591926c02932c1d56b45977fa7bebb",
+    "rtl/kwt_mul16_pipe.sv": "5e3ea334109b76bff5e583a4c1daa5757fbcf2ecf0ec0605f92b57734b874c27",
+    "rtl/kwt_nice_core.sv": "67dad7b0985f4d81c9eb778e758a3fa06c6e086de04c7098858c500bd19a5a91",
+    "rtl/kwt_quantize.sv": "952ef47c53b7adb9318f6b0f559a7b64c03127c00066952672cf15d00e9d0f51",
+    "rtl/kwt_rice_pack.sv": "0e0117dbe9f939c00fcfae11469ff650331ef5c213febc180f864f6cda815e37",
+    "rtl/kwt_sp_ram.sv": "639bbfe970c8738478f25572a3349f5749ffebeff72df2a60cfb0d6cdd79e2d7"
+  },
+  "profile_sha256": "2de4a7683f9e7c8c709174e7c464167137e515a9318367b91f8cd1b9b48a9e54",
+  "hardware_results_scope": "Existing RTL/VCS/SDF/PPA receipts retained; no new hardware run claimed",
+  "backup": {
+    "relative_path": "history/pre_precision_fix_e01d8f33.zip",
+    "sha256": "f63380fc0d1a3b57f70958090e26019f6801db2fba2ef79aebfc01ad08e9609b"
+  }
+}
