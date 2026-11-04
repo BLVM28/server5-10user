@@ -1,0 +1,59 @@
+{
+  "review_date": "2026-11-04",
+  "frozen_commit": "5c2c6c825ba6c77b61a13d0bb4f13b196c8ffa00",
+  "overall": "Independent Dense1 accelerator verified in the recorded scope; undergraduate task3 and final submission are incomplete",
+  "rules_source": "01_核心参考/赛题介绍.pdf",
+  "printed_pages": [
+    3,
+    5,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "denominator_audit": {
+    "matrices": 7200,
+    "minimum_reference_rms": 0.2528341834518544,
+    "required_floor": 1e-08,
+    "existing_result_matches_correct_per_sample_formula": true,
+    "floor_active_cases": 0,
+    "minimum_aggregate_reference_rms_lower_bound": 0.2528341834518544,
+    "max_layer_nrmse": 0.0014181070697310985
+  },
+  "denominator_code_issue": "qualify_speech.py:230 floors summed reference energy at 1e-16 instead of element_count*1e-16; :239 lacks the reference-RMS floor. Current 7200 references do not trigger the floor; generic scoring implementation still needs correction.",
+  "document_erratum": "v4.3/ARCHITECTURE.md:5 incorrectly says both input and weights are Q4.11. Actual numeric contract/code: X16/F11, W16/F16, bias32/F27, acc40/F27, Y16/F11.",
+  "software_precision_not_rtl_run": "600 local validation cases are evaluated by the numerical model, as allowed on printed p10; this is not 600 CPU/RTL full-system executions or word classification accuracy.",
+  "cheating_review": "No expected-answer ROM found in rtl; testbench loads X/W/b into memory and loads expected Y into separate scoreboards. Mandatory matrix arithmetic is in RTL. This review is not a proof of absence of all bugs.",
+  "training_validation_testing": {
+    "training_count": 33,
+    "training_validation_overlap": 0,
+    "training_testing_overlap": 0,
+    "validation_wavs": 550,
+    "zero_silence_repeats": 50,
+    "official_600_list_known": false
+  },
+  "missing_required_work": [
+    "Actual E203 CPU+interconnect+512KiB RAM simulation and runnable firmware/linker/startup/error path",
+    "Official-window cold-task performance including E203 scheduling and required loading",
+    "SoC-wide VCD/SAIF and energy including CPU/interconnect/sharedRAM with common load/corner/interconnect estimate",
+    "Final frozen 150MHz SoC SDC and submission export of netlist/activity/raw reports",
+    "Final innovation/ablation presentation and team contribution statement"
+  ],
+  "limited_coverage": [
+    "SS/FF gate-level tests each run layer0 only",
+    "Formality compares pre/post dead-cell ECO netlists, not original RTL against mapped netlist",
+    "Existing gate/STA/PX flow covers accelerator and local SRAM only"
+  ],
+  "not_required_undergraduate": [
+    "yes/no classification in hardware",
+    "GELU, Dense2 and attention",
+    "place and route, physical verification or tapeout"
+  ],
+  "published_manifest_files_verified": 1545,
+  "result_json_hashes_verified": 15,
+  "release_modified": false,
+  "audit_log_sha256": "297cb0dfb170063dacc4a12543584e80da8c864587a705812fdd2c74c52dafd6"
+}
