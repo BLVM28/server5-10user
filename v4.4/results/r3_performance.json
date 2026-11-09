@@ -1,0 +1,52 @@
+{
+  "tool": "VCS Q2020, SoC RTL plus actual macro functional models",
+  "source_package_sha256": "2b71c24b427734fdebf1df01b042df3f676df709e4a803589c7efa2f5da944e4",
+  "server_run": "/storage2/2026contest/server5/s5_10usr/v4.4/r3/soc/work/rtl_20261108_232710_856667",
+  "benchmark": "12 cold worst-vector matrices, from first input/parameter loading to final result response",
+  "tasks_per_case": 12,
+  "checked_words_per_case": 58547,
+  "engine_read_commands_per_case": 76181,
+  "engine_write_commands_per_case": 58547,
+  "timing_qualified_by_this_file": false,
+  "cases": {
+    "p6_serial_padded": {
+      "cycles": 1617436,
+      "engine_cycles": 818333,
+      "loaded_words": 248832,
+      "tasks_per_s_at_nominal_150MHz": 1112.8724722338318
+    },
+    "p6_batch_padded": {
+      "cycles": 1088256,
+      "engine_cycles": 818333,
+      "loaded_words": 248832,
+      "tasks_per_s_at_nominal_150MHz": 1654.0225829216654
+    },
+    "v44_serial_padded": {
+      "cycles": 1544512,
+      "load_cycles": 1292739,
+      "dispatch_cycles": 2823,
+      "engine_cycles": 249010,
+      "engine_to_last_write": 248950,
+      "loaded_words": 248832,
+      "tasks_per_s_at_nominal_150MHz": 1165.4166494012347
+    },
+    "v44_batch_padded": {
+      "cycles": 511748,
+      "load_cycles": 259987,
+      "dispatch_cycles": 2799,
+      "engine_cycles": 249022,
+      "engine_to_last_write": 248962,
+      "loaded_words": 248832,
+      "tasks_per_s_at_nominal_150MHz": 3517.3561987540743
+    },
+    "v44_batch_active": {
+      "cycles": 334498,
+      "load_cycles": 82759,
+      "dispatch_cycles": 2802,
+      "engine_cycles": 248997,
+      "engine_to_last_write": 248937,
+      "loaded_words": 76085,
+      "tasks_per_s_at_nominal_150MHz": 5381.198093860053
+    }
+  }
+}

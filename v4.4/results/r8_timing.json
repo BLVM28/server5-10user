@@ -1,0 +1,24 @@
+{
+  "server_run": "/storage2/2026contest/server5/s5_10usr/v4.4/r8/soc/work/dc/v44_r1_20261109_034711_298259",
+  "source_package_sha256": "2c2ddb0d4d0fee37b19bcde236f7d6449ed90a1d4acec66b56f0010b2078533c",
+  "clock_mhz": 150,
+  "interconnect": "TLUPLUS_VIRTUAL_ROUTE",
+  "clock_model": "P6 synthesis-stage ideal clocks",
+  "pvt_corners": 7,
+  "rc_corners": 5,
+  "combinations": 35,
+  "timing_pass": true,
+  "primary_setup_ns": 0.100025,
+  "primary_hold_ns": 0.0168916,
+  "worst_setup": {"slack_ns": 0.100025, "pvt": "ss_v0p99_-40c", "rc": "CMAX"},
+  "worst_hold": {"slack_ns": 0.0119155, "pvt": "ff_v1p21_-40c", "rc": "CMIN"},
+  "worst_logic_to_sram_hold": {"slack_ns": 3.11018, "pvt": "ss_v0p99_125c", "rc": "CMIN"},
+  "whole_soc_cell_area_mm2": 4.058560893198,
+  "added_area_upper_bound_mm2": 1.091959080702,
+  "primary_rule_violation_records": {"max_transition": 3410, "max_capacitance": 55, "max_leakage_power": 1},
+  "same_mapped_hardware_r9_gate": {
+    "functional_without_sdf": {"passed": true, "tasks": 12, "checked_words": 58547, "boots": 2},
+    "worst_setup_sdf": {"passed": false, "model_timing_messages": 53, "response_timeout_address": "0xA0000010"},
+    "worst_hold_sdf": {"passed": false, "response_timeout_address": "0xA0000018"}
+  }
+}

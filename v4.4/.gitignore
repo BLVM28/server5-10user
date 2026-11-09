@@ -1,0 +1,4 @@
+/build/
+/soc/work/
+**/__pycache__/
+*.pyc

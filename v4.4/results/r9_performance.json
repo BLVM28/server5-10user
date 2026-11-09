@@ -1,0 +1,16 @@
+{
+  "tool": "Server VCS RTL, actual SMIC40 macro functional models",
+  "server_run": "/storage2/2026contest/server5/s5_10usr/v4.4/r9/soc/work/rtl_20261109_042710_890864",
+  "source_package_sha256": "eaa5132825ff08a934a07f9fff3976d9341ae323f30122b1360fcea3b2f5b3a0",
+  "firmware_hex_sha256": "ce0dee9c59ed4fe5fcf2f01f466da49e0ecb8d72a9f0683145864b82804f1f4b",
+  "workload": "12 cold Dense1 matrices, first input/parameter loading through final result write response",
+  "tasks_per_case": 12,
+  "checked_words_per_case": 58547,
+  "cases": {
+    "p6_serial_padded": {"load": 796261, "dispatch": 2890, "engine_to_write": 818285, "total": 1617436, "engine_window": 818333, "tasks_per_s_at_150MHz": 1112.872472},
+    "p6_batch_padded": {"load": 267077, "dispatch": 2894, "engine_to_write": 818285, "total": 1088256, "engine_window": 818333, "tasks_per_s_at_150MHz": 1654.022583},
+    "r9_serial_padded": {"load": 1263592, "dispatch": 2580, "engine_to_write": 248992, "total": 1515164, "engine_window": 249052, "tasks_per_s_at_150MHz": 1187.990211},
+    "r9_batch_padded": {"load": 261433, "dispatch": 2577, "engine_to_write": 248980, "total": 512990, "engine_window": 249040, "tasks_per_s_at_150MHz": 3508.840328},
+    "r9_batch_active_experiment": {"load": 83183, "dispatch": 2587, "engine_to_write": 248960, "total": 334730, "engine_window": 249020, "tasks_per_s_at_150MHz": 5377.468407}
+  }
+}
