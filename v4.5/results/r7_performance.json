@@ -1,0 +1,94 @@
+{
+  "server_rtl_run": "/storage2/2026contest/server5/s5_10usr/v4.5/r7/soc/work/rtl_20261109_100519_706043",
+  "source_package_sha256": "07f62dae5e4a8efaa1dd6f3b9973407ced9228d4e4d71f98550cdd0eef841895",
+  "firmware_hex_sha256": "ce0dee9c59ed4fe5fcf2f01f466da49e0ecb8d72a9f0683145864b82804f1f4b",
+  "tools": [
+    "VCS using server SMIC40 functional models"
+  ],
+  "simulation_core_period_ns": 6.25,
+  "same_rtl_150mhz_rerun": {
+    "server_rtl_run": "/storage2/2026contest/server5/s5_10usr/v4.5/r8/soc/work/rtl_20261109_103341_967096",
+    "simulation_core_period_ns": 6.666666667,
+    "serial_padded_cycles": 1348084,
+    "batch_padded_cycles": 476604,
+    "batch_active_cycles": 299682
+  },
+  "counted_window": "first input or parameter load through final result write response, 12 cold Dense1 tasks",
+  "tasks_per_configuration": 12,
+  "boots_per_configuration": 2,
+  "checked_words_per_configuration": 58547,
+  "dma_reads_per_configuration": 76181,
+  "dma_writes_per_configuration": 58547,
+  "cases": {
+    "serial_padded": {
+      "v44": {
+        "load_cycles": 1263592,
+        "dispatch_cycles": 2580,
+        "engine_to_last_write": 248992,
+        "engine_cycles": 249052,
+        "workload_cycles": 1515164,
+        "loaded_words": 248832,
+        "max_inflight": 3,
+        "tasks_per_s_at_150mhz": 1187.9902109606617
+      },
+      "v45": {
+        "load_cycles": 1132185,
+        "dispatch_cycles": 2637,
+        "engine_to_last_write": 213262,
+        "engine_cycles": 213322,
+        "workload_cycles": 1348084,
+        "loaded_words": 248832,
+        "max_inflight": 4,
+        "tasks_per_s_at_150mhz": 1335.2283685586358,
+        "tasks_per_s_if_160mhz_closed": 1424.2435931292116
+      }
+    },
+    "batch_padded": {
+      "v44": {
+        "load_cycles": 261433,
+        "dispatch_cycles": 2577,
+        "engine_to_last_write": 248980,
+        "engine_cycles": 249040,
+        "workload_cycles": 512990,
+        "loaded_words": 248832,
+        "max_inflight": 3,
+        "tasks_per_s_at_150mhz": 3508.840328271506
+      },
+      "v45": {
+        "load_cycles": 260758,
+        "dispatch_cycles": 2548,
+        "engine_to_last_write": 213298,
+        "engine_cycles": 213358,
+        "workload_cycles": 476604,
+        "loaded_words": 248832,
+        "max_inflight": 4,
+        "tasks_per_s_at_150mhz": 3776.720296094871,
+        "tasks_per_s_if_160mhz_closed": 4028.5016491678625
+      }
+    },
+    "batch_active": {
+      "v44": {
+        "load_cycles": 83183,
+        "dispatch_cycles": 2587,
+        "engine_to_last_write": 248960,
+        "engine_cycles": 249020,
+        "workload_cycles": 334730,
+        "loaded_words": 76085,
+        "max_inflight": 3,
+        "tasks_per_s_at_150mhz": 5377.468407373107
+      },
+      "v45": {
+        "load_cycles": 83807,
+        "dispatch_cycles": 2592,
+        "engine_to_last_write": 213283,
+        "engine_cycles": 213343,
+        "workload_cycles": 299682,
+        "loaded_words": 76085,
+        "max_inflight": 4,
+        "tasks_per_s_at_150mhz": 6006.366748753679,
+        "tasks_per_s_if_160mhz_closed": 6406.791198670591
+      }
+    }
+  },
+  "rate_kind": "frequency-normalized from verified RTL cycles"
+}
