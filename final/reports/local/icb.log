@@ -1,0 +1,2 @@
+ICB_REGISTERED_PASS completed=2000 aborted=2 zero=1000 delayed=1001
+final/verification/tb/tb_icb_registered.sv:111: $finish called at 135439788 (1ps)

@@ -1,0 +1,2 @@
+ALL PASS, 64/64 uninterrupted signed dots, abort, ties and saturation
+final/verification/tb/tb_kwt_stream_dot.sv:49: $finish called at 44360000 (1ps)
