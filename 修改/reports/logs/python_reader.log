@@ -1,0 +1,2 @@
+PYTHON_RAW_READER_PASS layers=12 pack_modes=2 values=608256 numerical_identity=r8
+NUMPY 2.5.2

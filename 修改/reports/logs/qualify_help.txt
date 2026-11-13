@@ -1,0 +1,12 @@
+usage: qualify_speech.py [-h] --data DATA --out OUT --model-repo MODEL_REPO
+                         --weights-dir WEIGHTS_DIR [--per-class PER_CLASS]
+
+options:
+  -h, --help            show this help message and exit
+  --data DATA
+  --out OUT
+  --model-repo MODEL_REPO
+                        Pinned ARM 237e4097 repository
+  --weights-dir WEIGHTS_DIR
+                        Output of export_weights.py
+  --per-class PER_CLASS

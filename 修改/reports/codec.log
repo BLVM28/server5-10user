@@ -1,0 +1,7 @@
+make: Entering directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build"
+gcc -std=c11 -Wall -Wextra -fsanitize=undefined -I"/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../interface" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/test_codec.c" -o "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/codec"
+"/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/codec" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/vec" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/codec.log"
+grep -F 'C_CODEC_PASS layers=12 pack_modes=2 raw_y_values=608256' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/codec.log"
+C_CODEC_PASS layers=12 pack_modes=2 raw_y_values=608256
+make: Leaving directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'

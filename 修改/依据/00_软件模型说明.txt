@@ -1,0 +1,77 @@
+PAGE 1
+KWT-1 前馈线性加速器
+软件数值模型说明
+软件数值模型说明
+数值模型、参数转换与精度复核
+一、目录用途
+本目录提供与RTL 逐位一致的软件数值模型、指定预训练权重的导出脚本、RTL 输
+入与软件对照的生成入口，以及精度复核入口。任务1、2 的数值参考使用rice.py 的
+math_layer 与streams43.py；profile42.json 冻结12 层的sx、sw、sy 与Y 的Rice
+参数。
+二、文件清单
+表1
+脚本与配置
+文件
+职责
+export_weights.py
+核对checkpoint 后导出12 层Dense1 的kernel 与bias
+prepare_layer.py
+inputs 与reference 两个入口，生成RTL 输入与独立
+对照
+verify_frozen.py
+从36 份原始定点文件重建100 个冻结hex 并核对字节
+qualify_speech.py
+在Speech Commands V2 验证划分上计算精度
+rice.py
+Rice 编解码与逐层数学参考
+streams43.py
+四路码流的组织与还原
+numeric_model.py
+浮点转定点与独立舍入参考
+precision_metrics.py
+赛题NRMSE 的实现
+profile42.json
+12 层冻结profile：缩放参数与Rice 参数
+三、数据流
+1. export_weights.py 先核验best_weights.index 与数据分片的SHA256，再按明
+确的层与变量名读取12 层Dense1 的kernel 与bias，输出各层layerNN.npz。其中
+w 为W16/F16、b 为bias32/F27，w_float 与b_float 用于精度复核。
+2. prepare_layer.py inputs 只做量化与X、W 编码并写出偏置，产物直接供RTL
+使用。
+3. prepare_layer.py reference 为独立软件对照生成40 位累加、舍入后的Y、写回
+码流与解码矩阵，供测试平台或离线比较。
+4. RTL 在平台上执行计算并写回共享SRAM。
+5. 第5 步由verify_frozen.py 重建冻结向量，precision_metrics.py 完成精度统
+计。
+1
+
+PAGE 2
+KWT-1 前馈线性加速器
+软件数值模型说明
+输入入口与参考入口分离设计，使得硬件输入只经过数值转换与编码，期望输出另由
+独立路径生成，避免同源实现的错误被同时复制到两侧。
+四、运行方式
+步骤
+命令
+导出权重
+python3 -B model/export_weights.py –checkpoint < 前缀>
+–output build/weights
+生成输入
+python3 -B model/prepare_layer.py inputs –layer 0 –x <npy>
+–parameters <npz> –out < 目录>
+生成对照
+python3 -B model/prepare_layer.py reference –layer 0 –x
+<npy> –parameters <npz> –out < 目录>
+冻结向量复核
+python3 -B model/verify_frozen.py
+精度复核
+python3 -B model/qualify_speech.py –data < 数据根>
+–weights-dir build/weights –out < 目录>
+export_weights.py 需要NumPy 与TensorFlow checkpoint API，或原项目已验证的
+可选依赖环境；qualify_speech.py 需要兼容TensorFlow 2.4 的环境与Speech Commands
+V2 验证划分。已经定点化的X 数组使用--x-kind integer。
+五、精度结论
+在550 个验证WAV 加50 次全零静音、共7,200 张第一线性层矩阵上，最大单层汇
+总NRMSE 为0.1418107%，最差单样本单层为0.1938524%，超过3% 门槛的比较为
+零。该结果来自项目自选验证集，组委会正式600 样本由赛题流程另行评测。
+2

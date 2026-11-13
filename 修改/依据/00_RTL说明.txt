@@ -1,0 +1,102 @@
+PAGE 1
+KWT-1 前馈线性加速器
+RTL 说明
+RTL 说明
+本科组第1—3 项任务的可综合实现
+一、目录用途
+本目录提供本科组第1 至3 项任务的全部可综合SystemVerilog 源码，共15 个模
+块，覆盖长度64 的点积与数值处理、99×256 的前馈矩阵运算、12 层参数切换，以及接
+入E203 的NICE 接口与共享存储访问。编译清单为同目录下的rtl.f。
+二、文件清单
+文件按rtl.f 的自底向上顺序列出，见表1。该顺序即综合与仿真时的读入顺序。
+表1
+模块清单
+文件
+模块
+职责
+kwt_quantize.sv
+kwt_quantize
+F27 累加转F11，最近偶数舍入与饱和
+kwt_mul16_pipe.sv
+kwt_mul16_pipe
+有符号16×16 分解乘法，七级流水
+kwt_sp_ram.sv
+kwt_sp_ram
+单端口SRAM 宏封装与端口驱动单元
+kwt_rice_pack.sv
+kwt_rice_pack
+变长码字组装为32 位ICB 拍
+kwt43_icb_master.sv
+kwt43_icb_master
+单笔在途的ICB 主设备，命令与应答分
+别寄存
+kwt43_unpack.sv
+kwt43_unpack
+Rice 解码：低位优先游标与四位逃逸
+kwt43_dot.sv
+kwt43_dot
+64 项点积、偏置注入与分段累加
+kwt43_xram.sv
+kwt43_xram
+输入缓存，8 个行条带
+kwt43_wram.sv
+kwt43_wram
+权重页，每页16 列
+kwt43_yram.sv
+kwt43_yram
+结果页，两页交替
+kwt43_reader.sv
+kwt43_reader
+四路码流共享一条有序ICB 通道
+kwt43_writer.sv
+kwt43_writer
+四路并行编码，组装写事务
+kwt43_compute.sv
+kwt43_compute
+8×16 阵列的分块调度与操作数发射
+kwt43_core.sv
+kwt43_core
+任务控制、列组调度与双页换页
+kwt_nice_core.sv
+kwt_nice_core
+顶层：NICE 指令接口、描述符读取、任
+务状态机
+三、顶层与编译
+顶层模块为kwt_nice_core，其余14 个模块为其子模块。使用Icarus Verilog 编译时
+执行：
+iverilog -g2012 -s kwt_nice_core -f rtl.f
+使用Verilator 编译时执行verilator --binary --timing -f rtl.f，顶层模块由
+测试平台指定。
+1
+
+PAGE 2
+KWT-1 前馈线性加速器
+RTL 说明
+四、集成方式
+加速器经E203 的NICE 接口接入。处理器执行一条自定义指令，操作码为custom3
+（0x7b）、funct7 为0x40、funct3 为110、rs2 为x0；rs1 传入四字节对齐的描述符指针，
+rd 返回状态码。操作数读写经NICE 接口自带的ICB 通道访问512 KiB 共享SRAM，该
+通道为单笔在途。
+描述符字段、状态码与码流结构见数据格式说明目录。
+五、设计要点
+项目
+取值
+并行乘累加通路
+128 路，8 行× 16 列
+归约长度
+64
+输出分块
+行方向13 块，列方向16 组
+内部SRAM
+8 个RAMSP1024X16 与64 个RAMSP128X16，共72 个宏、32
+KiB
+累加位宽
+40 位，分为14、13、13 三段
+数值格式
+X 16/F11，W 16/F16，bias 32/F27，累加40/F27，Y
+16/F11
+六、与其他目录的关系
+功能验证所需的测试平台与冻结向量位于验证工程目录，驱动与平台插槽包装位于
+驱动目录，数值参考模型位于软件数值模型和参数转换脚本目录。本目录只包含可综合源
+码，不含测试平台。
+2

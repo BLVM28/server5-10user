@@ -1,0 +1,1 @@
+RV32_MAIN_COMPILE_PASS source=P6_main.c header=format_0x10005 scope=compile_only

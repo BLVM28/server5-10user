@@ -1,0 +1,31 @@
+make: Entering directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build"
+iverilog -g2012 -s tb_icb_registered -o "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/icb" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../rtl/kwt43_icb_master.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_icb_registered.sv"
+vvp "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/icb" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/icb.log"
+grep -F 'ICB_REGISTERED_PASS completed=2000 aborted=2 zero=1000 delayed=1001' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/icb.log"
+ICB_REGISTERED_PASS completed=2000 aborted=2 zero=1000 delayed=1001
+iverilog -g2012 -s tb_mul16_pipeline -o "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/multiply" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../rtl/kwt_mul16_pipe.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_mul16_pipeline.sv"
+vvp "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/multiply" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/multiply.log"
+grep -F 'MULTIPLY_PIPELINE_PASS checked=16449 aborted=2' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/multiply.log"
+MULTIPLY_PIPELINE_PASS checked=16449 aborted=2
+iverilog -g2012 -s tb_kwt_stream_dot -o "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/dot" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../rtl/kwt_mul16_pipe.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../rtl/kwt43_dot.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../rtl/kwt_quantize.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_stream_dot.sv"
+vvp "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/dot" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/dot.log"
+grep -F 'ALL PASS, 64/64' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/dot.log"
+ALL PASS, 64/64 uninterrupted signed dots, abort, ties and saturation
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build"
+iverilog -g2012 -s tb_raw_writer -o "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/writer" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../rtl/kwt43_writer.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_raw_writer.sv"
+vvp "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/writer" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/writer.log"
+grep -F 'RAW_WRITER_PASS numeric_cases=393216 groups=6 words=4752' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/writer.log"
+RAW_WRITER_PASS numeric_cases=393216 groups=6 words=4752
+cd "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../model" && /mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe -B verify_frozen.py
+MODEL_FROZEN_PASS layers=12 raw_files=36 hex_files=100
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build"
+cd "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/.." && verilator --binary --timing -j 6 -Wno-fatal --top-module tb_kwt_streams -GBUS_MODE=0  -DKWT_PERIOD_NS=6.666667 --Mdir "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b0_p1" -f rtl.f "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/kwt_sram_sim.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/compile_b0_p1.log" 2>&1
+"/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b0_p1/Vtb_kwt_streams" "+VEC_DIR=/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/vec/worst" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b0_p1.log" 2>&1
+grep -F 'STREAM GUARD PASS 26/26' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b0_p1.log"
+STREAM GUARD PASS 26/26
+grep -F 'ALL PASS, 29/29 NICE/matrix scenarios' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b0_p1.log"
+ALL PASS, 29/29 NICE/matrix scenarios PACK=1 MODE=0
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../reports/logs"
+cp "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b0_p1.log" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../reports/logs/"
+make: Leaving directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'

@@ -1,0 +1,20 @@
+NICE_TIME layer=0 cycles=72091 reads=6021 writes=12672 mode=2
+NICE_TIME layer=1 cycles=71659 reads=5880 writes=12672 mode=2
+NICE_TIME layer=2 cycles=72804 reads=6260 writes=12672 mode=2
+NICE_TIME layer=3 cycles=72973 reads=6317 writes=12672 mode=2
+NICE_TIME layer=4 cycles=71933 reads=5969 writes=12672 mode=2
+NICE_TIME layer=5 cycles=71347 reads=5773 writes=12672 mode=2
+NICE_TIME layer=6 cycles=71794 reads=5894 writes=12672 mode=2
+NICE_TIME layer=7 cycles=73160 reads=6363 writes=12672 mode=2
+NICE_TIME layer=8 cycles=73221 reads=6384 writes=12672 mode=2
+NICE_TIME layer=9 cycles=73535 reads=6503 writes=12672 mode=2
+NICE_TIME layer=10 cycles=74728 reads=6904 writes=12672 mode=2
+NICE_TIME layer=11 cycles=77750 reads=7913 writes=12672 mode=2
+NICE_TIME layer=0 cycles=72091 reads=6021 writes=12672 mode=2
+NICE_TIME layer=11 cycles=77750 reads=7913 writes=12672 mode=2
+STREAM GUARD PASS 26/26
+ALL PASS, 29/29 NICE/matrix scenarios PACK=1 MODE=2
+- /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:277: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.045 devel
+- Verilator: $finish at 9ms; walltime 17.349 s; speed 662.655 us/s
+- Verilator: cpu 13.949 s on 1 threads; allocated 8 MB

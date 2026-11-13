@@ -1,0 +1,26 @@
+make: Entering directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'
+make matrix BUS_MODE=2 PACK=1
+make[1]: Entering directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build"
+cd "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/.." && verilator --binary --timing -j 6 -Wno-fatal --top-module tb_kwt_streams -GBUS_MODE=2  -DKWT_PERIOD_NS=6.666667 --Mdir "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b2_p1" -f rtl.f "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/kwt_sram_sim.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/compile_b2_p1.log" 2>&1
+"/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b2_p1/Vtb_kwt_streams" "+VEC_DIR=/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/vec/worst" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b2_p1.log" 2>&1
+grep -F 'STREAM GUARD PASS 26/26' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b2_p1.log"
+STREAM GUARD PASS 26/26
+grep -F 'ALL PASS, 29/29 NICE/matrix scenarios' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b2_p1.log"
+ALL PASS, 29/29 NICE/matrix scenarios PACK=1 MODE=2
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../reports/logs"
+cp "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b2_p1.log" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../reports/logs/"
+make[1]: Leaving directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'
+make matrix BUS_MODE=1 PACK=0
+make[1]: Entering directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build"
+cd "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/.." && verilator --binary --timing -j 6 -Wno-fatal --top-module tb_kwt_streams -GBUS_MODE=1 -DKWT_TEST_SWAP -DKWT_PERIOD_NS=6.666667 --Mdir "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0" -f rtl.f "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/kwt_sram_sim.sv" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/compile_b1_p0.log" 2>&1
+"/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0/Vtb_kwt_streams" "+VEC_DIR=/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/vec/worst" > "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0.log" 2>&1
+grep -F 'STREAM GUARD PASS 26/26' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0.log"
+STREAM GUARD PASS 26/26
+grep -F 'ALL PASS, 29/29 NICE/matrix scenarios' "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0.log"
+ALL PASS, 29/29 NICE/matrix scenarios PACK=0 MODE=1
+mkdir -p "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../reports/logs"
+cp "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0.log" "/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/../reports/logs/"
+make[1]: Leaving directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'
+make: Leaving directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification'

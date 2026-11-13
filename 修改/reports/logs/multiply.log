@@ -1,0 +1,2 @@
+MULTIPLY_PIPELINE_PASS checked=16449 aborted=2
+/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_mul16_pipeline.sv:50: $finish called at 113401992 (1ps)

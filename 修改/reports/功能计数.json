@@ -1,0 +1,272 @@
+{
+  "matrix_b0_p1.log": {
+    "first_12_tasks": [
+      {
+        "layer": 0,
+        "cycles": 90773,
+        "reads": 6021,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 1,
+        "cycles": 90199,
+        "reads": 5880,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 2,
+        "cycles": 91732,
+        "reads": 6260,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 3,
+        "cycles": 91955,
+        "reads": 6317,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 4,
+        "cycles": 90570,
+        "reads": 5969,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 5,
+        "cycles": 89777,
+        "reads": 5773,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 6,
+        "cycles": 90278,
+        "reads": 5894,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 7,
+        "cycles": 92143,
+        "reads": 6363,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 8,
+        "cycles": 92223,
+        "reads": 6384,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 9,
+        "cycles": 92697,
+        "reads": 6503,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 10,
+        "cycles": 94303,
+        "reads": 6904,
+        "writes": 12672,
+        "bus_mode": 0
+      },
+      {
+        "layer": 11,
+        "cycles": 98334,
+        "reads": 7913,
+        "writes": 12672,
+        "bus_mode": 0
+      }
+    ],
+    "cycles_12": 1104984,
+    "scope": "accelerator NICE request to response, excludes loading and E203; not official throughput"
+  },
+  "matrix_b1_p0.log": {
+    "first_12_tasks": [
+      {
+        "layer": 0,
+        "cycles": 177310,
+        "reads": 6021,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 1,
+        "cycles": 175423,
+        "reads": 5880,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 2,
+        "cycles": 179321,
+        "reads": 6260,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 3,
+        "cycles": 179103,
+        "reads": 6317,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 4,
+        "cycles": 176761,
+        "reads": 5969,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 5,
+        "cycles": 174815,
+        "reads": 5773,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 6,
+        "cycles": 176107,
+        "reads": 5894,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 7,
+        "cycles": 179611,
+        "reads": 6363,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 8,
+        "cycles": 179870,
+        "reads": 6384,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 9,
+        "cycles": 181521,
+        "reads": 6503,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 10,
+        "cycles": 184483,
+        "reads": 6904,
+        "writes": 12672,
+        "bus_mode": 1
+      },
+      {
+        "layer": 11,
+        "cycles": 193731,
+        "reads": 7913,
+        "writes": 12672,
+        "bus_mode": 1
+      }
+    ],
+    "cycles_12": 2158056,
+    "scope": "accelerator NICE request to response, excludes loading and E203; not official throughput"
+  },
+  "matrix_b2_p1.log": {
+    "first_12_tasks": [
+      {
+        "layer": 0,
+        "cycles": 72091,
+        "reads": 6021,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 1,
+        "cycles": 71659,
+        "reads": 5880,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 2,
+        "cycles": 72804,
+        "reads": 6260,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 3,
+        "cycles": 72973,
+        "reads": 6317,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 4,
+        "cycles": 71933,
+        "reads": 5969,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 5,
+        "cycles": 71347,
+        "reads": 5773,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 6,
+        "cycles": 71794,
+        "reads": 5894,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 7,
+        "cycles": 73160,
+        "reads": 6363,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 8,
+        "cycles": 73221,
+        "reads": 6384,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 9,
+        "cycles": 73535,
+        "reads": 6503,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 10,
+        "cycles": 74728,
+        "reads": 6904,
+        "writes": 12672,
+        "bus_mode": 2
+      },
+      {
+        "layer": 11,
+        "cycles": 77750,
+        "reads": 7913,
+        "writes": 12672,
+        "bus_mode": 2
+      }
+    ],
+    "cycles_12": 876995,
+    "scope": "accelerator NICE request to response, excludes loading and E203; not official throughput"
+  }
+}

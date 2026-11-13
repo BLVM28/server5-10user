@@ -1,0 +1,101 @@
+PAGE 1
+KWT-1 前馈线性加速器
+验证工程说明
+验证工程说明
+测试平台、冻结向量与通过判据
+一、目录用途
+本目录提供可直接运行的验证工程，覆盖组件级、矩阵级与软件冻结向量三层检查。
+测试平台读取本目录下的冻结向量，与RTL 输出逐位比较，通过判据为测试平台打印的
+固定通过标记。
+二、文件清单
+表1
+验证工程文件
+路径
+数量
+内容
+Makefile
+1
+三个验证入口与完整入口
+README.md
+1
+运行说明与通过标记
+tb/
+5
+测试平台与SRAM 功能模型，见表2
+vec/manifest.json
+1
+向量清单与逐文件SHA256
+vec/raw/
+36
+12 层的原X、W、b 定点输入
+vec/worst/
+100
+码流、累加、黄金结果与解码矩阵
+表2
+测试平台
+文件
+检查对象
+tb_icb_registered.sv
+ICB 边界：反压、同拍与延迟应答、错误、复位撤销
+tb_mul16_pipeline.sv
+有符号16×16 乘法：符号、边界、流水有效性、在途
+清除
+tb_kwt_stream_dot.sv
+点积与数值处理：累加、舍入、饱和、连续、气泡
+tb_kwt_streams.sv
+完整矩阵与码流保护，四层输出逐位比较
+kwt_sram_sim.sv
+SRAM 功能模型，上升沿采样请求
+三、三层验证与通过标记
+表3
+验证入口与通过标记
+入口
+检查内容
+通过标记
+units
+ICB、乘法、点积
+completed=2000 aborted=2；
+checked=16449 aborted=2；ALL
+PASS, 64/64
+matrix
+矩阵、接口、码流保护
+STREAM GUARD PASS 25/25；ALL
+PASS, 29/29
+model
+软件冻结向量重建
+MODEL_FROZEN_PASS layers=12
+check
+依次执行units 与matrix
+上述标记同时出现
+1
+
+PAGE 2
+KWT-1 前馈线性加速器
+验证工程说明
+矩阵仿真设置6.25 ns 时钟周期，对应160 MHz，用于考察加速器在目标频率之外的
+时序余量。
+四、运行方式
+在Linux 或WSL 中，于上一级目录执行：
+命令
+说明
+make -C 验证工程units
+组件级验证
+make -C 验证工程matrix
+矩阵与接口验证
+make -C 验证工程model
+软件冻结向量复核
+make -C 验证工程check
+完整验证
+默认的被测文件清单为上一级的rtl/rtl.f，编译与仿真输出位于build/。变量
+BUILD 可指定其他输出目录，JOBS 控制Verilator 构建并行数。
+五、向量组织
+vec/raw/ 存放12 层各一份原始定点输入，文件名为layerNN_x.hex、layerNN_w.hex、
+layerNN_b.hex，共36 份。vec/worst/ 存放同一组12 层矩阵的完整验证数据，每层8
+份，另加4 份公共文件，共100 份。
+worst 是原验证组的名称，与精度无关。全部向量的逐文件SHA256 记录在
+vec/manifest.json 中，可用于核对提交版本与运行版本一致。
+六、判据说明
+判据为测试平台打印的固定字符串，Makefile 用grep -F 精确匹配。任一标记缺失
+即视为失败。测试平台内部对四层输出分别比较：40 位累加结果、量化矩阵、物理写回码
+流与解码矩阵，因此能够区分算术错误与地址、码流或写回错误。
+2

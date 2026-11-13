@@ -1,0 +1,185 @@
+%Warning-TIMESCALEMOD: rtl/kwt_quantize.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module kwt_quantize (
+      |        ^~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/TIMESCALEMOD?v=5.045
+                       ... Use "/* verilator lint_off TIMESCALEMOD */" and lint_on around source to disable this message.
+%Warning-TIMESCALEMOD: rtl/kwt_mul16_pipe.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module kwt_mul16_pipe #(parameter ZERO_BUBBLES=0) (
+      |        ^~~~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt_sp_ram.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module kwt_sp_ram #(parameter integer AW=10) (
+      |        ^~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_icb_master.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module kwt43_icb_master (
+      |        ^~~~~~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_unpack.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module kwt43_unpack(
+      |        ^~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_dot.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module kwt43_dot #(parameter ANNOUNCE=1)(
+      |        ^~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_xram.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module kwt43_xram(
+      |        ^~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_wram.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module kwt43_wram(
+      |        ^~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_yram.sv:2:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    2 | module kwt43_yram(
+      |        ^~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_reader.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module kwt43_reader #(parameter PACK_LOW_FIRST=1)(
+      |        ^~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_writer.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module kwt43_writer #(parameter PACK_LOW_FIRST=1)(
+      |        ^~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_compute.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module kwt43_compute(
+      |        ^~~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt43_core.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module kwt43_core #(parameter [31:0] MEM_BASE=0,MEM_BYTES=0,parameter PACK_LOW_FIRST=1)(
+      |        ^~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/kwt_nice_core.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module kwt_nice_core #(
+      |        ^~~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/kwt_sram_sim.sv:2:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    2 | module kwt_sram_sim #(parameter integer AW=10) (
+      |        ^~~~~~~~~~~~
+                       /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:4:8: ... Location of module with timescale
+    4 | module tb_kwt_streams #(parameter BUS_MODE=0);
+      |        ^~~~~~~~~~~~~~
+%Warning-WIDTHTRUNC: rtl/kwt43_unpack.sv:19:21: Operator ASSIGNW expects 20 bits on the Assign RHS, but Assign RHS's SHIFTR generates 64 bits.
+                                              : ... note: In instance 'tb_kwt_streams.dut.core.reader.stream[3].unpack'
+   19 |   wire [19:0] window=joined>>offset;
+      |                     ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.045
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/kwt43_unpack.sv:25:32: Operator SHIFTL expects 20 bits on the LHS, but LHS's REPLICATE generates 17 bits.
+                                               : ... note: In instance 'tb_kwt_streams.dut.core.reader.stream[3].unpack'
+   25 |   wire [16:0] zz=({15'd0,unary}<<key) | ((window>>({1'b0,unary}+3'd1))&mask);
+      |                                ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.045
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/kwt43_unpack.sv:25:71: Operator AND expects 20 bits on the RHS, but RHS's VARREF 'mask' generates 16 bits.
+                                               : ... note: In instance 'tb_kwt_streams.dut.core.reader.stream[3].unpack'
+   25 |   wire [16:0] zz=({15'd0,unary}<<key) | ((window>>({1'b0,unary}+3'd1))&mask);
+      |                                                                       ^
+%Warning-WIDTHTRUNC: rtl/kwt43_unpack.sv:25:17: Operator ASSIGNW expects 17 bits on the Assign RHS, but Assign RHS's OR generates 20 bits.
+                                              : ... note: In instance 'tb_kwt_streams.dut.core.reader.stream[3].unpack'
+   25 |   wire [16:0] zz=({15'd0,unary}<<key) | ((window>>({1'b0,unary}+3'd1))&mask);
+      |                 ^
+%Warning-WIDTHEXPAND: rtl/kwt43_reader.sv:39:22: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'round_robin' generates 2 bits.
+                                               : ... note: In instance 'tb_kwt_streams.dut.core.reader'
+   39 |       ix=(round_robin+n)&3;
+      |                      ^
+%Warning-WIDTHEXPAND: rtl/kwt43_reader.sv:40:84: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'pending_stream' generates 2 bits.
+                                               : ... note: In instance 'tb_kwt_streams.dut.core.reader'
+   40 |       if(!selected_valid && remaining[ix]!=0 && level[ix]+((pending&&pending_stream==ix)?1:0)<4)begin
+      |                                                                                    ^~
+%Warning-WIDTHEXPAND: rtl/kwt43_wram.sv:10:37: Operator EQ expects 32 or 3 bits on the LHS, but LHS's VARREF 'wr_quad' generates 2 bits.
+                                             : ... note: In instance 'tb_kwt_streams.dut.core.pages[1].weights'
+   10 |     wire write_this=wr_en && wr_quad==l/4;
+      |                                     ^~
+%Warning-WIDTHEXPAND: rtl/kwt43_wram.sv:10:37: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'wr_quad' generates 2 bits.
+                                             : ... note: In instance 'tb_kwt_streams.dut.core.pages[1].weights'
+   10 |     wire write_this=wr_en && wr_quad==l/4;
+      |                                     ^~
+%Warning-WIDTHEXPAND: rtl/kwt43_xram.sv:11:41: Operator EQ expects 32 or 3 bits on the LHS, but LHS's SEL generates 1 bits.
+                                             : ... note: In instance 'tb_kwt_streams.dut.core.xbuffer'
+   11 |     wire write_this=wr_en && wr_block[0]==(s/4) && !(wr_block==24 && s==3);
+      |                                         ^~
+%Warning-WIDTHEXPAND: rtl/kwt43_xram.sv:12:35: Operator COND expects 11 bits on the Conditional False, but Conditional False's REPLICATE generates 10 bits.
+                                             : ... note: In instance 'tb_kwt_streams.dut.core.xbuffer'
+   12 |     wire [9:0] address=write_this ? {1'b0,wr_block[4:1],wr_k} : {rd_tile,rd_k};
+      |                                   ^
+%Warning-WIDTHTRUNC: rtl/kwt43_xram.sv:12:23: Operator ASSIGNW expects 10 bits on the Assign RHS, but Assign RHS's COND generates 11 bits.
+                                            : ... note: In instance 'tb_kwt_streams.dut.core.xbuffer'
+   12 |     wire [9:0] address=write_this ? {1'b0,wr_block[4:1],wr_k} : {rd_tile,rd_k};
+      |                       ^
+%Warning-WIDTHEXPAND: rtl/kwt43_core.sv:117:44: Operator ADD expects 32 bits on the RHS, but RHS's FUNCREF 'pop16' generates 5 bits.
+                                              : ... note: In instance 'tb_kwt_streams.dut.core'
+  117 |       if(result_commit)sat_count<=sat_count+pop16(sat);
+      |                                            ^
+%Warning-WIDTHTRUNC: /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:40:20: Operator ASSIGNW expects 17 bits on the Assign RHS, but Assign RHS's SHIFTR generates 32 bits.
+                                                                                                              : ... note: In instance 'tb_kwt_streams'
+   40 |   wire [16:0] index=(nice_icb_cmd_addr-BASE)>>2;
+      |                    ^
+%Warning-WIDTHEXPAND: /mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/tb/tb_kwt_streams.sv:90:44: Operator ASSIGNDLY expects 32 bits on the Assign RHS, but Assign RHS's SEL generates 3 bits.
+                                                                                                               : ... note: In instance 'tb_kwt_streams'
+   90 |         if(command)begin pending<=1;waiting<=rng[5:3];saved_addr<=nice_icb_cmd_addr;saved_data<=nice_icb_cmd_wdata;
+      |                                            ^~
+make[2]: Entering directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0'
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -c -o verilated.o /usr/local/share/verilator/include/verilated.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -c -o verilated_timing.o /usr/local/share/verilator/include/verilated_timing.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -c -o verilated_threads.o /usr/local/share/verilator/include/verilated_threads.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -x c++-header Vtb_kwt_streams__pch.h -o Vtb_kwt_streams__pch.h.fast.gch
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -x c++-header Vtb_kwt_streams__pch.h -o Vtb_kwt_streams__pch.h.slow.gch
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams__ConstPool__0__Slow.o Vtb_kwt_streams__ConstPool__0__Slow.cpp
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams___024root__Slow.o Vtb_kwt_streams___024root__Slow.cpp
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams___024root__0__Slow.o Vtb_kwt_streams___024root__0__Slow.cpp
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams_kwt43_wram__Slow.o Vtb_kwt_streams_kwt43_wram__Slow.cpp
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams_kwt43_wram__0__Slow.o Vtb_kwt_streams_kwt43_wram__0__Slow.cpp
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams_kwt43_dot__Az2__Slow.o Vtb_kwt_streams_kwt43_dot__Az2__Slow.cpp
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams_kwt43_dot__Az2__0__Slow.o Vtb_kwt_streams_kwt43_dot__Az2__0__Slow.cpp
+ccache g++   -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.slow -c -o Vtb_kwt_streams__Syms__Slow.o Vtb_kwt_streams__Syms__Slow.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams.o Vtb_kwt_streams.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams___024root__0.o Vtb_kwt_streams___024root__0.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams___024root__1.o Vtb_kwt_streams___024root__1.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams___024root__2.o Vtb_kwt_streams___024root__2.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_wram__0.o Vtb_kwt_streams_kwt43_wram__0.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_dot__Az2__0.o Vtb_kwt_streams_kwt43_dot__Az2__0.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_dot__Az2__1.o Vtb_kwt_streams_kwt43_dot__Az2__1.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_dot__Az2__2.o Vtb_kwt_streams_kwt43_dot__Az2__2.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_dot__Az2__3.o Vtb_kwt_streams_kwt43_dot__Az2__3.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_dot__Az2__4.o Vtb_kwt_streams_kwt43_dot__Az2__4.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_dot__Az2__5.o Vtb_kwt_streams_kwt43_dot__Az2__5.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams_kwt43_dot__Az2__6.o Vtb_kwt_streams_kwt43_dot__Az2__6.cpp
+ccache g++ -Os  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_kwt_streams__pch.h.fast -c -o Vtb_kwt_streams__main.o Vtb_kwt_streams__main.cpp
+g++    verilated.o verilated_timing.o verilated_threads.o Vtb_kwt_streams__ALL.a    -pthread -lpthread -latomic   -o Vtb_kwt_streams
+rm Vtb_kwt_streams__ALL.verilator_deplist.tmp
+make[2]: Leaving directory '/mnt/c/Users/lenovo/Desktop/server5-10user/修改/verification/build/matrix_b1_p0'
+- V e r i l a t i o n   R e p o r t: Verilator 5.045 devel rev vUNKNOWN-built20260224
+- Verilator: Built from 0.525 MB sources in 18 modules, into 5.998 MB in 21 C++ files needing 0.014 MB
+- Verilator: Walltime 28.403 s (elab=0.060, cvt=2.402, bld=25.295); cpu 2.827 s on 6 threads; allocated 558.727 MB
